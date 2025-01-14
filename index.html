@@ -22,11 +22,17 @@
   </head>
 
   <body>
+    <div class="header">
+        <h1>European Exhibition Analysis (1905-1915)</h1>
+    </div>
+
     <div class="container">
       <div id="map"></div>
       <div class="sidebar">
-        <h3>European Exhibition Analysis (1905-1915)</h3>
-        <div id="timeSlider"></div>
+        <div class="time-slider-container">
+          <h4>Select Time Range</h4>
+          <div id="timeSlider"></div>
+        </div>
         <div class="panel">
           <h5>Top 10 Artists</h5>
           <div class="btn-group">
@@ -38,6 +44,7 @@
             >
               By Paintings
             </button>
+
             <button
               class="btn"
               data-type="exhibitions"
@@ -46,6 +53,7 @@
             >
               By Exhibitions
             </button>
+            
             <button
               class="btn"
               data-type="venues"

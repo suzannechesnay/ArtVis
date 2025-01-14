@@ -14,21 +14,40 @@
       }
 
       function initTimeSlider() {
-        const slider = document.getElementById("timeSlider");
-//        let noUiSlider;
-        noUiSlider.create(slider, {
-          start: [1905, 1915],
-          connect: true,
-          range: {
-            min: 1905,
-            max: 1915,
-          },
-          step: 1,
-        });
+        const timeSlider = document.getElementById('timeSlider');
 
-        slider.noUiSlider.on("update", (values) => {
-          timeRange = values.map((v) => parseInt(v));
-          updateVisualization();
+        noUiSlider.create(timeSlider, {
+            start: [1905, 1915],
+            connect: true,
+            range: {
+                min: 1905,
+                max: 1915 
+            },
+            step: 1,
+            tooltips: [
+              {
+                  to: (value) => Math.round(value),
+                  from: (value) => Number(value)
+              },
+              {
+                  to: (value) => Math.round(value),
+                  from: (value) => Number(value)
+              }
+          ],
+            pips: {
+                mode: 'steps', 
+                density: 10,   
+                format: {
+                    to: (value) => Math.round(value),
+                    from: (value) => Number(value)
+                }
+            }
+        });
+        
+        // Event listener to get the selected range values
+        timeSlider.noUiSlider.on('update', (values) => {
+            const [startYear, endYear] = values.map((value) => Math.round(value));
+            console.log(`Selected range: ${startYear} - ${endYear}`);
         });
       }
 

@@ -10,16 +10,22 @@ body {
     text-align: center;
     color: #333;
     margin-top: 50px;
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
 }
 
 .container {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    height: calc(100vh - 300px);
+    /* height: calc(100vh - 300px); */
     overflow: hidden;
     gap: 20px;
+}
+
+.belowHeader{
+    display: flex;
+    justify-content: space-between;
 }
 
 #map {
@@ -69,7 +75,7 @@ body {
 }
 
 .time-slider-container {
-    margin-top: 20px; /* Space above the entire container */
+    margin-top: 20px; 
     padding: 10px;
 }
 
@@ -91,3 +97,4 @@ body {
     margin-block-start: 10px;
     margin-block-end: 50px;
 }
+

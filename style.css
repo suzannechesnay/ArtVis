@@ -2,17 +2,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: rgb(246, 213, 172);
-}
-
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    overflow: hidden;
-    gap: 20px;
 }
 
 .header {
@@ -21,12 +10,16 @@ body {
     text-align: center;
     color: #333;
     margin-top: 50px;
-    /* margin-bottom: 50px; */
+    margin-bottom: 50px;
 }
 
-.belowHeader{
+.container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: calc(100vh - 300px);
+    overflow: hidden;
+    gap: 20px;
 }
 
 #map {
@@ -37,25 +30,6 @@ body {
 
 .sidebar {
     width: 50%;
-}
-
-.time-slider-container h4 {
-    text-align: center; 
-    margin-bottom: 30px; 
-    font-size: 30px;
-    font-weight: bold;
-    color: #810909; 
-}
-
-
-#timeSlider {
-    height: 20px;
-    width: 100%;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 50px; 
-    margin-block-start: 10px;
-    margin-block-end: 50px;
 }
 
 .panel {
@@ -95,7 +69,25 @@ body {
 }
 
 .time-slider-container {
-    margin-top: 20px; 
+    margin-top: 20px; /* Space above the entire container */
     padding: 10px;
 }
 
+.time-slider-container h4 {
+    text-align: center; 
+    margin-bottom: 30px; 
+    font-size: 30px;
+    font-weight: bold;
+    color: #810909; 
+}
+
+
+#timeSlider {
+    height: 20px;
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px; 
+    margin-block-start: 10px;
+    margin-block-end: 50px;
+}

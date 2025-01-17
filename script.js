@@ -151,6 +151,7 @@ function updateVisualization() {
   updateCharts();
 }
 
+/*
 function updateHeatmap() {
   map.eachLayer((layer) => {
     if (layer instanceof L.Marker || layer.options.heatmap) {
@@ -184,7 +185,9 @@ function updateHeatmap() {
       .addTo(map);
   });
 }
+*/
 
+/*
 function createPopupContent(venue) {
   return `
     <div class="popup">
@@ -207,6 +210,7 @@ function createPopupContent(venue) {
     </div>
   `;
 }
+*/
 
 function updateCharts() {
   updateArtistChart();

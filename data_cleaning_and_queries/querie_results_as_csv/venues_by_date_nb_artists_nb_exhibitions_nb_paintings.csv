@@ -1,4 +1,4 @@
-e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude,longitude
+e_startdate,e_venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude,longitude
 1902,Berliner Secession,1,1,28,DE,Berlin,52.516667,13.4
 1902,Kaiser Wilhelm Museum,1,1,1,DE,Krefeld,51.333333,6.566667
 1903,Paul Cassirer,2,2,31,DE,Berlin,52.516667,13.4
@@ -24,8 +24,10 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1905,Országos Magyar Képzőművészeti Társulat,95,95,204,HU,Budapest,47.5,19.05
 1905,Spolek výtvarných umělců Mánes,56,56,201,CZ,Prague,50.1,14.4333
 1905,New English Art Club,54,54,142,GB,London,51.514248,-0.093145
+1905,Исторический музей,52,52,206,RU,Moscow,55.75,37.7
 1905,Galerie B. Weill,46,46,296,FR,Paris,48.866667,2.333333
 1905,Serres de la Ville de Paris (Cours-la-Reine),46,46,377,FR,Paris,48.866667,2.333333
+1905,Moscow (exact location unknown),39,39,307,RU,Moscow,55.75,37.7
 1905,La Libre Esthétique,37,37,223,BE,Brussels,50.833333,4.333333
 1905,Paul Cassirer,34,34,348,DE,Berlin,52.516667,13.4
 1905,Pavilon v zahradě Kinských,30,30,242,CZ,Prague,50.1,14.4333
@@ -73,11 +75,14 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1906,Paul Cassirer,110,110,441,DE,Berlin,52.516667,13.4
 1906,Kunsthalle Bâle,101,101,344,CH,Basel,47.558395,7.573271
 1906,"Eduard Schulte, Kunsthandlung",92,92,489,DE,Berlin,52.516667,13.4
+1906,Moscow (exact location unknown),78,78,276,RU,Moscow,55.75,37.7
 1906,Ausstellungshaus am Kurfürstendamm 208/9,72,72,186,DE,Berlin,52.516667,13.4
 1906,New English Art Club,71,71,144,GB,London,51.514248,-0.093145
 1906,Künstlerbund Hagen / Hagenbund,59,59,276,AT,Vienna,48.2167,16.3667
+1906,Исторический музей,59,59,176,RU,Moscow,55.75,37.7
 1906,Galleries in Dering Yard,57,57,130,GB,London,51.514248,-0.093145
 1906,Räume des Künstlerbundes Hagen - Zedlitzgasse,51,51,216,AT,Vienna,48.2167,16.3667
+1906,Екатериниский зал,32,32,322,RU,Saint Petersburg,59.8833,30.25
 1906,La Libre Esthétique,27,27,214,BE,Brussels,50.833333,4.333333
 1906,Pavilon v zahradě Kinských,22,22,143,CZ,Prague,50.1,14.4333
 1906,Galerie B. Weill,19,19,115,FR,Paris,48.866667,2.333333
@@ -116,6 +121,7 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1907,Galeries Durand-Ruel,92,92,275,FR,Paris,48.866667,2.333333
 1907,Paul Cassirer,82,82,873,DE,Berlin,52.516667,13.4
 1907,Galleries in Dering Yard,64,64,130,GB,London,51.514248,-0.093145
+1907,Московское Товарищество Художников,64,64,229,RU,Moscow,55.75,37.7
 1907,Műcsarnok,63,63,213,HU,Budapest,47.5,19.05
 1907,New English Art Club,60,60,129,GB,London,51.514248,-0.093145
 1907,Galerie Eug. Blot,59,59,273,FR,Paris,48.866667,2.333333
@@ -123,6 +129,7 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1907,Künstlerbund Hagen / Hagenbund,50,50,248,AT,Vienna,48.2167,16.3667
 1907,Grand Palais des Champs Elysées,46,46,291,FR,Paris,48.866667,2.333333
 1907,Országos Magyar Képzőművészeti Társulat,46,46,186,HU,Budapest,47.5,19.05
+1907,Saint Petersburg (exact location unknown),45,45,282,RU,Saint Petersburg,59.8833,30.25
 1907,Räume des Künstlerbundes Hagen - Zedlitzgasse,36,36,231,AT,Vienna,48.2167,16.3667
 1907,La Libre Esthétique,32,32,201,BE,Brussels,50.833333,4.333333
 1907,The Gallery of Austrian Arts and Crafts,30,30,45,GB,London,51.514248,-0.093145
@@ -132,11 +139,13 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1907,Goupil Gallery,24,24,80,GB,London,51.514248,-0.093145
 1907,Pavilon v zahradě Kinských,24,24,155,CZ,Prague,50.1,14.4333
 1907,Palais du Louvre - Pavillon de Marsan,23,23,153,FR,Paris,48.866667,2.333333
+1907,Дом Строгановскаго училища,23,23,161,RU,Moscow,55.75,37.7
 1907,Casino Kursaal Oostende,21,21,86,BE,Ostend,51.223392,2.911854
 1907,Galerie B. Weill,17,17,127,FR,Paris,48.866667,2.333333
 1907,Galerie Miethke,17,17,472,AT,Vienna,48.2167,16.3667
 1907,Sdružení výtvarných umělců moravských,17,17,52,CZ,Hodonín,48.856,17.123
 1907,Spolek výtvarných umělců Mánes,17,17,63,CZ,Prague,50.1,14.4333
+1907,Дом Ивана Кузнецова,15,15,88,RU,Moscow,55.75,37.7
 1907,C.k. české gymnasium,11,11,75,CZ,Valašské Meziříčí,49.4833,17.95
 1907,Musée des Arts Décoratifs,10,10,44,FR,Paris,48.866667,2.333333
 1907,Serres de la Ville de Paris (Cours-la-Reine),9,9,51,FR,Paris,48.866667,2.333333
@@ -163,12 +172,15 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1908,Königliches Kunstausstellungsgebäude am Königsplatz,180,180,496,DE,Munich,48.15,11.583333
 1908,Berliner Secession,178,178,847,DE,Berlin,52.516667,13.4
 1908,Ausstellungshaus am Kurfürstendamm 208/9,172,172,571,DE,Berlin,52.516667,13.4
+1908,Moscow (exact location unknown),138,138,829,RU,Moscow,55.75,37.7
 1908,Gebäude der Secession,115,115,399,AT,Vienna,48.2167,16.3667
 1908,Műcsarnok,109,109,338,HU,Budapest,47.5,19.05
 1908,Koninklijke Maatschappij van Aanmoediging der Schoone Kunsten Antwerpen,98,98,299,BE,Antwerp,51.213886,4.401514
 1908,Országos Magyar Képzőművészeti Társulat,92,92,309,HU,Budapest,47.5,19.05
 1908,Paul Cassirer,91,91,731,DE,Berlin,52.516667,13.4
 1908,Stadtfestsaal Antwerpen,90,90,261,BE,Antwerp,51.213886,4.401514
+1908,Saint Petersburg (exact location unknown),77,77,576,RU,Saint Petersburg,59.8833,30.25
+1908,"V pomeshenijah muzeja i ""menshikovskih komnatah""",69,69,447,RU,Saint Petersburg,59.8833,30.25
 1908,La Libre Esthétique,66,66,188,BE,Brussels,50.833333,4.333333
 1908,Kunsthaus Zürich,55,55,182,CH,Zurich,47.366667,8.55
 1908,MM. Bernheim-Jeune & Cie,54,54,668,FR,Paris,48.866667,2.333333
@@ -186,6 +198,7 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1908,Galerie Druet,27,27,220,FR,Paris,48.866667,2.333333
 1908,Räume des Künstlerbundes Hagen - Zedlitzgasse,24,24,162,AT,Vienna,48.2167,16.3667
 1908,Pour l'Art,23,23,131,BE,Brussels,50.833333,4.333333
+1908,Kiev (exact location unknown),19,19,211,UA,Kiev,50.4333,30.5167
 1908,Galerie Notre-Dame-des-Champs,13,13,75,FR,Paris,48.866667,2.333333
 1908,Spolek výtvarných umělců Mánes,13,13,117,CZ,Prague,50.1,14.4333
 1908,Pavilon v zahradě Kinských,12,12,131,CZ,Prague,50.1,14.4333
@@ -214,19 +227,21 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1909,Műcsarnok,168,168,570,HU,Budapest,47.5,19.05
 1909,Galleries of the Royal Society of British Artists,162,162,468,GB,London,51.514248,-0.093145
 1909,Országos Magyar Képzőművészeti Társulat,162,162,557,HU,Budapest,47.5,19.05
-1909,Vladimir Izdebsky,124,124,585,LV,Riga,56.95,24.1
+1909,Vladimir Izdebsky,124,124,585,UA,Odessa,46.5,30.7667
 1909,Ausstellungshaus am Kurfürstendamm 208/9,121,121,353,DE,Berlin,52.516667,13.4
 1909,Königliches Kunstausstellungsgebäude am Königsplatz,96,96,597,DE,Munich,48.15,11.583333
 1909,Berliner Secession,95,95,456,DE,Berlin,52.516667,13.4
 1909,Famiglia Artistica,86,86,284,IT,Milan,45.466667,9.2
 1909,Gebäude der Secession,83,83,724,AT,Vienna,48.2167,16.3667
 1909,Moderne Galerie (Heinrich Thannhauser),74,74,306,DE,Munich,48.15,11.583333
+1909,Moscow (exact location unknown),73,73,316,RU,Moscow,55.75,37.7
 1909,New English Art Club,70,70,198,GB,London,51.514248,-0.093145
 1909,MM. Bernheim-Jeune & Cie,54,54,520,FR,Paris,48.866667,2.333333
 1909,Nemzeti Szalon,48,48,724,HU,Budapest,47.5,19.05
 1909,Gebäude der Kunstschau Wien,47,47,187,AT,Vienna,48.2167,16.3667
 1909,Kunstschau Wien,45,45,197,AT,Vienna,48.2167,16.3667
 1909,Les Indépendants Cercle d'Art,44,44,264,BE,Brussels,50.833333,4.333333
+1909,Литературно-Художественный Кружок,44,44,390,RU,Moscow,55.75,37.7
 1909,Paul Cassirer,43,43,507,DE,Berlin,52.516667,13.4
 1909,La Libre Esthétique,40,40,186,BE,Brussels,50.833333,4.333333
 1909,Spolek výtvarných umělců Mánes,40,40,215,CZ,Prague,50.1,14.4333
@@ -247,6 +262,7 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1909,Galerie Druet,7,7,599,FR,Paris,48.866667,2.333333
 1909,Galerie Miethke,7,7,358,AT,Vienna,48.2167,16.3667
 1909,Hallins konsthandel,6,6,30,SE,Stockholm,59.3333,18.0833
+1909,Nevskiy 68,6,6,78,RU,Saint Petersburg,59.8833,30.25
 1909,Zürcher Kunstgesellschaft,4,4,82,CH,Zurich,47.366667,8.55
 1909,Brakl[s Moderne Kunsthandlung],1,1,55,DE,Munich,48.15,11.583333
 1909,Carfax Gallery,1,1,38,GB,London,51.514248,-0.093145
@@ -256,8 +272,8 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1909,Kunsthalle Bremen,1,1,22,DE,Bremen,53.083333,8.8
 1909,Kunsthaus Zürich,1,1,9,CH,Zurich,47.366667,8.55
 1909,Larensche Kunsthandel,1,1,101,NL,Amsterdam,52.35,4.916667
+1910,Vladimir Izdebsky,376,376,1828,UA,Odessa,46.5,30.7667
 1910,Művészház,297,297,1157,HU,Budapest,47.5,19.05
-1910,Vladimir Izdebsky,259,259,1240,LV,Riga,56.95,24.1
 1910,Stedelijk Museum,252,252,680,NL,Amsterdam,52.35,4.916667
 1910,Gebäude der Secession,236,236,467,AT,Vienna,48.2167,16.3667
 1910,Giardini Pubblici,229,229,781,IT,Venice,45.438611,12.326667
@@ -279,8 +295,10 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1910,Könyves Kálmán Szalon,60,60,112,HU,Budapest,47.5,19.05
 1910,Räume des Künstlerbundes Hagen - Zedlitzgasse,58,58,356,AT,Vienna,48.2167,16.3667
 1910,La Libre Esthétique,50,50,161,BE,Brussels,50.833333,4.333333
+1910,Городской музей,48,48,267,UA,Kiev,50.4333,30.5167
 1910,Künstlerbund Hagen / Hagenbund,46,46,237,AT,Vienna,48.2167,16.3667
 1910,Les Indépendants Cercle d'Art,37,37,173,BE,Brussels,50.833333,4.333333
+1910,Levinskij House,37,37,247,RU,Moscow,55.75,37.7
 1910,Riga (exact location unknown),31,31,216,LV,Riga,56.95,24.1
 1910,Gemälde Galerie Maximilian Macht,29,29,117,DE,Berlin,52.516667,13.4
 1910,Sonderbund Westdeutscher Kunstfreunde und Künstler,28,28,78,DE,Cologne,50.933333,6.95
@@ -288,9 +306,11 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1910,Städtischer Kunstpalast,26,26,131,DE,Dusseldorf,51.216667,6.766667
 1910,Ancien Archevêché,25,25,158,FR,Toulouse,43.599516,1.433188
 1910,Rudolfinum,24,24,75,CZ,Prague,50.1,14.4333
+1910,Saint Petersburg (exact location unknown),24,24,197,RU,Saint Petersburg,59.8833,30.25
 1910,Galerie Druet,23,23,802,FR,Paris,48.866667,2.333333
 1910,Krasoumná jednota,21,21,116,CZ,Prague,50.1,14.4333
 1910,Pavilon v zahradě Kinských,21,21,275,CZ,Prague,50.1,14.4333
+1910,Moscow (exact location unknown),20,20,155,RU,Moscow,55.75,37.7
 1910,Sdružení výtvarných umělců moravských,17,17,69,CZ,Hodonín,48.856,17.123
 1910,Spolek výtvarných umělců Mánes,17,17,77,CZ,Prague,50.1,14.4333
 1910,Sveriges Allmänna Konstförening,10,10,77,SE,Stockholm,59.3333,18.0833
@@ -321,12 +341,17 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1911,Kunstmuseum,90,90,133,DE,Essen,51.45,6.95
 1911,Paul Cassirer,89,89,515,DE,Berlin,52.516667,13.4
 1911,Hôtel Drouot,88,88,157,FR,Paris,48.866667,2.333333
+1911,Дом Левиссон,77,77,474,RU,Moscow,55.75,37.7
 1911,MM. Bernheim-Jeune & Cie,75,75,431,FR,Paris,48.866667,2.333333
 1911,Wallraf-Richartz-Museum,74,74,234,DE,Cologne,50.933333,6.95
+1911,Saint Petersburg (exact location unknown),72,72,458,RU,Saint Petersburg,59.8833,30.25
 1911,Gebäude der Secession,64,64,302,AT,Vienna,48.2167,16.3667
+1911,Помещение экономическаго общества офицеров,61,61,260,RU,Moscow,55.75,37.7
 1911,Sällskapet Gnistan,60,60,131,SE,Gothenburg,57.7167,11.9667
+1911,Vladimir Izdebsky,55,55,419,UA,Odessa,46.5,30.7667
 1911,Konstförening Göteborg,52,52,102,SE,Gothenburg,57.7167,11.9667
 1911,Union Centrale des Arts Décoratifs,51,51,131,FR,Paris,48.866667,2.333333
+1911,Moscow (exact location unknown),48,48,458,RU,Moscow,55.75,37.7
 1911,Les Indépendants Cercle d'Art,47,47,216,BE,Brussels,50.833333,4.333333
 1911,Künstlerbund Hagen / Hagenbund,46,46,204,AT,Vienna,48.2167,16.3667
 1911,Carfax Gallery,45,45,339,GB,London,51.514248,-0.093145
@@ -337,6 +362,7 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1911,Galerie Josefinum,31,31,193,CZ,Prague,50.1,14.4333
 1911,Ancien Archevêché,27,27,156,FR,Toulouse,43.599516,1.433188
 1911,La Libre Esthétique,26,26,187,BE,Brussels,50.833333,4.333333
+1911,Nevsky 73,22,22,115,RU,Saint Petersburg,59.8833,30.25
 1911,Moderne Galerie (Heinrich Thannhauser),21,21,102,DE,Munich,48.15,11.583333
 1911,Neue Secession Berlin E. V.,20,20,79,DE,Berlin,52.516667,13.4
 1911,Gothenburg [exact location unknown],15,15,43,SE,Gothenburg,57.7167,11.9667
@@ -362,6 +388,7 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1912,Musée National du Luxembourg,364,364,637,FR,Paris,48.866667,2.333333
 1912,Königliches Kunstausstellungsgebäude am Königsplatz,356,356,909,DE,Munich,48.15,11.583333
 1912,Città di Venezia,210,210,829,IT,Venice,45.438611,12.326667
+1912,Institut Francais de St. Pétersbourg,199,199,708,RU,Saint Petersburg,59.8833,30.25
 1912,Giardini Pubblici,197,197,776,IT,Venice,45.438611,12.326667
 1912,Kunsthalle Bremen,179,179,382,DE,Bremen,53.083333,8.8
 1912,Ausstellungshaus am Kurfürstendamm 208/9,150,150,437,DE,Berlin,52.516667,13.4
@@ -377,6 +404,8 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1912,Gebäude der Secession,69,69,521,AT,Vienna,48.2167,16.3667
 1912,Nijverheid- en Sporttentoonstelling,68,68,188,NL,Nijmegen,51.833333,5.866667
 1912,Galerie Miethke,66,66,210,AT,Vienna,48.2167,16.3667
+1912,Moscow (exact location unknown),58,58,351,RU,Moscow,55.75,37.7
+1912,Saint Petersburg (exact location unknown),55,55,512,RU,Saint Petersburg,59.8833,30.25
 1912,Galerie Druet,47,47,515,FR,Paris,48.866667,2.333333
 1912,Künstlerbund Hagen / Hagenbund,47,47,211,AT,Vienna,48.2167,16.3667
 1912,Les Indépendants Cercle d'Art,47,47,220,BE,Brussels,50.833333,4.333333
@@ -387,8 +416,10 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1912,Jednota výtvarných umělců,37,37,74,CZ,Prague,50.1,14.4333
 1912,Spolek výtvarných umělců Mánes,35,35,210,CZ,Prague,50.1,14.4333
 1912,Ateliers du Quai Rive-Neuve,34,34,64,FR,Marseille,43.285413,5.37606
+1912,Дом Левиссон,31,31,290,RU,Moscow,55.75,37.7
 1912,Ancienne Caisse d'épargne,29,29,146,FR,Toulouse,43.599516,1.433188
 1912,Grand Skating Rouennais,29,29,109,FR,Rouen,49.433333,1.083333
+1912,Ekaterinodar (exact location unknown),28,28,79,RU,Ekaterinodar,45.0333,39.0
 1912,Der Sturm,27,27,304,DE,Berlin,52.516667,13.4
 1912,Galerie La Boëtie,27,27,167,FR,Paris,48.866667,2.333333
 1912,La Libre Esthétique,24,24,182,BE,Brussels,50.833333,4.333333
@@ -437,18 +468,26 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1913,New English Art Club,124,124,298,GB,London,51.514248,-0.093145
 1913,Der Sturm,120,120,589,DE,Berlin,52.516667,13.4
 1913,Paul Cassirer,115,115,1127,DE,Berlin,52.516667,13.4
+1913,Dom Saltykova,100,100,861,RU,Saint Petersburg,59.8833,30.25
 1913,Ernst Múzeum,96,96,686,HU,Budapest,47.5,19.05
 1913,Public Art Galleries,90,90,340,GB,Brighton,50.833333,-0.15
+1913,Дом Шведской Церкви,87,87,877,RU,Saint Petersburg,59.8833,30.25
 1913,Galerie Miethke,86,86,276,AT,Vienna,48.2167,16.3667
 1913,Doré Gallery,79,79,1009,GB,London,51.514248,-0.093145
 1913,Hans Goltz,76,76,240,DE,Munich,48.15,11.583333
+1913,Большая Дмитровка 11,76,76,508,RU,Moscow,55.75,37.7
+1913,Художественное Бюро Добычиной,75,75,288,RU,Saint Petersburg,59.8833,30.25
 1913,Rudolfinum,63,63,148,CZ,Prague,50.1,14.4333
 1913,Krasoumná jednota,58,58,90,CZ,Prague,50.1,14.4333
 1913,Fritz Gurlitt,57,57,188,DE,Berlin,52.516667,13.4
+1913,Dom Obshestva Pooshrfenija hudozhestv,49,49,416,RU,Saint Petersburg,59.8833,30.25
 1913,La Libre Esthétique,42,42,270,BE,Brussels,50.833333,4.333333
 1913,Berliner Secession,40,40,107,DE,Berlin,52.516667,13.4
 1913,Galerie Druet,37,37,378,FR,Paris,48.866667,2.333333
+1913,Художественное Бюро Н. Е. Добычиной,36,36,223,RU,Saint Petersburg,59.8833,30.25
+1913,Kiev (exact location unknown),35,35,212,UA,Kiev,50.4333,30.5167
 1913,Galerie La Boëtie,33,33,196,FR,Paris,48.866667,2.333333
+1913,Художественный салон 11,31,31,1454,RU,Moscow,55.75,37.7
 1913,Ancienne Caisse d'épargne,29,29,143,FR,Toulouse,43.599516,1.433188
 1913,Hedendaagsche Museum - Musée Moderne,27,27,140,BE,Brussels,50.833333,4.333333
 1913,Der Sturm [venues],26,26,267,DE,Berlin,52.516667,13.4
@@ -500,11 +539,13 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1914,Gebäude der Secession,117,117,348,AT,Vienna,48.2167,16.3667
 1914,Galleries of the Royal Society of British Artists,112,112,237,GB,London,51.514248,-0.093145
 1914,Public Art Galleries,112,112,186,GB,Brighton,50.833333,-0.15
+1914,Дом Левиссон,86,86,636,RU,Moscow,55.75,37.7
 1914,Művészház,80,80,433,HU,Budapest,47.5,19.05
 1914,"Galerie Manzi, Joyant",66,66,231,FR,Paris,48.866667,2.333333
 1914,Galerie Georges Giroux,64,64,170,BE,Brussels,50.833333,4.333333
 1914,Galerienstraße 26,63,63,193,DE,Munich,48.15,11.583333
 1914,"Vereenining van Beeldene Kunstenaars ""De Onafhankelijken"". Tentoonstellingsgebou",63,63,232,NL,Amsterdam,52.35,4.916667
+1914,Художественное Бюро Добычиной,63,63,288,RU,Saint Petersburg,59.8833,30.25
 1914,"Vereenining van Beeldene Kunstenaars ""De Onafhankelijken""",60,60,240,NL,Amsterdam,52.35,4.916667
 1914,Galerie Ernst Arnold,46,46,159,DE,Dresden,51.05,13.75
 1914,Der Sturm,42,42,194,DE,Berlin,52.516667,13.4
@@ -512,6 +553,7 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1914,La Libre Esthétique,41,41,204,BE,Brussels,50.833333,4.333333
 1914,Neue Galerie,40,40,185,DE,Berlin,52.516667,13.4
 1914,Spolek výtvarných umělců Mánes,37,37,130,CZ,Prague,50.1,14.4333
+1914,Художественный салон 11,34,34,225,RU,Moscow,55.75,37.7
 1914,Ancienne Caisse d'épargne,32,32,191,FR,Toulouse,43.599516,1.433188
 1914,Galleria Futurista - Sprovieri,30,30,210,IT,Rome,41.9,12.483333
 1914,Goupil Gallery,30,30,262,GB,London,51.514248,-0.093145
@@ -551,23 +593,28 @@ e.startdate,e.venue,nb_artists,nb_exhibitions,nb_paintings,country,city,latitude
 1914,Moderne Galerie (Heinrich Thannhauser),1,1,49,DE,Munich,48.15,11.583333
 1914,Műcsarnok,1,1,142,HU,Budapest,47.5,19.05
 1914,Tivoli Festivitetslokale,1,1,44,NO,Christiania,59.9333,10.75
+1914,Художественное Бюро Н. Е. Добычиной,1,1,257,RU,Saint Petersburg,59.8833,30.25
 1915,Palazzo dell'Esposizone,152,152,324,IT,Rome,41.9,12.483333
 1915,Königliches Kunstausstellungsgebäude am Königsplatz,127,127,376,DE,Munich,48.15,11.583333
 1915,New English Art Club,114,114,277,GB,London,51.514248,-0.093145
 1915,Galleries of the Royal Society of British Artists,104,104,257,GB,London,51.514248,-0.093145
+1915,Moscow (exact location unknown),56,56,419,RU,Moscow,55.75,37.7
 1915,Der Sturm [venues],55,55,363,DE,Berlin,52.516667,13.4
 1915,Goupil Gallery,45,45,166,GB,London,51.514248,-0.093145
 1915,Public Art Galleries,43,43,105,GB,Brighton,50.833333,-0.15
 1915,Räume des Künstlerbundes Hagen - Zedlitzgasse,38,38,109,AT,Vienna,48.2167,16.3667
 1915,Wirtschaftsverband bildender Künstler Österreichs,38,38,83,AT,Vienna,48.2167,16.3667
+1915,Художественный салон 11,37,37,237,RU,Moscow,55.75,37.7
 1915,Neues Secessionshaus,31,31,58,DE,Berlin,52.516667,13.4
 1915,Berliner Secession,30,30,57,DE,Berlin,52.516667,13.4
 1915,Doré Gallery,12,12,54,GB,London,51.514248,-0.093145
 1915,Der Sturm,10,10,38,DE,Berlin,52.516667,13.4
 1915,Ernst Múzeum,10,10,417,HU,Budapest,47.5,19.05
+1915,Malyj Zal Imperatorskogo Obshestva Pooshrenija Hudozhestv,10,10,92,RU,Saint Petersburg,59.8833,30.25
 1915,Stedelijk Museum,6,6,111,NL,Amsterdam,52.35,4.916667
 1915,Rotterdamsche Kunstkring,3,3,64,NL,Rotterdam,51.916667,4.5
 1915,Carfax Gallery,2,2,80,GB,London,51.514248,-0.093145
 1915,Annenstr. 30,1,1,21,DE,Brandenburg an der Havel,52.416667,12.55
 1915,Galleries of the Alpine Club,1,1,54,GB,London,51.514248,-0.093145
 1915,Moderne Galerie (Heinrich Thannhauser),1,1,67,DE,Munich,48.15,11.583333
+1916,Художественное Бюро Добычиной,14,14,141,RU,Saint Petersburg,59.8833,30.25

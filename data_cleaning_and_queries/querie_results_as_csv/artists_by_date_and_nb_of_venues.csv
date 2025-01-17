@@ -1,4 +1,4 @@
-e.startdate,a.id,firstname,lastname,number_of_venues
+e_startdate,a_id,firstname,lastname,number_of_venues
 1902,276,Edvard,Munch,2
 1903,276,Edvard,Munch,3
 1904,267,Oskar,Moll,1
@@ -17,13 +17,15 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1904,7856,Auguste Jean Baptiste,Roubille,1
 1904,7857,Louis,Vallet,1
 1905,4,Cuno,Amiet,1
-1905,5,Vassily,Kandinsky,2
+1905,5,Vassily,Kandinsky,3
 1905,7,Piet,Mondrian,2
+1905,14,Léon,Bakst,1
 1905,15,Giacomo,Balla,1
 1905,19,Paul,Baum,2
+1905,27,Alexandre,Benois,1
 1905,30,Émile,Bernard,1
 1905,37,Pierre,Bonnard,2
-1905,38,Viktor,Borisov-Musatov,2
+1905,38,Viktor,Borisov-Musatov,4
 1905,39,Emile-Antoine,Bourdelle,1
 1905,44,Patrick Henry,Bruce,1
 1905,45,Hans,Brühlmann,1
@@ -40,6 +42,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,87,Georges-Olivier,Desvallières,1
 1905,88,Maurice de,Vlaminck,2
 1905,89,Karl Edvard,Diriks,2
+1905,90,Mstislav,Dobuzhinsky,1
 1905,97,Raoul,Dufy,1
 1905,100,James,Ensor,1
 1905,106,Henri,Evenepoel,1
@@ -60,7 +63,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,188,Max,Klinger,1
 1905,191,Georg,Kolbe,1
 1905,192,Käthe,Kollwitz,1
+1905,193,Pyotr,Konchalovsky,1
+1905,194,Nikolay,Krymov,1
 1905,201,František,Kupka,4
+1905,203,Pavel,Kuznetsov,1
 1905,205,Eugène,Laermans,2
 1905,207,Henry,Lamb,1
 1905,208,Pierre,Laprade,2
@@ -78,12 +84,15 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,248,Henri,Matisse,3
 1905,251,Alfred Henry,Maurer,1
 1905,256,Constantin,Meunier,1
+1905,258,Vasily,Milioti,1
 1905,267,Oskar,Moll,3
 1905,268,Claude,Monet,2
+1905,273,Alexsey,Morgunov,1
 1905,276,Edvard,Munch,4
 1905,278,Elie,Nadelman,1
 1905,284,Emil,Nolde,1
 1905,285,Isidre,Nonell,1
+1905,290,Anna Petrovna,Ostroumova-Lebedeva,1
 1905,293,Jules,Pascin,1
 1905,296,Giuseppe,Pellizza da Volpedo,2
 1905,300,Francis,Picabia,2
@@ -102,14 +111,19 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,329,Georges,Rouault,1
 1905,330,Henri,Rousseau,1
 1905,331,Ker-Xavier,Roussel,1
+1905,338,Nikolay,Sapunov,1
+1905,339,Martiros,Sarian,1
 1905,349,Giovanni,Segantini,1
 1905,355,René,Seyssaud,2
 1905,360,Walter Richard,Sickert,1
 1905,364,Max,Slevogt,2
 1905,366,Johannes Carolus Bernardus,Sluijters,2
+1905,369,Konstantin,Somov,1
 1905,378,Maurice,Sterne,1
+1905,380,Sergey,Sudyekin,2
 1905,386,Henri de,Toulouse-Lautrec,2
 1905,387,Albert,Trachsel,2
+1905,391,Petr Savvič,Utkin,1
 1905,394,Félix,Vallotton,4
 1905,395,Louis,Valtat,1
 1905,400,Kees van,Dongen,3
@@ -119,6 +133,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,410,Ludwig von,Hofmann,2
 1905,412,Franz von,Stuck,4
 1905,413,Fritz von,Uhde,5
+1905,415,Mikhail,Vrubel',2
 1905,416,Edouard,Vuillard,3
 1905,421,James McNeill,Whistler,2
 1905,429,Anders,Zorn,2
@@ -618,6 +633,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,1785,Hermann,Stockmann,1
 1905,1788,Andre,Barbier,2
 1905,1792,Rodolphe,Fornerod,2
+1905,1793,Igor,Grabar,1
 1905,1795,Charles,Lacoste,1
 1905,1798,Georges Leon Ernest,Buysse,4
 1905,1800,Rodolphe de,Saegher,2
@@ -637,9 +653,28 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,1839,Abraham,Hermanjat,1
 1905,1845,Fritz,Osswald,2
 1905,1854,Antal,Neogrady,1
+1905,1859,Elena Vladimirovna,Aleksandrova,1
+1905,1862,D.,Varapaev,1
+1905,1863,E. N.,William,1
+1905,1864,V. A.,Galvich,1
+1905,1865,Ekaterina Vasilevna,Goldinger,1
+1905,1866,Ivan Georgievic,Gugunava,1
+1905,1867,Vasili Ivanovich,Denisov,1
 1905,1869,Bertalan,Pór,1
+1905,1873,Vasily Ivanovich,Komarov,1
 1905,1881,Eugène,Zak,1
+1905,1890,Konstantin,Kuznetsov,1
+1905,1895,Boris Nikolaevič,Lipkin,1
+1905,1896,K. I.,Mikhailova,1
+1905,1901,Fedor Ivanovich,Rerberg,1
+1905,1907,A. P.,Tokarev,1
 1905,1910,Hugo,Fidus,1
+1905,1911,Mikhail,Kharlamov,1
+1905,1912,Nikolai I.,Khrustachev,1
+1905,1915,Mikhail,Shesterkin,1
+1905,1916,Aleksandr Georgievich,Yakimchenko,1
+1905,1917,Aleksej Alekseevič,Jasinskij,1
+1905,1922,Michail Semenovič,Pyrin,1
 1905,1923,Alfred,Sisley,3
 1905,1931,Jean-Auguste-Dominique,Ingres,1
 1905,1940,Ambrose,Patterson,1
@@ -648,11 +683,28 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,1945,Philip Wilson,Steer,2
 1905,1954,Theodore Earl,Butler,2
 1905,1958,Emilie,Charmy,1
+1905,1966,Ossip Emmanujilowitsch,Brass,1
 1905,1976,Artur,Tölgyessy,1
 1905,1982,Antal,Berkes,1
 1905,1983,Endre Komaromi,Kacz,1
-1905,2045,Nicolas Alexandrovitch,Tarkhoff,2
-1905,2057,Stepan Petrovich,Yaremich,1
+1905,1992,Ivan,Bilibin,1
+1905,2000,Modest Aleksandrovic,Durnow,1
+1905,2003,Aleksandr,Golovin,1
+1905,2005,Konstantin,Yuon,1
+1905,2007,Konstantin,Korovin,1
+1905,2010,Yevgeny,Lansere,1
+1905,2013,Agnes,Lindemann,1
+1905,2015,Tatjana,Lugowskaya,1
+1905,2016,Filipp,Malyavin,1
+1905,2017,Sergey Vasil'yevich,Malyutin,1
+1905,2019,Nikolai Vasilevich,Meshcherin,1
+1905,2023,Vladimir Vasilevič,Perepletčikov,1
+1905,2024,Pyotr,Petrovichev,1
+1905,2036,Alexander,Seredin,1
+1905,2037,Valentin,Serov,1
+1905,2045,Nicolas Alexandrovitch,Tarkhoff,3
+1905,2048,"Paolo, Prince",Troubetzkoy,1
+1905,2057,Stepan Petrovich,Yaremich,2
 1905,2067,Mihály,Munkácsy,2
 1905,2068,László,Paál,2
 1905,2120,Bernard,Gussow,1
@@ -675,6 +727,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,2248,Ethel Quixano,Henriques,2
 1905,2254,Tina,Blau-Lang,1
 1905,2256,Alice,Dannenberg,1
+1905,2257,Elza,Backlund,1
+1905,2258,Apollinary,Vasnetsov,1
+1905,2259,Nikolai Vasilevich,Doseikin,1
+1905,2260,Nikolai Aleksandrovič,Klodt,1
+1905,2261,Stanislav Julianovič,Žukovskij,1
+1905,2262,Mikhail Anatolyevich,Mamontov,1
+1905,2263,Leonid,Pasternak,1
 1905,2264,Pauline Caroline Margarethe von,Kurowski,2
 1905,2265,Anna von,Amira,1
 1905,2267,Thérèse,Schwartze,4
@@ -682,6 +741,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,2273,Juliette,Wytsman,1
 1905,2282,Alice,Ronner,2
 1905,2284,Olga Florian,Wisinger,1
+1905,2285,S. V.,Iwanow,1
 1905,2286,Clémentine Hélène,Dufau,1
 1905,2300,Ludvík,Kuba,1
 1905,2306,Josef,Beyer,2
@@ -705,11 +765,16 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,2370,Jan,Stanisławski,2
 1905,2374,Josef,Ullmann,1
 1905,2375,Jan,Honsa,3
+1905,2376,Il'ya,Ostroukhov,1
+1905,2377,Konstantin Konstantinovich,Pervukhin,1
+1905,2378,Aleksey,Stepanov,1
 1905,2379,Johan,Akkeringa,2
 1905,2380,Floris,Arntzenius,1
 1905,2383,Victor,Bauffe,1
 1905,2384,Gabrielle,Achenbach,1
 1905,2385,Pauline,Adour,2
+1905,2386,Leonard,Turzhansky,1
+1905,2387,Jan,Ciągliński,1
 1905,2390,Théophile de,Bock,1
 1905,2394,Charles-Jean,Agard,2
 1905,2396,Georgette,Agutte,2
@@ -1050,9 +1115,28 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,3756,Ramon,Pichot Gironès,1
 1905,3759,Heinrich,Bürkel,1
 1905,3776,Rudolf,Kriser,1
+1905,3788,Andrey,Avinoff,1
 1905,3795,"Lucas, the elder",Cranach,1
 1905,3830,Margarete,Hausberg,1
 1905,3844,Frank,Brangwyn,1
+1905,3846,Mikhail,Boskin,1
+1905,3847,Maria,Chapchal (Berngof),1
+1905,3848,I. I.,Gorelov,1
+1905,3849,G.,Yefimov,1
+1905,3850,Nikolai,Zavyalov,1
+1905,3851,Yakov,Kalinichenko,1
+1905,3852,G.,Kelin,1
+1905,3853,Konstantin,Kostenko,1
+1905,3855,N. D.,Nekrasov,1
+1905,3856,V. N.,Olejnik,1
+1905,3857,Vasilij Dmitrievič,Polenov,1
+1905,3858,A.,Robinson,1
+1905,3859,D. N.,Silin,1
+1905,3860,E. G.,Tarasova,1
+1905,3862,Aleksander,Shishov,1
+1905,3864,Aleksey,Shchusev,1
+1905,3865,S. V.,Dubrovsky,1
+1905,3866,Vladimir Matveyevich,Mayat,1
 1905,3868,Joachim von,Bülow,1
 1905,3910,Eduard,Ameseder,1
 1905,3913,Ludwig,Sigmundt,2
@@ -2832,15 +2916,15 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1905,13051,Mario,Spinetti,1
 1906,4,Cuno,Amiet,1
 1906,5,Vassily,Kandinsky,8
-1906,14,Léon,Bakst,1
+1906,14,Léon,Bakst,2
 1906,15,Giacomo,Balla,1
 1906,19,Paul,Baum,1
 1906,23,Max,Beckmann,2
-1906,27,Alexandre,Benois,1
+1906,27,Alexandre,Benois,3
 1906,28,Róbert,Berény,1
 1906,34,Arnold,Böcklin,1
 1906,37,Pierre,Bonnard,3
-1906,38,Viktor,Borisov-Musatov,1
+1906,38,Viktor,Borisov-Musatov,4
 1906,45,Hans,Brühlmann,1
 1906,47,Max,Buri,1
 1906,51,Charles,Camoin,1
@@ -2858,33 +2942,37 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,87,Georges-Olivier,Desvallières,4
 1906,88,Maurice de,Vlaminck,1
 1906,89,Karl Edvard,Diriks,3
-1906,90,Mstislav,Dobuzhinsky,1
+1906,90,Mstislav,Dobuzhinsky,3
 1906,97,Raoul,Dufy,1
 1906,101,Jacob,Epstein,1
 1906,106,Henri,Evenepoel,1
+1906,127,Artur,Fonvizin,1
 1906,128,Othon,Friesz,1
 1906,129,Roger,Fry,1
 1906,130,Akseli,Gallen-Kallela,1
 1906,132,Paul,Gauguin,2
+1906,133,Aleksandr Fedorovich,Gaush,1
 1906,140,Pierre Paul,Girieud,1
+1906,143,Natalia,Goncharova,2
 1906,144,Spencer,Gore,1
 1906,150,Charles-François-Prosper,Guérin,2
 1906,164,Ferdinand,Hodler,4
 1906,165,Adolf,Hölzel,4
 1906,166,Karl,Hofer,2
-1906,173,Alexei,Jawlensky,3
+1906,173,Alexei,Jawlensky,4
 1906,175,Augustus,John,1
 1906,183,Ernst Ludwig,Kirchner,1
 1906,188,Max,Klinger,1
 1906,191,Georg,Kolbe,1
 1906,192,Käthe,Kollwitz,2
+1906,194,Nikolay,Krymov,2
 1906,196,Alfred,Kubin,1
 1906,201,František,Kupka,2
-1906,203,Pavel,Kuznetsov,1
+1906,203,Pavel,Kuznetsov,2
 1906,205,Eugène,Laermans,1
 1906,207,Henry,Lamb,1
 1906,208,Pierre,Laprade,2
-1906,209,Mikhail,Larionov,1
+1906,209,Mikhail,Larionov,4
 1906,218,Wilhelm,Leibl,3
 1906,220,Jean Julien,Lemordant,1
 1906,222,Rudolf,Levy,1
@@ -2896,19 +2984,23 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,245,Albert,Marquet,2
 1906,246,Alberto,Martini,1
 1906,248,Henri,Matisse,3
+1906,249,Aleksandr,Matveyev,1
 1906,255,Jean,Metzinger,1
 1906,256,Constantin,Meunier,1
-1906,257,Nikolay,Milioti,1
+1906,257,Nikolay,Milioti,2
+1906,258,Vasily,Milioti,1
 1906,266,Louis René,Moilliet,1
 1906,267,Oskar,Moll,6
 1906,268,Claude,Monet,4
 1906,270,Giorgio,Morandi,1
+1906,273,Alexsey,Morgunov,1
 1906,276,Edvard,Munch,9
 1906,278,Elie,Nadelman,1
 1906,281,Heinrich,Nauen,4
 1906,284,Emil,Nolde,2
 1906,288,Walter,Ophey,1
 1906,289,Dezső,Orbán,1
+1906,290,Anna Petrovna,Ostroumova-Lebedeva,1
 1906,292,Bernhard,Pankok,3
 1906,293,Jules,Pascin,1
 1906,295,Max,Pechstein,1
@@ -2919,7 +3011,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,309,Leo,Putz,2
 1906,310,Pierre,Puvis de Chavannes,1
 1906,311,Jean,Puy,2
-1906,316,Odilon,Redon,2
+1906,316,Odilon,Redon,3
 1906,317,Pierre-Auguste,Renoir,4
 1906,319,József,Rippl-Rónai,1
 1906,325,Christian,Rohlfs,1
@@ -2927,6 +3019,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,329,Georges,Rouault,3
 1906,330,Henri,Rousseau,1
 1906,331,Ker-Xavier,Roussel,2
+1906,338,Nikolay,Sapunov,1
 1906,342,Lodewijk,Schelfhout,1
 1906,345,Karl,Schmidt-Rottluff,1
 1906,349,Giovanni,Segantini,1
@@ -2934,12 +3027,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,360,Walter Richard,Sickert,2
 1906,361,Paul,Signac,1
 1906,364,Max,Slevogt,2
-1906,369,Konstantin,Somov,2
+1906,369,Konstantin,Somov,4
 1906,378,Maurice,Sterne,2
 1906,380,Sergey,Sudyekin,1
 1906,382,Johan Thorn,Prikker,1
 1906,386,Henri de,Toulouse-Lautrec,1
-1906,390,Nikolay Pavlovic,Ul'yanov,1
+1906,390,Nikolay Pavlovic,Ul'yanov,4
 1906,391,Petr Savvič,Utkin,1
 1906,394,Félix,Vallotton,2
 1906,395,Louis,Valtat,2
@@ -2951,7 +3044,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,411,Hans von,Marées,1
 1906,412,Franz von,Stuck,6
 1906,413,Fritz von,Uhde,4
-1906,415,Mikhail,Vrubel',1
+1906,415,Mikhail,Vrubel',3
 1906,416,Edouard,Vuillard,2
 1906,419,Max,Weber,1
 1906,420,Erik,Werenskiold,1
@@ -3571,7 +3664,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,1783,Ludwig,Schmid-Reutte,1
 1906,1785,Hermann,Stockmann,1
 1906,1792,Rodolphe,Fornerod,1
-1906,1793,Igor,Grabar,1
+1906,1793,Igor,Grabar,3
 1906,1795,Charles,Lacoste,1
 1906,1798,Georges Leon Ernest,Buysse,1
 1906,1799,Paule,Deman,1
@@ -3594,13 +3687,56 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,1853,István,Zádor,1
 1906,1854,Antal,Neogrady,2
 1906,1856,Ida,Konek,2
-1906,1867,Vasili Ivanovich,Denisov,1
+1906,1859,Elena Vladimirovna,Aleksandrova,2
+1906,1860,R.,Brunelesski,1
+1906,1861,G.,Brailovsky,1
+1906,1862,D.,Varapaev,1
+1906,1863,E. N.,William,2
+1906,1864,V. A.,Galvich,1
+1906,1865,Ekaterina Vasilevna,Goldinger,1
+1906,1866,Ivan Georgievic,Gugunava,1
+1906,1867,Vasili Ivanovich,Denisov,3
+1906,1868,Ivan,Yefimov,2
 1906,1869,Bertalan,Pór,1
-1906,1875,Yelizaveta,Kruglikova,1
+1906,1870,G.,Karachevcev,1
+1906,1871,Ivan Adolfovich,Knabe,1
+1906,1872,G.,Konstantinov,1
+1906,1873,Vasily Ivanovich,Komarov,1
+1906,1874,R.,Kostetti,1
+1906,1875,Yelizaveta,Kruglikova,2
 1906,1876,Max,Oppenheimer,1
 1906,1879,Alfred,Sohn-Rethel,3
 1906,1881,Eugène,Zak,1
-1906,1890,Konstantin,Kuznetsov,1
+1906,1890,Konstantin,Kuznetsov,2
+1906,1891,Nikolay,Kuznetsov,1
+1906,1892,N.,Kunce,1
+1906,1893,A. A.,Lavrovskaya,2
+1906,1894,Petr Nikandroivč,Mironovic,2
+1906,1895,Boris Nikolaevič,Lipkin,1
+1906,1896,K. I.,Mikhailova,1
+1906,1898,Stanislav-Vitold Vladislavovich,Noakovsky,3
+1906,1899,Sergej Ivanovič,Petrov,2
+1906,1901,Fedor Ivanovich,Rerberg,2
+1906,1902,G.,Saltykov,1
+1906,1903,,Simonovic,1
+1906,1904,K. V.,Spasskiy,1
+1906,1905,V. V.,Spasskiy,1
+1906,1906,Aleksander,Sredin,2
+1906,1907,A. P.,Tokarev,2
+1906,1908,Nikolai Sergeevic,Ulianov,2
+1906,1909,Fyodor,Fyodorovsky,1
+1906,1910,Hugo,Fidus,1
+1906,1911,Mikhail,Kharlamov,2
+1906,1912,Nikolai I.,Khrustachev,2
+1906,1913,G.,Chuyko,1
+1906,1914,V. I.,Shagin,1
+1906,1915,Mikhail,Shesterkin,1
+1906,1916,Aleksandr Georgievich,Yakimchenko,2
+1906,1917,Aleksej Alekseevič,Jasinskij,1
+1906,1918,Konstantin,Jasinskij,1
+1906,1919,A.,Yastrzhembsky,1
+1906,1921,V. I.,Pozdneev,1
+1906,1922,Michail Semenovič,Pyrin,1
 1906,1923,Alfred,Sisley,2
 1906,1938,Willem,Paerels,1
 1906,1944,Charles Haslewood,Shannon,1
@@ -3616,49 +3752,49 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,1986,Béla,Erdőssy,1
 1906,1987,Theodor,Alexeyev,1
 1906,1988,Nikolay,Alexeyev,1
-1906,1989,Boris,Anisfel'd,1
+1906,1989,Boris,Anisfel'd,2
 1906,1990,Nikolay,Argunov,1
 1906,1991,Elisabeth,Balkund,1
-1906,1992,Ivan,Bilibin,1
+1906,1992,Ivan,Bilibin,2
 1906,1993,Vladimir,Borovikovsky,1
 1906,1994,Aleksandr,Bryullov,1
 1906,1995,Karl,Bryullov,1
 1906,1996,Theodor,Bruni,1
 1906,1997,Johann,Chruzhky,1
 1906,2000,Modest Aleksandrovic,Durnow,1
-1906,2001,Nikolaj Petrovič,Feofilaktov,1
+1906,2001,Nikolaj Petrovič,Feofilaktov,2
 1906,2002,Nikolay,Ge,1
-1906,2003,Aleksandr,Golovin,1
+1906,2003,Aleksandr,Golovin,2
 1906,2004,Mikhail,Ivanov,1
-1906,2005,Konstantin,Yuon,1
+1906,2005,Konstantin,Yuon,2
 1906,2006,Orest,Kiprensky,1
-1906,2007,Konstantin,Korovin,1
+1906,2007,Konstantin,Korovin,2
 1906,2008,Ivan,Kramskoy,1
-1906,2009,Boris,Kustodiyev,1
-1906,2010,Yevgeny,Lansere,1
+1906,2009,Boris,Kustodiyev,2
+1906,2010,Yevgeny,Lansere,3
 1906,2011,Isaak,Levitan,1
 1906,2012,Dmitry,Levitsky,1
-1906,2013,Agnes,Lindemann,1
-1906,2014,Walter,Lokkenberg,1
-1906,2015,Tatjana,Lugowskaya,1
-1906,2016,Filipp,Malyavin,1
-1906,2017,Sergey Vasil'yevich,Malyutin,1
+1906,2013,Agnes,Lindemann,3
+1906,2014,Walter,Lokkenberg,2
+1906,2015,Tatjana,Lugowskaya,3
+1906,2016,Filipp,Malyavin,2
+1906,2017,Sergey Vasil'yevich,Malyutin,2
 1906,2018,Andrej Matveevič,Matveev,1
 1906,2019,Nikolai Vasilevich,Meshcherin,1
 1906,2022,Ivan,Nikitin,1
 1906,2023,Vladimir Vasilevič,Perepletčikov,1
-1906,2024,Pyotr,Petrovichev,1
-1906,2025,Il'ya,Repin,1
+1906,2024,Pyotr,Petrovichev,2
+1906,2025,Il'ya,Repin,2
 1906,2026,Andrey,Ryabushkin,1
 1906,2027,Nicholas,Roerich,3
 1906,2028,Fyodor,Rokotov,1
-1906,2029,Arkady,Rylov,1
-1906,2030,Margarita V.,Sabaschnikow,1
+1906,2029,Arkady,Rylov,3
+1906,2030,Margarita V.,Sabaschnikow,2
 1906,2031,Lipót,Herman,1
 1906,2032,Alexander,Scherwaschidze,1
 1906,2033,Mikhail,Shibanov,1
 1906,2036,Alexander,Seredin,1
-1906,2037,Valentin,Serov,1
+1906,2037,Valentin,Serov,2
 1906,2038,Pyotr,Sokolov,1
 1906,2040,Semen Fedorovič,Ščedrin,1
 1906,2041,Sil'vestr,Shchedrin,1
@@ -3671,12 +3807,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,2049,Appolinarij,Wassnezow,1
 1906,2050,Peter,Wedenezky,1
 1906,2051,Aleksey,Venetsianov,1
-1906,2052,Sergey,Vinogradov,1
+1906,2052,Sergey,Vinogradov,2
 1906,2053,Maxim,Worobiew,1
 1906,2054,Aleksandr Grigorʹevich,Varnek,1
 1906,2055,Fiodor,Wassilijew,1
 1906,2056,Maria Vasilievna,Iakunchikova-Veber,1
-1906,2057,Stepan Petrovich,Yaremich,1
+1906,2057,Stepan Petrovich,Yaremich,2
 1906,2058,Sergey,Zaryenko,1
 1906,2059,Kapiton,Zelentsov,1
 1906,2066,Miklós,Vadász,1
@@ -3684,6 +3820,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,2119,Jacques van,Coppenolle,1
 1906,2128,Otto,Bruenauer,1
 1906,2129,Hans Adolph,Bühler,1
+1906,2143,Nikolay,Kasatkin,1
 1906,2153,Walter,Schnackenberg,2
 1906,2159,Ivan,Thiele,1
 1906,2169,William Emile,Schumacher,1
@@ -3693,6 +3830,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,2237,Paula von,Geiger von Blanckenburg,1
 1906,2238,Maria,Laumen,1
 1906,2256,Alice,Dannenberg,3
+1906,2261,Stanislav Julianovič,Žukovskij,1
 1906,2264,Pauline Caroline Margarethe von,Kurowski,2
 1906,2267,Thérèse,Schwartze,1
 1906,2270,Marguerite,Klee,1
@@ -3737,6 +3875,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,2375,Jan,Honsa,2
 1906,2385,Pauline,Adour,1
 1906,2392,Géza,Hódy,2
+1906,2393,Isaak,Brodsky,1
 1906,2396,Georgette,Agutte,1
 1906,2397,Adolphe,Albert,1
 1906,2399,Imre,Greguss,1
@@ -3792,12 +3931,50 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,2505,Alfred-Mauritz,Bergström,1
 1906,2516,Peter,Droshin,1
 1906,2517,Pavel,Fedotov,1
+1906,2518,G. A.,Alekseev,1
+1906,2519,Nikolay,Andreyev,1
+1906,2520,K.,Andreyeva,1
+1906,2521,,Anikin,1
+1906,2522,Nikolay,Bekker,1
+1906,2523,Grigorij Michajlovič,Bobrovskij,1
+1906,2524,Leonid,Brailovskii,1
+1906,2525,Rimma Nikitična,Brailovskaja,1
+1906,2526,Adam,Burachevski,1
+1906,2527,S. S.,Buturin,1
+1906,2528,M.,Vavszhenecky,1
 1906,2529,,"anonymous: russian, icons",1
+1906,2530,Vasily,Vatagin,1
+1906,2531,Anna Semenovna,Glagoleva,1
+1906,2532,F. G.,Golst,1
+1906,2533,Erna von,Deters,1
+1906,2535,Mikhail,Ezuchevsky,1
+1906,2536,O. V.,Epishkina,1
+1906,2537,Viktor Ivanovich,Zarubin,1
 1906,2538,Siebe Johannes ten,Cate,1
+1906,2542,Ivan,Sacharov,1
 1906,2543,Carolus,Pallya,2
+1906,2545,Evgenij Ivanovič,Kamzolkin,1
+1906,2546,Sergey,Kolesnikov,1
+1906,2547,Georgy,Kosyakov,1
 1906,2548,János,Krajna,2
+1906,2550,V. S.,Kuznecov,1
+1906,2552,Charles-Lucien,Léandre,1
 1906,2553,Aranka,Propper,1
+1906,2554,M. P.,Lyatri,1
+1906,2555,Olga,Malyutina,1
+1906,2556,M. V.,Modestov,1
+1906,2557,Ignaty,Nivinsky,1
+1906,2558,Athanasiy,De-Paldo,1
+1906,2559,L. F.,Pishhalkin,1
+1906,2560,N. L.,Podbersky,1
+1906,2562,A. A.,Sincov,1
+1906,2563,Nikolai Petrovich,Khimona,1
+1906,2565,Aleksandra,Khotyainceva,1
+1906,2566,A. A.,Chumakhov,1
+1906,2567,Dmitri Anfimovich,Shcherbinovsky,1
+1906,2568,Zh. S.,Saranovac,1
 1906,2569,Henri,Fantin-Latour,1
+1906,2570,Dmitry,Kardovsky,1
 1906,2571,Oszkár,Glatz,2
 1906,2577,Jacobs,Smits,1
 1906,2584,Hermann,Lismann,1
@@ -3985,7 +4162,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,3172,Charles,Jouas,1
 1906,3175,Henri,Farge,1
 1906,3176,Anton,Losenko,1
-1906,3177,Vasili Dmitrievich,Millioti,1
+1906,3177,Vasili Dmitrievich,Millioti,2
 1906,3178,Ivan,Prokof'yev,1
 1906,3179,Gaston,Prunier,3
 1906,3180,Paul,Stscherbow,1
@@ -4303,6 +4480,11 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,4576,Ödön,Váli,1
 1906,4578,Jenő,Szigeti,1
 1906,4579,Robert,Lénárd,1
+1906,4617,I. V.,Averincev,1
+1906,4619,V. I.,Andreyev,1
+1906,4620,P. I.,Galkin,1
+1906,4622,M.,Derik,1
+1906,4624,A. K.,Filippov,1
 1906,4633,Elza,Karinthy,1
 1906,4634,János,Hoffmann,1
 1906,4635,Jenő,Barta,1
@@ -5192,6 +5374,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,10175,Emmanuel,Hannaux,1
 1906,10188,Paul,Jouve,1
 1906,10189,Jules,Legastelois,1
+1906,10198,E.,Mikh,1
 1906,10199,Georges,Prud'homme,1
 1906,10201,Raymond,Sudre,1
 1906,10203,Ovide,Yencesse,1
@@ -5794,18 +5977,23 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1906,12916,Lorenzo,Viviani,1
 1906,12917,Michiel,Bianchi,1
 1907,4,Cuno,Amiet,1
-1907,5,Vassily,Kandinsky,2
+1907,5,Vassily,Kandinsky,3
+1907,6,Kazimir,Malevich,1
 1907,7,Piet,Mondrian,2
-1907,14,Léon,Bakst,1
+1907,14,Léon,Bakst,2
 1907,17,Ernst,Barlach,1
 1907,19,Paul,Baum,3
 1907,21,Aubrey Vincent,Beardsley,1
 1907,23,Max,Beckmann,3
+1907,27,Alexandre,Benois,1
 1907,30,Émile,Bernard,3
 1907,37,Pierre,Bonnard,3
 1907,38,Viktor,Borisov-Musatov,1
 1907,39,Emile-Antoine,Bourdelle,1
+1907,43,Petr Ignat'evič,Bromirskij,1
 1907,47,Max,Buri,3
+1907,48,David,Burlyuk,1
+1907,49,Vladimir,Burlyuk,2
 1907,51,Charles,Camoin,1
 1907,56,Eugène,Carrière,7
 1907,57,Felice,Casorati,1
@@ -5827,16 +6015,20 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,87,Georges-Olivier,Desvallières,4
 1907,88,Maurice de,Vlaminck,1
 1907,89,Karl Edvard,Diriks,2
+1907,90,Mstislav,Dobuzhinsky,1
 1907,100,James,Ensor,2
 1907,106,Henri,Evenepoel,3
 1907,122,Bedřich,Feigl,1
 1907,124,Emil,Filla,1
 1907,126,Bernhard Dorotheus,Folkestad,1
+1907,127,Artur,Fonvizin,2
 1907,128,Othon,Friesz,2
 1907,129,Roger,Fry,2
 1907,132,Paul,Gauguin,5
+1907,133,Aleksandr Fedorovich,Gaush,1
 1907,135,Leo,Gestel,2
 1907,140,Pierre Paul,Girieud,2
+1907,143,Natalia,Goncharova,2
 1907,144,Spencer,Gore,1
 1907,150,Charles-François-Prosper,Guérin,4
 1907,153,Hermann,Haller,1
@@ -5848,6 +6040,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,168,Max,Horb,1
 1907,170,James Dickson,Innes,1
 1907,171,Isaac,Israëls,1
+1907,173,Alexei,Jawlensky,1
 1907,175,Augustus,John,1
 1907,181,Károly,Kernstok,1
 1907,182,Fernand,Khnopff,3
@@ -5856,14 +6049,16 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,188,Max,Klinger,1
 1907,191,Georg,Kolbe,2
 1907,192,Käthe,Kollwitz,1
+1907,194,Nikolay,Krymov,3
 1907,197,Othone,Coubine,1
 1907,198,Bohumil,Kubišta,1
-1907,203,Pavel,Kuznetsov,1
+1907,203,Pavel,Kuznetsov,2
 1907,205,Eugène,Laermans,3
 1907,208,Pierre,Laprade,5
-1907,209,Mikhail,Larionov,1
+1907,209,Mikhail,Larionov,4
 1907,218,Wilhelm,Leibl,1
 1907,219,Georges,Lemmen,3
+1907,221,Aristarkh,Lentulov,1
 1907,224,André,Lhote,1
 1907,225,Max,Liebermann,3
 1907,227,Bertold,Löffler,2
@@ -5879,10 +6074,11 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,254,Moritz,Melzer,1
 1907,255,Jean,Metzinger,1
 1907,256,Constantin,Meunier,1
-1907,257,Nikolay,Milioti,2
+1907,257,Nikolay,Milioti,3
 1907,267,Oskar,Moll,2
 1907,268,Claude,Monet,9
 1907,269,Adolphe,Monticelli,4
+1907,273,Alexsey,Morgunov,1
 1907,276,Edvard,Munch,5
 1907,281,Heinrich,Nauen,1
 1907,284,Emil,Nolde,1
@@ -5909,6 +6105,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,327,Félicien,Rops,2
 1907,329,Georges,Rouault,1
 1907,331,Ker-Xavier,Roussel,4
+1907,334,Nikolay,Ryabushinsky,1
+1907,338,Nikolay,Sapunov,2
+1907,339,Martiros,Sarian,1
 1907,345,Karl,Schmidt-Rottluff,1
 1907,347,Emile,Schuffenecker,1
 1907,348,Arthur,Segal,1
@@ -5916,15 +6115,19 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,351,Paul,Sérusier,2
 1907,353,Georges,Seurat,4
 1907,355,René,Seyssaud,1
+1907,357,Aleksandr,Shevchenko,1
+1907,359,Léopold,Survage,2
 1907,360,Walter Richard,Sickert,2
 1907,361,Paul,Signac,5
 1907,364,Max,Slevogt,4
 1907,366,Johannes Carolus Bernardus,Sluijters,1
-1907,369,Konstantin,Somov,1
+1907,369,Konstantin,Somov,2
 1907,378,Maurice,Sterne,1
+1907,380,Sergey,Sudyekin,2
 1907,385,Oluf,Wold-Torne,1
 1907,386,Henri de,Toulouse-Lautrec,2
-1907,390,Nikolay Pavlovic,Ul'yanov,1
+1907,390,Nikolay Pavlovic,Ul'yanov,2
+1907,391,Petr Savvič,Utkin,1
 1907,394,Félix,Vallotton,3
 1907,395,Louis,Valtat,4
 1907,400,Kees van,Dongen,3
@@ -5934,11 +6137,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,404,Théo van,Rysselberghe,7
 1907,412,Franz von,Stuck,4
 1907,413,Fritz von,Uhde,2
-1907,415,Mikhail,Vrubel',1
+1907,415,Mikhail,Vrubel',2
 1907,416,Edouard,Vuillard,6
 1907,420,Erik,Werenskiold,1
 1907,421,James McNeill,Whistler,1
 1907,423,Alfred Aaron,Wolmark,1
+1907,425,Georgy,Yakulov,2
 1907,429,Anders,Zorn,2
 1907,432,Jacob,Alberts,2
 1907,433,Hans,Baluschek,3
@@ -6144,6 +6348,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,830,Ludwig,Wieden,1
 1907,834,Wilhelm,Gallhof,2
 1907,836,August,Gebhard,1
+1907,842,Vasily,Rozhdestvensky,2
 1907,845,Eugen,Hamm,1
 1907,848,Albert,Haueisen,2
 1907,854,Rudolf,Hellwag,1
@@ -6498,7 +6703,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,1790,Etienne,Bosch,2
 1907,1791,Albert,Clouard,1
 1907,1792,Rodolphe,Fornerod,3
-1907,1793,Igor,Grabar,2
+1907,1793,Igor,Grabar,3
 1907,1795,Charles,Lacoste,3
 1907,1798,Georges Leon Ernest,Buysse,2
 1907,1799,Paule,Deman,1
@@ -6540,14 +6745,40 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,1856,Ida,Konek,1
 1907,1857,Erzsébet,Wolf,1
 1907,1858,Jenő,Király,1
+1907,1862,D.,Varapaev,1
+1907,1864,V. A.,Galvich,1
+1907,1865,Ekaterina Vasilevna,Goldinger,1
+1907,1866,Ivan Georgievic,Gugunava,1
+1907,1867,Vasili Ivanovich,Denisov,1
+1907,1868,Ivan,Yefimov,1
+1907,1871,Ivan Adolfovich,Knabe,2
+1907,1873,Vasily Ivanovich,Komarov,1
 1907,1879,Alfred,Sohn-Rethel,1
 1907,1883,Kristen,Holbø,1
+1907,1890,Konstantin,Kuznetsov,1
+1907,1895,Boris Nikolaevič,Lipkin,1
+1907,1896,K. I.,Mikhailova,1
+1907,1898,Stanislav-Vitold Vladislavovich,Noakovsky,1
+1907,1899,Sergej Ivanovič,Petrov,1
+1907,1901,Fedor Ivanovich,Rerberg,1
+1907,1905,V. V.,Spasskiy,1
+1907,1906,Aleksander,Sredin,1
+1907,1912,Nikolai I.,Khrustachev,1
+1907,1914,V. I.,Shagin,1
+1907,1915,Mikhail,Shesterkin,1
+1907,1916,Aleksandr Georgievich,Yakimchenko,1
+1907,1917,Aleksej Alekseevič,Jasinskij,1
+1907,1918,Konstantin,Jasinskij,1
+1907,1921,V. I.,Pozdneev,1
+1907,1922,Michail Semenovič,Pyrin,1
 1907,1923,Alfred,Sisley,8
 1907,1931,Jean-Auguste-Dominique,Ingres,3
 1907,1935,Derwent,Lees,1
 1907,1943,Charles Emmanuel,Serret,1
 1907,1945,Philip Wilson,Steer,1
 1907,1958,Emilie,Charmy,1
+1907,1960,Anatoly,Arapov,2
+1907,1962,Abram,Arkhipov,1
 1907,1965,Konstantin,Bogayevsky,1
 1907,1973,Miklós,Némethy,1
 1907,1974,Henriette,Bachmann,1
@@ -6563,23 +6794,31 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,1984,Gyula,Zorkóczy,1
 1907,1985,Pál,Pichler,1
 1907,1986,Béla,Erdőssy,2
-1907,1989,Boris,Anisfel'd,1
+1907,1989,Boris,Anisfel'd,2
+1907,1992,Ivan,Bilibin,1
+1907,2001,Nikolaj Petrovič,Feofilaktov,1
 1907,2003,Aleksandr,Golovin,1
-1907,2005,Konstantin,Yuon,1
-1907,2007,Konstantin,Korovin,1
-1907,2009,Boris,Kustodiyev,1
+1907,2005,Konstantin,Yuon,2
+1907,2007,Konstantin,Korovin,2
+1907,2009,Boris,Kustodiyev,2
 1907,2011,Isaak,Levitan,1
 1907,2013,Agnes,Lindemann,1
-1907,2015,Tatjana,Lugowskaya,1
-1907,2016,Filipp,Malyavin,1
-1907,2024,Pyotr,Petrovichev,1
+1907,2015,Tatjana,Lugowskaya,2
+1907,2016,Filipp,Malyavin,2
+1907,2019,Nikolai Vasilevich,Meshcherin,1
+1907,2023,Vladimir Vasilevič,Perepletčikov,1
+1907,2024,Pyotr,Petrovichev,2
 1907,2025,Il'ya,Repin,1
 1907,2026,Andrey,Ryabushkin,1
-1907,2027,Nicholas,Roerich,1
+1907,2027,Nicholas,Roerich,2
 1907,2031,Lipót,Herman,1
-1907,2037,Valentin,Serov,1
-1907,2045,Nicolas Alexandrovitch,Tarkhoff,3
+1907,2035,Nikolai von,Seddeler,1
+1907,2037,Valentin,Serov,2
+1907,2044,Dmitry,Stelletsky,1
+1907,2045,Nicolas Alexandrovitch,Tarkhoff,4
+1907,2052,Sergey,Vinogradov,1
 1907,2056,Maria Vasilievna,Iakunchikova-Veber,1
+1907,2057,Stepan Petrovich,Yaremich,1
 1907,2128,Otto,Bruenauer,1
 1907,2129,Hans Adolph,Bühler,1
 1907,2144,Alfons,Purtscher,1
@@ -6594,7 +6833,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,2246,Isabella A.,Dods-Withers,2
 1907,2250,Clare,Atwood,2
 1907,2251,Pascal Adolphe Jean,Dagnan-Bouveret,1
-1907,2257,Elza,Backlund,1
+1907,2257,Elza,Backlund,2
+1907,2258,Apollinary,Vasnetsov,1
+1907,2259,Nikolai Vasilevich,Doseikin,1
+1907,2260,Nikolai Aleksandrovič,Klodt,1
+1907,2261,Stanislav Julianovič,Žukovskij,1
+1907,2262,Mikhail Anatolyevich,Mamontov,1
+1907,2263,Leonid,Pasternak,1
 1907,2267,Thérèse,Schwartze,3
 1907,2272,Susanne,Robertson,3
 1907,2273,Juliette,Wytsman,1
@@ -6627,10 +6872,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,2361,Kazimierz,Sichulski,3
 1907,2374,Josef,Ullmann,2
 1907,2375,Jan,Honsa,2
+1907,2378,Aleksey,Stepanov,1
 1907,2379,Johan,Akkeringa,2
 1907,2380,Floris,Arntzenius,1
 1907,2383,Victor,Bauffe,2
+1907,2386,Leonard,Turzhansky,1
 1907,2390,Théophile de,Bock,2
+1907,2391,Manuil Khristoforovich,Aladzhalov,1
 1907,2392,Géza,Hódy,1
 1907,2394,Charles-Jean,Agard,1
 1907,2395,Árpádné,Feszty,1
@@ -6681,11 +6929,17 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,2490,Otto,Hesselbom,2
 1907,2492,Léon-Charles,Bauche,1
 1907,2495,Marie,Baudet,1
+1907,2514,A. V.,Shhusev,1
+1907,2524,Leonid,Brailovskii,1
+1907,2526,Adam,Burachevski,1
+1907,2531,Anna Semenovna,Glagoleva,2
+1907,2533,Erna von,Deters,1
 1907,2538,Siebe Johannes ten,Cate,1
 1907,2543,Carolus,Pallya,1
 1907,2548,János,Krajna,1
 1907,2549,Jean Jacques,Henner,2
 1907,2553,Aranka,Propper,1
+1907,2559,L. F.,Pishhalkin,1
 1907,2564,Otto Maria,Miethke-Gutenegg,1
 1907,2569,Henri,Fantin-Latour,4
 1907,2571,Oszkár,Glatz,1
@@ -6693,6 +6947,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,2577,Jacobs,Smits,1
 1907,2579,Emile,Vloors,1
 1907,2583,Samuel,Jessurun de Mesquita,1
+1907,2592,Vladimir,Pokrovsky,1
 1907,2606,William,Degouve de Nuncques,1
 1907,2610,Lajos,Gulácsy,1
 1907,2612,Paul,Marquet,2
@@ -6752,6 +7007,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,2894,Francis,Jourdain,2
 1907,2895,Léon,Lehmann,1
 1907,2896,Raoul de,Mathan,1
+1907,2899,Vladimir Petrovič,Drittenprejs,2
+1907,2904,Sergey,Ivanov,1
 1907,2906,Tony,Minartz,1
 1907,2907,Armand,Guillaumin,6
 1907,2908,Jean,Peské,1
@@ -6818,6 +7075,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,3170,Marguerite-Anne-Rose,Delorme,1
 1907,3171,Manuel,Feliú de Lemus,1
 1907,3172,Charles,Jouas,1
+1907,3177,Vasili Dmitrievich,Millioti,1
 1907,3179,Gaston,Prunier,4
 1907,3190,René,Francillon,1
 1907,3197,Adolf,Kašpar,1
@@ -6911,7 +7169,18 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,3756,Ramon,Pichot Gironès,1
 1907,3803,Joshua,Reynolds,1
 1907,3844,Frank,Brangwyn,2
+1907,3850,Nikolai,Zavyalov,1
+1907,3851,Yakov,Kalinichenko,1
 1907,3880,Marie,Schnür,1
+1907,3881,Anatoly,Andronov,1
+1907,3882,V. N.,Berg,1
+1907,3883,V. E.,Bogdanovic,1
+1907,3884,Ivan,Bokhan,1
+1907,3885,Vladimir Aleksandrovič,Beklemišev,1
+1907,3886,N. I.,Volosatikov,1
+1907,3887,V. A.,Dyakonov,1
+1907,3888,Elena Ivanovna,Kamenceva,1
+1907,3889,Petr,Kelin,1
 1907,3910,Eduard,Ameseder,1
 1907,3913,Ludwig,Sigmundt,1
 1907,3914,Ferdinand Matthias,Zerlacher,1
@@ -6926,7 +7195,23 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,3977,Jakob,Wyss,1
 1907,3996,John,Muirhead,1
 1907,4001,James Whitelaw,Hamilton,2
+1907,4020,G. A.,Konduralov,1
+1907,4021,Aleksander,Koyransky,1
+1907,4022,Georgy Aleksandrovich,Lapshin,1
+1907,4023,O. P.,Mikhailova,1
 1907,4074,Huib,Luns,2
+1907,4103,Vasili Nikitich,Meshkov,1
+1907,4104,N. F.,Nekrasov,1
+1907,4105,V. P.,Orlov-Petrov,1
+1907,4106,Vladimir,Polovinkin,1
+1907,4107,N. S.,Smirnova,1
+1907,4108,V. N.,Sorokhtin,1
+1907,4109,N. S.,Ul'yanov,1
+1907,4110,N. F.,Khalyavin,1
+1907,4111,A. M.,Shaposhnikova,1
+1907,4112,S. A.,Shheglov,1
+1907,4113,A. Ya.,Jakobson,1
+1907,4114,V. D.,Yakovlev,1
 1907,4145,Louis,Mark,1
 1907,4196,Frederik Jacobus van Rossum du,Chattel,1
 1907,4198,Franz Wilhelm Maria,Deutmann,2
@@ -6978,6 +7263,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,4281,Jan Hillebrand,Wijsmuller,2
 1907,4282,Jacob Abraham,Zon,1
 1907,4283,Willem de,Zwart,3
+1907,4284,P. D.,Bramirsky,1
+1907,4285,Z. A.,Baykova,1
 1907,4326,Vilmos,Nagy,1
 1907,4336,Luigi,Loir,1
 1907,4341,Henry,Lerolle,2
@@ -7058,6 +7345,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,4754,Eilif,Peterssen,1
 1907,4755,Jacob Keiland,Sömme,1
 1907,4756,Oda,Krohg,1
+1907,4791,Michail Varfolomeevič,Kuznetsov-Volzhsky,1
+1907,4847,Lyudmila,Burlyuk-Kuznetsova,1
 1907,4865,István,Nagy,1
 1907,4919,Artur,Ferraris,1
 1907,4920,Gyula,Éder,1
@@ -7628,6 +7917,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,8855,Carl Leopold,Hollitzer,1
 1907,8856,Joseph,Heu,1
 1907,8861,Henri Adolphe Louis,Laurent,1
+1907,8915,Michail Fedorovič,Šemjakin,1
 1907,8932,Paul de,Frick,1
 1907,8948,Georges Francois,Souillet,1
 1907,9063,Nicolas-Toussaint,Charlet,1
@@ -8111,11 +8401,15 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,12005,Bernhard,Bock,1
 1907,12017,Julio,González,1
 1907,12028,Henri,Lucien-Robert,1
+1907,12502,Vladimir,Baranoff-Rossiné,1
 1907,12563,Robert,Brough,1
 1907,12700,,Blix,1
 1907,12701,,Duvieu,1
 1907,12702,,Fortuny,1
 1907,12782,Suzanne,Valadon,1
+1907,12942,Vladimir Iakovlevich,Chembers,1
+1907,12943,Ya. F.,Tsyunglinskiy,1
+1907,12944,S. I.,Svetoslavskiy,1
 1907,13052,Vivian,Burton,1
 1907,13116,George E.,Hendry,1
 1907,13195,Agnes M.,Cohen,1
@@ -8276,21 +8570,27 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1907,13550,Karl,Hansen,1
 1907,13551,Karl,Hartmann,1
 1908,4,Cuno,Amiet,1
+1908,5,Vassily,Kandinsky,2
+1908,6,Kazimir,Malevich,1
 1908,7,Piet,Mondrian,1
-1908,14,Léon,Bakst,2
+1908,14,Léon,Bakst,5
 1908,15,Giacomo,Balla,1
 1908,17,Ernst,Barlach,2
 1908,19,Paul,Baum,3
 1908,23,Max,Beckmann,3
 1908,26,Vincenc,Beneš,1
+1908,27,Alexandre,Benois,3
 1908,30,Émile,Bernard,1
 1908,31,Robert Polhill,Bevan,1
+1908,35,Oleksandr,Bohomazov,2
 1908,37,Pierre,Bonnard,7
-1908,38,Viktor,Borisov-Musatov,1
+1908,38,Viktor,Borisov-Musatov,2
 1908,41,Georges,Braque,3
-1908,43,Petr Ignat'evič,Bromirskij,1
+1908,43,Petr Ignat'evič,Bromirskij,2
 1908,45,Hans,Brühlmann,1
 1908,47,Max,Buri,1
+1908,48,David,Burlyuk,4
+1908,49,Vladimir,Burlyuk,3
 1908,51,Charles,Camoin,3
 1908,54,Arthur Beecher,Carles,1
 1908,56,Eugène,Carrière,1
@@ -8313,24 +8613,28 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,83,Maurice,Denis,6
 1908,84,André,Derain,2
 1908,89,Karl Edvard,Diriks,2
-1908,90,Mstislav,Dobuzhinsky,1
+1908,90,Mstislav,Dobuzhinsky,3
 1908,91,Henri,Doucet,1
 1908,95,Marcel,Duchamp,1
 1908,97,Raoul,Dufy,2
 1908,98,André,Dunoyer de Segonzac,1
 1908,100,James,Ensor,2
 1908,106,Henri,Evenepoel,1
+1908,107,Aleksandra Aleksandrovna,Exster,2
+1908,121,Robert,Fa'lk,2
 1908,122,Bedřich,Feigl,1
 1908,123,Lyonel,Feininger,1
 1908,124,Emil,Filla,1
+1908,127,Artur,Fonvizin,2
 1908,128,Othon,Friesz,3
 1908,132,Paul,Gauguin,4
-1908,133,Aleksandr Fedorovich,Gaush,1
+1908,133,Aleksandr Fedorovich,Gaush,3
 1908,135,Leo,Gestel,1
 1908,137,Giovanni,Giacometti,1
 1908,138,Harold,Gilman,1
 1908,139,Charles,Ginner,1
 1908,140,Pierre Paul,Girieud,2
+1908,143,Natalia,Goncharova,1
 1908,144,Spencer,Gore,2
 1908,150,Charles-François-Prosper,Guérin,3
 1908,155,Ferenc,Hatvany,1
@@ -8338,7 +8642,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,165,Adolf,Hölzel,2
 1908,166,Karl,Hofer,2
 1908,170,James Dickson,Innes,1
-1908,173,Alexei,Jawlensky,1
+1908,173,Alexei,Jawlensky,3
 1908,175,Augustus,John,1
 1908,176,Gwen,John,1
 1908,181,Károly,Kernstok,1
@@ -8351,44 +8655,53 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,190,Oskar,Kokoschka,1
 1908,191,Georg,Kolbe,1
 1908,192,Käthe,Kollwitz,4
-1908,194,Nikolay,Krymov,1
+1908,193,Pyotr,Konchalovsky,1
+1908,194,Nikolay,Krymov,3
 1908,196,Alfred,Kubin,1
 1908,197,Othone,Coubine,1
 1908,198,Bohumil,Kubišta,1
 1908,201,František,Kupka,1
+1908,202,Aleksandr,Kuprin,1
+1908,203,Pavel,Kuznetsov,1
 1908,205,Eugène,Laermans,3
 1908,207,Henry,Lamb,1
 1908,208,Pierre,Laprade,3
+1908,209,Mikhail,Larionov,2
 1908,218,Wilhelm,Leibl,2
 1908,219,Georges,Lemmen,3
+1908,221,Aristarkh,Lentulov,2
 1908,225,Max,Liebermann,6
 1908,227,Bertold,Löffler,1
+1908,228,Georgy,Lukomsky,1
 1908,235,Aristide,Maillol,2
 1908,236,Edouard,Manet,3
 1908,237,Henri Charles,Manguin,3
 1908,243,Ödön,Márffy,1
 1908,245,Albert,Marquet,4
 1908,248,Henri,Matisse,4
+1908,249,Aleksandr,Matveyev,1
 1908,251,Alfred Henry,Maurer,3
 1908,253,Xavier,Mellery,1
 1908,254,Moritz,Melzer,1
 1908,255,Jean,Metzinger,2
 1908,256,Constantin,Meunier,1
-1908,257,Nikolay,Milioti,1
+1908,257,Nikolay,Milioti,3
 1908,263,Paula,Modersohn-Becker,1
 1908,267,Oskar,Moll,1
 1908,268,Claude,Monet,4
 1908,269,Adolphe,Monticelli,1
+1908,273,Alexsey,Morgunov,1
 1908,274,Koloman,Moser,1
 1908,276,Edvard,Munch,4
 1908,281,Heinrich,Nauen,1
 1908,283,Jean,Niestlé,1
 1908,284,Emil,Nolde,3
 1908,286,Willi,Nowak,1
-1908,290,Anna Petrovna,Ostroumova-Lebedeva,1
+1908,290,Anna Petrovna,Ostroumova-Lebedeva,3
 1908,292,Bernhard,Pankok,2
 1908,293,Jules,Pascin,4
 1908,295,Max,Pechstein,1
+1908,298,Kuz'ma,Petrov-Vodkin,1
 1908,301,Pablo,Picasso,2
 1908,304,Jan,Preisler,1
 1908,307,Antonín,Procházka,1
@@ -8402,18 +8715,22 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,327,Félicien,Rops,2
 1908,329,Georges,Rouault,1
 1908,331,Ker-Xavier,Roussel,4
-1908,338,Nikolay,Sapunov,1
+1908,338,Nikolay,Sapunov,3
+1908,339,Martiros,Sarian,1
 1908,341,Linka,Procházková,1
 1908,342,Lodewijk,Schelfhout,1
 1908,348,Arthur,Segal,1
 1908,351,Paul,Sérusier,2
 1908,353,Georges,Seurat,2
+1908,357,Aleksandr,Shevchenko,1
 1908,360,Walter Richard,Sickert,2
 1908,361,Paul,Signac,3
 1908,364,Max,Slevogt,5
 1908,366,Johannes Carolus Bernardus,Sluijters,1
-1908,380,Sergey,Sudyekin,1
+1908,369,Konstantin,Somov,2
+1908,380,Sergey,Sudyekin,3
 1908,386,Henri de,Toulouse-Lautrec,3
+1908,391,Petr Savvič,Utkin,1
 1908,394,Félix,Vallotton,4
 1908,395,Louis,Valtat,3
 1908,397,Henry van de,Velde,1
@@ -8425,12 +8742,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,411,Hans von,Marées,1
 1908,412,Franz von,Stuck,3
 1908,413,Fritz von,Uhde,3
-1908,414,Marianne,Werefkin,1
+1908,414,Marianne,Werefkin,2
+1908,415,Mikhail,Vrubel',2
 1908,416,Edouard,Vuillard,7
 1908,420,Erik,Werenskiold,1
 1908,421,James McNeill,Whistler,1
 1908,423,Alfred Aaron,Wolmark,1
-1908,425,Georgy,Yakulov,1
+1908,425,Georgy,Yakulov,2
 1908,429,Anders,Zorn,1
 1908,432,Jacob,Alberts,2
 1908,433,Hans,Baluschek,1
@@ -8558,6 +8876,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,593,Waldemar,Rösler,2
 1908,594,Ernst,Stern,3
 1908,595,Heinrich,Zille,1
+1908,598,V. V.,Shavrin,1
 1908,599,Leopold,Forstner,1
 1908,600,Józef,Mehoffer,2
 1908,602,Karl,Müller,1
@@ -8565,6 +8884,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,605,Josef,Engelhart,1
 1908,606,Friedrich,König,1
 1908,607,Carlos,Schwabe,1
+1908,621,Nikolay,Kulbin,1
 1908,642,Albert,Besnard,4
 1908,643,Ernst,Stöhr,1
 1908,645,Johann Victor,Krämer,1
@@ -8935,6 +9255,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,1787,Alfons,Wölfle,1
 1908,1788,Andre,Barbier,1
 1908,1792,Rodolphe,Fornerod,2
+1908,1793,Igor,Grabar,2
 1908,1798,Georges Leon Ernest,Buysse,2
 1908,1801,Alfred William,Finch,1
 1908,1802,Alfred,Hazledine,2
@@ -8957,12 +9278,31 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,1850,Simon,Hollósy,1
 1908,1854,Antal,Neogrady,1
 1908,1856,Ida,Konek,1
+1908,1862,D.,Varapaev,1
+1908,1864,V. A.,Galvich,1
+1908,1865,Ekaterina Vasilevna,Goldinger,1
+1908,1866,Ivan Georgievic,Gugunava,1
+1908,1867,Vasili Ivanovich,Denisov,2
 1908,1869,Bertalan,Pór,2
+1908,1873,Vasily Ivanovich,Komarov,1
 1908,1876,Max,Oppenheimer,1
 1908,1879,Alfred,Sohn-Rethel,1
 1908,1880,Hans,Steiner,1
 1908,1881,Eugène,Zak,2
-1908,1906,Aleksander,Sredin,1
+1908,1890,Konstantin,Kuznetsov,1
+1908,1891,Nikolay,Kuznetsov,1
+1908,1894,Petr Nikandroivč,Mironovic,1
+1908,1895,Boris Nikolaevič,Lipkin,1
+1908,1898,Stanislav-Vitold Vladislavovich,Noakovsky,1
+1908,1901,Fedor Ivanovich,Rerberg,1
+1908,1904,K. V.,Spasskiy,1
+1908,1906,Aleksander,Sredin,3
+1908,1907,A. P.,Tokarev,1
+1908,1911,Mikhail,Kharlamov,2
+1908,1912,Nikolai I.,Khrustachev,1
+1908,1917,Aleksej Alekseevič,Jasinskij,2
+1908,1918,Konstantin,Jasinskij,1
+1908,1922,Michail Semenovič,Pyrin,1
 1908,1923,Alfred,Sisley,3
 1908,1926,Alexandre,Blanchet,1
 1908,1936,Max,Mayrshofer,1
@@ -8970,7 +9310,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,1945,Philip Wilson,Steer,2
 1908,1954,Theodore Earl,Butler,2
 1908,1958,Emilie,Charmy,2
+1908,1962,Abram,Arkhipov,1
+1908,1965,Konstantin,Bogayevsky,2
 1908,1966,Ossip Emmanujilowitsch,Brass,1
+1908,1968,Liubov Nikolaevna,Gaush,1
 1908,1975,Gergely,Pörge,1
 1908,1976,Artur,Tölgyessy,1
 1908,1977,Mark,Rubovics,1
@@ -8978,16 +9321,46 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,1982,Antal,Berkes,1
 1908,1983,Endre Komaromi,Kacz,1
 1908,1986,Béla,Erdőssy,1
-1908,1989,Boris,Anisfel'd,1
-1908,1992,Ivan,Bilibin,2
-1908,2001,Nikolaj Petrovič,Feofilaktov,1
-1908,2009,Boris,Kustodiyev,1
-1908,2010,Yevgeny,Lansere,1
-1908,2017,Sergey Vasil'yevich,Malyutin,1
-1908,2027,Nicholas,Roerich,2
-1908,2037,Valentin,Serov,1
-1908,2045,Nicolas Alexandrovitch,Tarkhoff,1
+1908,1989,Boris,Anisfel'd,3
+1908,1992,Ivan,Bilibin,5
+1908,1998,Georgy,Rakovich,1
+1908,2000,Modest Aleksandrovic,Durnow,2
+1908,2001,Nikolaj Petrovič,Feofilaktov,4
+1908,2003,Aleksandr,Golovin,2
+1908,2005,Konstantin,Yuon,2
+1908,2007,Konstantin,Korovin,2
+1908,2009,Boris,Kustodiyev,3
+1908,2010,Yevgeny,Lansere,4
+1908,2011,Isaak,Levitan,1
+1908,2013,Agnes,Lindemann,2
+1908,2014,Walter,Lokkenberg,1
+1908,2015,Tatjana,Lugowskaya,1
+1908,2017,Sergey Vasil'yevich,Malyutin,3
+1908,2018,Andrej Matveevič,Matveev,1
+1908,2019,Nikolai Vasilevich,Meshcherin,1
+1908,2021,T. P.,Chernyshev,1
+1908,2023,Vladimir Vasilevič,Perepletčikov,1
+1908,2024,Pyotr,Petrovichev,1
+1908,2025,Il'ya,Repin,1
+1908,2026,Andrey,Ryabushkin,1
+1908,2027,Nicholas,Roerich,3
+1908,2029,Arkady,Rylov,2
+1908,2037,Valentin,Serov,3
+1908,2044,Dmitry,Stelletsky,1
+1908,2045,Nicolas Alexandrovitch,Tarkhoff,3
+1908,2052,Sergey,Vinogradov,1
+1908,2056,Maria Vasilievna,Iakunchikova-Veber,1
+1908,2057,Stepan Petrovich,Yaremich,1
+1908,2064,Nikolay,Lansere,2
 1908,2068,László,Paál,1
+1908,2070,Mykhail,Latri,2
+1908,2073,Dmitry,Mitrokhin,1
+1908,2074,Zoja Jakovlevna,Mostova-Matveeva,1
+1908,2076,Pavel,Naumov,2
+1908,2089,Ivan,Fomin,1
+1908,2091,Sergey,Chekhonin,1
+1908,2094,Aleksandr,Shervashidze,1
+1908,2100,Michail Nikolaevič,Jakovlev,1
 1908,2104,Léon,Dabo,1
 1908,2116,Louis,Thévenet,1
 1908,2119,Jacques van,Coppenolle,1
@@ -9005,9 +9378,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,2248,Ethel Quixano,Henriques,1
 1908,2250,Clare,Atwood,2
 1908,2256,Alice,Dannenberg,1
-1908,2258,Apollinary,Vasnetsov,1
-1908,2259,Nikolai Vasilevich,Doseikin,1
-1908,2263,Leonid,Pasternak,1
+1908,2258,Apollinary,Vasnetsov,2
+1908,2259,Nikolai Vasilevich,Doseikin,2
+1908,2260,Nikolai Aleksandrovič,Klodt,1
+1908,2261,Stanislav Julianovič,Žukovskij,1
+1908,2262,Mikhail Anatolyevich,Mamontov,1
+1908,2263,Leonid,Pasternak,3
 1908,2267,Thérèse,Schwartze,2
 1908,2272,Susanne,Robertson,3
 1908,2273,Juliette,Wytsman,2
@@ -9047,9 +9423,14 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,2371,Stanisław,Czajkowski,2
 1908,2374,Josef,Ullmann,3
 1908,2375,Jan,Honsa,1
+1908,2377,Konstantin Konstantinovich,Pervukhin,1
+1908,2378,Aleksey,Stepanov,1
 1908,2379,Johan,Akkeringa,1
 1908,2380,Floris,Arntzenius,1
+1908,2386,Leonard,Turzhansky,1
+1908,2387,Jan,Ciągliński,2
 1908,2390,Théophile de,Bock,1
+1908,2391,Manuil Khristoforovich,Aladzhalov,1
 1908,2396,Georgette,Agutte,1
 1908,2400,Hermina,Bruck,1
 1908,2405,André Marie Paul Jacques,Allard,1
@@ -9080,13 +9461,21 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,2489,Georges,Bärwolf,1
 1908,2490,Otto,Hesselbom,1
 1908,2495,Marie,Baudet,1
-1908,2524,Leonid,Brailovskii,1
+1908,2500,Vasily,Surikov,2
+1908,2512,M. K.,Čiurlionis,1
+1908,2524,Leonid,Brailovskii,2
+1908,2525,Rimma Nikitična,Brailovskaja,1
+1908,2526,Adam,Burachevski,1
+1908,2531,Anna Semenovna,Glagoleva,1
+1908,2533,Erna von,Deters,1
 1908,2538,Siebe Johannes ten,Cate,1
 1908,2539,James,Tissot,1
 1908,2540,Maurice-Quentin de,La Tour,1
+1908,2542,Ivan,Sacharov,1
 1908,2544,L.,Lucas,1
 1908,2549,Jean Jacques,Henner,2
 1908,2551,Jean-Baptiste,Monnoyer,1
+1908,2563,Nikolai Petrovich,Khimona,1
 1908,2564,Otto Maria,Miethke-Gutenegg,1
 1908,2569,Henri,Fantin-Latour,1
 1908,2571,Oszkár,Glatz,2
@@ -9097,8 +9486,15 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,2577,Jacobs,Smits,4
 1908,2578,Walter,Vaes,4
 1908,2579,Emile,Vloors,3
-1908,2591,Elena,Luksch-Makowsky,1
-1908,2592,Vladimir,Pokrovsky,1
+1908,2587,Konstantin,Evseev,1
+1908,2588,Ivan,Zhaltovsky,1
+1908,2589,Alexander,Keller,1
+1908,2591,Elena,Luksch-Makowsky,3
+1908,2592,Vladimir,Pokrovsky,2
+1908,2595,Alek'sandr,T'amanyan,2
+1908,2596,Aleksander,Kholopov,1
+1908,2598,Mikhail Aleksandrovic,Šitov,2
+1908,2599,Maximilian Vladimirovich,Eberman,3
 1908,2601,Jan,Toorop,3
 1908,2602,Jan,Verhoeven,1
 1908,2604,Ferenc,Olgyay,1
@@ -9197,6 +9593,11 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,2891,,anonymous,1
 1908,2893,Jacques,Drésa,1
 1908,2894,Francis,Jourdain,2
+1908,2899,Vladimir Petrovič,Drittenprejs,1
+1908,2900,Juho,Rissanen,1
+1908,2902,Karl,Flinta,1
+1908,2903,Viktor,Zamyraylo,1
+1908,2904,Sergey,Ivanov,1
 1908,2905,Georges,Bouche,1
 1908,2907,Armand,Guillaumin,2
 1908,2908,Jean,Peské,1
@@ -9243,6 +9644,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,3045,Phelan,Gibb,1
 1908,3053,Paul,Deltombe,1
 1908,3055,Émile Auguste,Carolus-Duran,1
+1908,3064,P.,Shherbov,1
+1908,3065,Nikolai Filippovich,Petrov,1
+1908,3068,Evgeny,Agafonov,1
 1908,3074,Mary,Cassatt,1
 1908,3076,Francisco de,Goya,1
 1908,3077,Matthijs,Maris,1
@@ -9264,6 +9668,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,3211,Maximilián,Švabinský,2
 1908,3212,Bedřich,Wachsmann,1
 1908,3213,Max,Angerer,1
+1908,3314,Sergey,Korovin,1
 1908,3341,Robert Anning,Bell,1
 1908,3354,Eugène-Antoine,Durenne,2
 1908,3355,José,Bebin,1
@@ -9273,9 +9678,15 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,3383,Simon Albert,Bussy,1
 1908,3396,Fritz,Westendorp,1
 1908,3401,George Hendrik,Breitner,1
+1908,3410,Olga Della-Vos,Kardovskaya,1
 1908,3419,Rudolf,Wilke,2
+1908,3425,M. A.,Derkach,1
+1908,3426,Aleksej Eremeevič,Karev,1
+1908,3427,Constantin,Kraacht,1
+1908,3428,N. I.,Kubasov,1
 1908,3430,Vlastimil,Hofmann,1
 1908,3432,Ivo,Hauptmann,1
+1908,3433,I. E.,Plekhanov,1
 1908,3445,Narcisse Virgile,Diaz de la Peña,1
 1908,3446,Jules,Dupré,1
 1908,3455,Anton,Mauve,1
@@ -9318,12 +9729,20 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,3742,Anna von,Spreckelsen,1
 1908,3745,Fritz,Thaulow,2
 1908,3746,Grosvenor,Thomas,2
+1908,3771,V. K.,Dolin,1
 1908,3773,Hans,Böhler,1
 1908,3775,Sebastian,Isepp,1
 1908,3777,Erwin,Lang,1
 1908,3809,Gustav,Brandt,1
 1908,3819,Johanes,Martini,1
+1908,3847,Maria,Chapchal (Berngof),1
+1908,3851,Yakov,Kalinichenko,1
+1908,3859,D. N.,Silin,1
 1908,3868,Joachim von,Bülow,2
+1908,3882,V. N.,Berg,1
+1908,3884,Ivan,Bokhan,1
+1908,3886,N. I.,Volosatikov,1
+1908,3888,Elena Ivanovna,Kamenceva,1
 1908,3897,Emil,Preetorius,1
 1908,3913,Ludwig,Sigmundt,1
 1908,3914,Ferdinand Matthias,Zerlacher,1
@@ -9349,22 +9768,43 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,4073,Clémence,Lacroix,1
 1908,4074,Huib,Luns,2
 1908,4093,Elsa von,Oettingen,1
+1908,4107,N. S.,Smirnova,1
 1908,4116,Leo,Prochownik,1
 1908,4145,Louis,Mark,1
 1908,4154,Leopold,Thieme,1
+1908,4197,Vladimir,Orlov,1
 1908,4198,Franz Wilhelm Maria,Deutmann,1
 1908,4201,August von,Brandis,1
 1908,4203,John Robert Keitley,Duff,1
 1908,4204,Johannes Cornelis van,Essen,1
 1908,4205,Paul Joseph Constantin,Gabriël,1
 1908,4206,Salomon,Garf,1
+1908,4219,N. I.,Bastarev-Vasilyev,1
+1908,4220,Sergey,Beklemishev,1
+1908,4221,Léon,Zack,1
+1908,4222,E.,Kuznetsov,1
+1908,4223,Vasyl',Masyutyn,2
+1908,4224,Olga,Meerson,1
+1908,4225,M. F.,Petin,1
 1908,4226,Johannes Hendricus,Jurres,1
 1908,4227,Eduard,Karsen,1
+1908,4228,Vladimir,Rossinsky,1
 1908,4229,Arnold Hendrik,Koning,1
+1908,4230,Nikolay,Sobolev,1
+1908,4231,M. S.,Chuyko,1
+1908,4233,D. V.,Shemyakin,1
 1908,4235,Willem,Maris,1
 1908,4238,Hendrik Willem,Mesdag,1
 1908,4239,Pieter Cornelis de,Moor,1
 1908,4245,Willem Elisa,Roelofs,2
+1908,4246,Usein,Bodaninsky,1
+1908,4247,Vladimir,Zakharov-Slav,1
+1908,4248,A. E.,Ivanov,1
+1908,4249,E. O.,Kir'yackaya,1
+1908,4250,A. A.,Rybkin,1
+1908,4251,Oleksander,Silin,1
+1908,4252,Vasilii Porfirevich,Timorev,1
+1908,4253,Semen,Frolov,1
 1908,4268,Willy,Sluiter,1
 1908,4272,Louis Willem van,Soest,1
 1908,4273,Emanuel Ernest Van Der,Ven,1
@@ -9448,6 +9888,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,4565,Géza,Kiss,1
 1908,4569,Ernő,Foerk,1
 1908,4593,Konrad,Krzyżanowski,1
+1908,4613,Vladimir,Emme,1
 1908,4636,Lajos,Bruck,1
 1908,4638,Kálmán,Reichl,1
 1908,4639,Jenő,Kuszka,1
@@ -9456,12 +9897,46 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,4678,Manó,Vesztróczy,1
 1908,4679,Frigyes,Miess,1
 1908,4680,César María,Herrer Marcher,1
+1908,4691,Lidija G.,Mejster,1
 1908,4697,Rudolf,Kohtz,1
 1908,4708,Lajos,Kúnffy,1
 1908,4719,Ferenc,Innocent,1
 1908,4720,János Ödön,Lechner,1
 1908,4727,Julius Gyula,Basch,1
+1908,4763,Nikolay,Kalmakov,1
+1908,4844,Boris Alekseevič,Ferdinandov,1
+1908,4846,Vas. Iv.,Nechaev,1
+1908,4847,Lyudmila,Burlyuk-Kuznetsova,2
+1908,4849,E. K.,Skandikov,1
+1908,4851,E. K.,Anders,1
+1908,4853,Lyudmila F.,Schmit-Ryzhova,1
 1908,4855,László,Vágó,1
+1908,4857,Aleksandr,Nikolaev,1
+1908,4858,Nicolás,Ferdinandov,1
+1908,4859,G. K.,Blank,1
+1908,4860,M. M.,Druzhinina,1
+1908,4863,Turina-Marya-Aneta Robertovna,Liander,1
+1908,4864,Eduard Yanovich,Vitol,1
+1908,4866,Aleksandr,Lyubimov,1
+1908,4867,N. I.,L-va,1
+1908,4868,U. S.,Shkolnik,1
+1908,4869,Nikolaj Petrovič,Bogdanov-Bel'skij,1
+1908,4870,K. I.,Filkovic,1
+1908,4871,,Eisner,1
+1908,4872,V. B.,Suhodolskaya,1
+1908,4873,N. M.,Sinjagin,1
+1908,4874,I. M.,Pozemsky,1
+1908,4875,,Liberg,1
+1908,4876,,Blinov,1
+1908,4877,Matvey,Manizer,1
+1908,4878,Ch. M.,Chernovsky,1
+1908,4879,V. I.,Slobodchikov,1
+1908,4880,M. P.,Iosse,1
+1908,4881,Rafail Iosifovich,Buynicki,1
+1908,4883,M. D.,Saltikov,1
+1908,4884,G. F.,Auer,1
+1908,4885,A. F.,Elkin,1
+1908,4886,Evgeny,Baumgarten von,1
 1908,4889,Rudolf,Czakó,1
 1908,4919,Artur,Ferraris,1
 1908,4920,Gyula,Éder,1
@@ -9523,6 +9998,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,5325,Thomas,Jean,1
 1908,5334,Leon,Kamir,1
 1908,5336,Gerald Festus,Kelly,1
+1908,5358,K. V.,Orlov,1
 1908,5377,Byam,Shaw,1
 1908,5379,Westley,Manning,1
 1908,5383,Gerard,Chowne,1
@@ -10081,6 +10557,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,8535,Georges,Houston,1
 1908,8536,Cecil William,Rea,1
 1908,8546,Antonio,Discovolo,1
+1908,8554,Viktor,Vasnetsov,1
 1908,8561,Harry,Becker,2
 1908,8568,Agatha Catherine,Hall Shore,1
 1908,8571,Luigi,Brignoli,1
@@ -10826,6 +11303,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,11992,Dora von,Eschwege,1
 1908,11993,Teofil Borisovič,Fraerman,1
 1908,12026,M. Constance,Lloyd,1
+1908,12133,Anne,Gerebtsova,1
 1908,12165,Alice Marie,Alix,1
 1908,12166,Fernand,Allard-L'Olivier,1
 1908,12167,Henriette Amiard,Oberteuffer,1
@@ -10874,7 +11352,11 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,12213,Gilbert,Galland,1
 1908,12214,Ricardo,Garcia,1
 1908,12215,Firmin-Émile,Gascouin,1
+1908,12502,Vladimir,Baranoff-Rossiné,2
 1908,12822,,Mignon,1
+1908,13027,M. P.,Denisov,1
+1908,13029,V. P.,Matveyev,1
+1908,13030,O.R.,Sukovkina,1
 1908,13052,Vivian,Burton,1
 1908,13053,Florence May,Campbell,1
 1908,13054,James Bell,Anderson,1
@@ -11033,8 +11515,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1908,13344,Lawson,Wood,1
 1909,4,Cuno,Amiet,1
 1909,5,Vassily,Kandinsky,3
+1909,6,Kazimir,Malevich,1
 1909,7,Piet,Mondrian,3
-1909,14,Léon,Bakst,2
+1909,14,Léon,Bakst,3
 1909,15,Giacomo,Balla,1
 1909,19,Paul,Baum,3
 1909,21,Aubrey Vincent,Beardsley,1
@@ -11042,7 +11525,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,24,Vanessa,Bell,1
 1909,25,George Wesley,Bellows,1
 1909,26,Vincenc,Beneš,1
-1909,27,Alexandre,Benois,1
+1909,27,Alexandre,Benois,2
 1909,30,Émile,Bernard,1
 1909,31,Robert Polhill,Bevan,1
 1909,33,Umberto,Boccioni,1
@@ -11053,8 +11536,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,41,Georges,Braque,1
 1909,45,Hans,Brühlmann,2
 1909,47,Max,Buri,1
-1909,48,David,Burlyuk,2
-1909,49,Vladimir,Burlyuk,1
+1909,48,David,Burlyuk,3
+1909,49,Vladimir,Burlyuk,2
 1909,50,Edward,Burne-Jones,1
 1909,55,Carlo,Carrà,1
 1909,57,Felice,Casorati,1
@@ -11073,18 +11556,19 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,85,Gustave de,Smet,1
 1909,88,Maurice de,Vlaminck,3
 1909,89,Karl Edvard,Diriks,1
-1909,90,Mstislav,Dobuzhinsky,1
+1909,90,Mstislav,Dobuzhinsky,2
 1909,91,Henri,Doucet,1
 1909,99,Leander,Engström,1
 1909,100,James,Ensor,1
 1909,102,Adolf,Erbslöh,1
-1909,107,Aleksandra Aleksandrovna,Exster,1
+1909,107,Aleksandra Aleksandrovna,Exster,2
 1909,123,Lyonel,Feininger,1
 1909,124,Emil,Filla,1
 1909,128,Othon,Friesz,2
 1909,129,Roger,Fry,1
 1909,130,Akseli,Gallen-Kallela,1
 1909,132,Paul,Gauguin,2
+1909,133,Aleksandr Fedorovich,Gaush,1
 1909,135,Leo,Gestel,2
 1909,137,Giovanni,Giacometti,1
 1909,138,Harold,Gilman,2
@@ -11111,6 +11595,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,188,Max,Klinger,2
 1909,190,Oskar,Kokoschka,1
 1909,192,Käthe,Kollwitz,2
+1909,194,Nikolay,Krymov,1
 1909,196,Alfred,Kubin,2
 1909,197,Othone,Coubine,2
 1909,207,Henry,Lamb,2
@@ -11119,9 +11604,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,215,Henri Victor Gabriel,Le Fauconnier,1
 1909,218,Wilhelm,Leibl,2
 1909,219,Georges,Lemmen,2
-1909,221,Aristarkh,Lentulov,1
+1909,221,Aristarkh,Lentulov,3
 1909,225,Max,Liebermann,7
-1909,228,Georgy,Lukomsky,1
+1909,228,Georgy,Lukomsky,2
 1909,236,Edouard,Manet,1
 1909,237,Henri Charles,Manguin,4
 1909,243,Ödön,Márffy,2
@@ -11137,6 +11622,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,267,Oskar,Moll,2
 1909,268,Claude,Monet,2
 1909,269,Adolphe,Monticelli,1
+1909,273,Alexsey,Morgunov,1
 1909,274,Koloman,Moser,1
 1909,276,Edvard,Munch,3
 1909,277,Gabriele,Münter,2
@@ -11144,7 +11630,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,286,Willi,Nowak,1
 1909,288,Walter,Ophey,1
 1909,289,Dezső,Orbán,1
-1909,290,Anna Petrovna,Ostroumova-Lebedeva,1
+1909,290,Anna Petrovna,Ostroumova-Lebedeva,2
 1909,292,Bernhard,Pankok,3
 1909,295,Max,Pechstein,1
 1909,296,Giuseppe,Pellizza da Volpedo,1
@@ -11153,6 +11639,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,306,Gaetano,Previati,1
 1909,309,Leo,Putz,4
 1909,311,Jean,Puy,2
+1909,312,Isaak Moiseevich,Rabinovich,1
 1909,316,Odilon,Redon,2
 1909,317,Pierre-Auguste,Renoir,4
 1909,319,József,Rippl-Rónai,3
@@ -11171,7 +11658,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,361,Paul,Signac,4
 1909,364,Max,Slevogt,3
 1909,366,Johannes Carolus Bernardus,Sluijters,3
-1909,369,Konstantin,Somov,1
+1909,369,Konstantin,Somov,2
 1909,371,Václav,Špála,2
 1909,374,Léon,Spilliaert,1
 1909,381,Georg,Tappert,1
@@ -11193,6 +11680,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,412,Franz von,Stuck,2
 1909,413,Fritz von,Uhde,5
 1909,414,Marianne,Werefkin,2
+1909,415,Mikhail,Vrubel',2
 1909,416,Edouard,Vuillard,6
 1909,420,Erik,Werenskiold,2
 1909,421,James McNeill,Whistler,1
@@ -11677,15 +12165,27 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,1852,Gyula,Tichy,2
 1909,1853,István,Zádor,1
 1909,1854,Antal,Neogrady,1
+1909,1865,Ekaterina Vasilevna,Goldinger,1
+1909,1866,Ivan Georgievic,Gugunava,1
 1909,1869,Bertalan,Pór,1
-1909,1875,Yelizaveta,Kruglikova,1
+1909,1873,Vasily Ivanovich,Komarov,1
+1909,1875,Yelizaveta,Kruglikova,2
 1909,1876,Max,Oppenheimer,1
 1909,1879,Alfred,Sohn-Rethel,1
 1909,1880,Hans,Steiner,1
 1909,1881,Eugène,Zak,2
+1909,1890,Konstantin,Kuznetsov,1
 1909,1891,Nikolay,Kuznetsov,1
+1909,1894,Petr Nikandroivč,Mironovic,1
+1909,1898,Stanislav-Vitold Vladislavovich,Noakovsky,1
+1909,1901,Fedor Ivanovich,Rerberg,1
+1909,1902,G.,Saltykov,1
+1909,1906,Aleksander,Sredin,2
+1909,1907,A. P.,Tokarev,1
 1909,1911,Mikhail,Kharlamov,1
 1909,1912,Nikolai I.,Khrustachev,1
+1909,1917,Aleksej Alekseevič,Jasinskij,1
+1909,1918,Konstantin,Jasinskij,1
 1909,1923,Alfred,Sisley,2
 1909,1934,Georges,Le Serrec de Kervily,1
 1909,1935,Derwent,Lees,2
@@ -11698,32 +12198,46 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,1945,Philip Wilson,Steer,2
 1909,1954,Theodore Earl,Butler,1
 1909,1958,Emilie,Charmy,1
-1909,1962,Abram,Arkhipov,1
+1909,1962,Abram,Arkhipov,2
+1909,1965,Konstantin,Bogayevsky,1
 1909,1975,Gergely,Pörge,1
 1909,1976,Artur,Tölgyessy,1
-1909,1989,Boris,Anisfel'd,1
-1909,1992,Ivan,Bilibin,2
-1909,2005,Konstantin,Yuon,1
-1909,2007,Konstantin,Korovin,1
-1909,2009,Boris,Kustodiyev,1
+1909,1989,Boris,Anisfel'd,2
+1909,1992,Ivan,Bilibin,3
+1909,2000,Modest Aleksandrovic,Durnow,1
+1909,2001,Nikolaj Petrovič,Feofilaktov,1
+1909,2004,Mikhail,Ivanov,1
+1909,2005,Konstantin,Yuon,2
+1909,2007,Konstantin,Korovin,2
+1909,2009,Boris,Kustodiyev,2
 1909,2010,Yevgeny,Lansere,2
+1909,2013,Agnes,Lindemann,1
 1909,2014,Walter,Lokkenberg,1
-1909,2017,Sergey Vasil'yevich,Malyutin,2
-1909,2019,Nikolai Vasilevich,Meshcherin,1
-1909,2023,Vladimir Vasilevič,Perepletčikov,2
-1909,2029,Arkady,Rylov,1
+1909,2015,Tatjana,Lugowskaya,1
+1909,2017,Sergey Vasil'yevich,Malyutin,3
+1909,2019,Nikolai Vasilevich,Meshcherin,2
+1909,2023,Vladimir Vasilevič,Perepletčikov,3
+1909,2024,Pyotr,Petrovichev,1
+1909,2027,Nicholas,Roerich,1
+1909,2029,Arkady,Rylov,2
 1909,2035,Nikolai von,Seddeler,1
-1909,2037,Valentin,Serov,1
-1909,2045,Nicolas Alexandrovitch,Tarkhoff,2
-1909,2052,Sergey,Vinogradov,1
+1909,2037,Valentin,Serov,2
+1909,2044,Dmitry,Stelletsky,1
+1909,2045,Nicolas Alexandrovitch,Tarkhoff,3
+1909,2046,Eugiché,Tatewossianz,1
+1909,2052,Sergey,Vinogradov,2
+1909,2057,Stepan Petrovich,Yaremich,1
 1909,2066,Miklós,Vadász,1
 1909,2067,Mihály,Munkácsy,2
 1909,2068,László,Paál,2
 1909,2069,Géza,Mészöly,1
-1909,2075,Georgy,Narbut,1
-1909,2086,Pavel Aleksandrovich,Smelov,1
+1909,2075,Georgy,Narbut,2
+1909,2086,Pavel Aleksandrovich,Smelov,2
 1909,2089,Ivan,Fomin,1
+1909,2090,Marija Jakovlevna,Chembers-Bilibina,1
+1909,2093,Adolf Iosifovic,Charlemagne,1
 1909,2094,Aleksandr,Shervashidze,1
+1909,2098,Vasily,Shukhayev,1
 1909,2099,Aleksandr,Yakovlev,1
 1909,2116,Louis,Thévenet,1
 1909,2121,Childe,Hassam,1
@@ -11732,6 +12246,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,2129,Hans Adolph,Bühler,1
 1909,2135,Fritz,Hass,1
 1909,2144,Alfons,Purtscher,1
+1909,2148,Jurij Il'ič,Repin,1
 1909,2153,Walter,Schnackenberg,1
 1909,2161,James,Pryde,1
 1909,2215,Julian Alden,Weir,1
@@ -11745,8 +12260,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,2250,Clare,Atwood,2
 1909,2252,Carolina,Haverman-Birnie,1
 1909,2254,Tina,Blau-Lang,1
-1909,2261,Stanislav Julianovič,Žukovskij,2
-1909,2263,Leonid,Pasternak,2
+1909,2258,Apollinary,Vasnetsov,1
+1909,2259,Nikolai Vasilevich,Doseikin,1
+1909,2260,Nikolai Aleksandrovič,Klodt,1
+1909,2261,Stanislav Julianovič,Žukovskij,3
+1909,2262,Mikhail Anatolyevich,Mamontov,1
+1909,2263,Leonid,Pasternak,3
 1909,2267,Thérèse,Schwartze,3
 1909,2272,Susanne,Robertson,1
 1909,2288,Ketty,Gilsoul-Hoppe,1
@@ -11776,15 +12295,16 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,2371,Stanisław,Czajkowski,1
 1909,2374,Josef,Ullmann,2
 1909,2375,Jan,Honsa,2
-1909,2378,Aleksey,Stepanov,1
+1909,2378,Aleksey,Stepanov,2
 1909,2379,Johan,Akkeringa,2
 1909,2380,Floris,Arntzenius,4
 1909,2382,Anton Abraham van,Anrooy,1
 1909,2383,Victor,Bauffe,2
-1909,2387,Jan,Ciągliński,1
+1909,2386,Leonard,Turzhansky,1
+1909,2387,Jan,Ciągliński,2
 1909,2388,Willem,van den Berg,1
 1909,2390,Théophile de,Bock,1
-1909,2391,Manuil Khristoforovich,Aladzhalov,1
+1909,2391,Manuil Khristoforovich,Aladzhalov,2
 1909,2393,Isaak,Brodsky,1
 1909,2400,Hermina,Bruck,1
 1909,2419,Lionello,Balestrieri,1
@@ -11799,10 +12319,15 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,2466,Viktor,Stretti,1
 1909,2468,Leo,Delitz,1
 1909,2472,Rudolf,Junk,1
+1909,2500,Vasily,Surikov,1
 1909,2509,François,Beauck,1
-1909,2524,Leonid,Brailovskii,1
-1909,2525,Rimma Nikitična,Brailovskaja,1
+1909,2514,A. V.,Shhusev,2
+1909,2523,Grigorij Michajlovič,Bobrovskij,1
+1909,2524,Leonid,Brailovskii,2
+1909,2525,Rimma Nikitična,Brailovskaja,2
+1909,2535,Mikhail,Ezuchevsky,1
 1909,2563,Nikolai Petrovich,Khimona,1
+1909,2570,Dmitry,Kardovsky,1
 1909,2571,Oszkár,Glatz,3
 1909,2573,Richard,Baseleer,2
 1909,2577,Jacobs,Smits,1
@@ -11810,8 +12335,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,2579,Emile,Vloors,1
 1909,2584,Hermann,Lismann,1
 1909,2585,Ernesto,De Fiori,1
-1909,2587,Konstantin,Evseev,1
+1909,2587,Konstantin,Evseev,2
 1909,2589,Alexander,Keller,1
+1909,2592,Vladimir,Pokrovsky,1
 1909,2595,Alek'sandr,T'amanyan,1
 1909,2599,Maximilian Vladimirovich,Eberman,1
 1909,2601,Jan,Toorop,3
@@ -11873,6 +12399,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,2883,Mikoláš,Aleš,1
 1909,2894,Francis,Jourdain,1
 1909,2899,Vladimir Petrovič,Drittenprejs,1
+1909,2903,Viktor,Zamyraylo,2
+1909,2904,Sergey,Ivanov,1
 1909,2907,Armand,Guillaumin,3
 1909,2914,Fülöp,László,2
 1909,2918,Maurice,Asselin,1
@@ -11932,7 +12460,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,3046,Gaspard,Maillol,1
 1909,3048,Alexandre,Urbain,1
 1909,3053,Paul,Deltombe,1
-1909,3065,Nikolai Filippovich,Petrov,1
+1909,3065,Nikolai Filippovich,Petrov,2
 1909,3072,Henri,Ottmann,2
 1909,3074,Mary,Cassatt,1
 1909,3077,Matthijs,Maris,1
@@ -11978,6 +12506,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,3403,John,Constable,1
 1909,3404,Pieter,Lastman,1
 1909,3405,Cornelis de,Vos,1
+1909,3410,Olga Della-Vos,Kardovskaya,1
+1909,3416,Maria Ivanovna,Ivashintsova,1
 1909,3419,Rudolf,Wilke,2
 1909,3429,Rudolf,Bém,1
 1909,3430,Vlastimil,Hofmann,3
@@ -12029,6 +12559,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,3812,Henrik,Major,1
 1909,3830,Margarete,Hausberg,1
 1909,3844,Frank,Brangwyn,2
+1909,3851,Yakov,Kalinichenko,1
 1909,3867,Emmy,Angermann,1
 1909,3868,Joachim von,Bülow,1
 1909,3869,Clemens,Fränkel,1
@@ -12042,6 +12573,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,3878,Alois,Kolb,1
 1909,3879,Eugen,Osswald,1
 1909,3880,Marie,Schnür,1
+1909,3885,Vladimir Aleksandrovič,Beklemišev,1
+1909,3888,Elena Ivanovna,Kamenceva,1
+1909,3889,Petr,Kelin,1
 1909,3914,Ferdinand Matthias,Zerlacher,1
 1909,3929,Cornelis,Kuypers,2
 1909,3943,Wladyslaw,Jarocki,1
@@ -12053,11 +12587,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,4001,James Whitelaw,Hamilton,1
 1909,4024,Otakar,Španiel,1
 1909,4074,Huib,Luns,2
+1909,4107,N. S.,Smirnova,1
 1909,4125,Hermann,Sandkuhl,1
 1909,4145,Louis,Mark,1
 1909,4165,Katsushika,Hokusai,1
 1909,4171,Ando,Hiroshige,1
 1909,4195,Willem Leonardus,Bruckman,1
+1909,4197,Vladimir,Orlov,1
 1909,4198,Franz Wilhelm Maria,Deutmann,2
 1909,4200,Jacob,Dooyewaard,1
 1909,4201,August von,Brandis,1
@@ -12067,6 +12603,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,4215,Theo,Goedvriend,2
 1909,4216,Arnold Marc,Gorter,2
 1909,4217,Hendrik Johannes,Haverman,2
+1909,4219,N. I.,Bastarev-Vasilyev,1
+1909,4221,Léon,Zack,1
 1909,4226,Johannes Hendricus,Jurres,2
 1909,4227,Eduard,Karsen,2
 1909,4229,Arnold Hendrik,Koning,3
@@ -12079,6 +12617,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,4242,Johannes Cornelis,Pabst,1
 1909,4244,Willem Cornelis,Rip,2
 1909,4245,Willem Elisa,Roelofs,1
+1909,4246,Usein,Bodaninsky,1
+1909,4248,A. E.,Ivanov,1
+1909,4253,Semen,Frolov,1
 1909,4258,Gustav,Bechler,1
 1909,4260,Alexandre,Bertrand,1
 1909,4265,Gerardus Johannes,Roermeester,1
@@ -12147,13 +12688,36 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,4563,Vera Dmitrieva,Novodvorskaya,1
 1909,4571,Béla,Málnai,1
 1909,4579,Robert,Lénárd,2
+1909,4581,N. N.,Boldyrev,1
+1909,4584,Nikolay,Goloshapov,1
 1909,4586,Victor,Dobrzynski,1
+1909,4592,V. N.,Kresanov,1
 1909,4594,Aleksandr,Manganari,1
+1909,4596,Nikolay,Pirogov,1
+1909,4597,Vladimir,Polunin,1
 1909,4603,A. S.,Rybakov,1
+1909,4608,V. V.,Trusov,1
 1909,4613,Vladimir,Emme,1
+1909,4616,V. V.,Vladimirov,1
+1909,4618,D. M.,Vodar,1
+1909,4621,Nadezhda,Voitinskaya,1
+1909,4625,E. W.,Hart,1
+1909,4626,S. A.,Detinov,1
+1909,4627,Nikolay,Saretsky,1
+1909,4628,E. A.,Zernova,1
+1909,4629,Nikolai,Sheverdyev,1
+1909,4630,Aleksander,Szturman,1
+1909,4631,Jacob,Hast,1
+1909,4632,Nikolai Michajlovič,Fokin,1
 1909,4639,Jenő,Kuszka,1
 1909,4679,Frigyes,Miess,1
 1909,4681,József,Pálfy,1
+1909,4688,I. I.,Kurilenko,1
+1909,4689,Vladimir,Komarovsky,1
+1909,4690,Boris,Kamensky,1
+1909,4691,Lidija G.,Mejster,1
+1909,4692,S. V.,Starov,1
+1909,4693,Sergey,Storozhenko,1
 1909,4734,Thorolf,Holmboe,1
 1909,4736,Gudmund,Stenersen,1
 1909,4738,Gerhard,Munthe,1
@@ -13716,7 +14280,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,12246,Giovanni,Sottocornola,1
 1909,12300,Cesare,Fratino,1
 1909,12370,Giuseppe,Leoni,1
-1909,12502,Vladimir,Baranoff-Rossiné,1
+1909,12502,Vladimir,Baranoff-Rossiné,2
 1909,12541,Camillo,Totonelli,1
 1909,12564,Alex,Fain,1
 1909,12565,Lucien,Rion,1
@@ -13826,15 +14390,16 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1909,13977,George Laurens,Kiers,1
 1909,13979,Marinus Cornelis Thomas,Vermeulen,1
 1910,4,Cuno,Amiet,3
-1910,5,Vassily,Kandinsky,3
+1910,5,Vassily,Kandinsky,4
+1910,6,Kazimir,Malevich,1
 1910,7,Piet,Mondrian,1
-1910,14,Léon,Bakst,2
+1910,14,Léon,Bakst,3
 1910,15,Giacomo,Balla,1
 1910,17,Ernst,Barlach,1
 1910,19,Paul,Baum,1
 1910,23,Max,Beckmann,4
 1910,24,Vanessa,Bell,1
-1910,27,Alexandre,Benois,1
+1910,27,Alexandre,Benois,2
 1910,28,Róbert,Berény,1
 1910,31,Robert Polhill,Bevan,1
 1910,34,Arnold,Böcklin,1
@@ -13843,8 +14408,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,41,Georges,Braque,4
 1910,45,Hans,Brühlmann,2
 1910,47,Max,Buri,3
-1910,48,David,Burlyuk,3
-1910,49,Vladimir,Burlyuk,3
+1910,48,David,Burlyuk,4
+1910,49,Vladimir,Burlyuk,4
 1910,51,Charles,Camoin,4
 1910,56,Eugène,Carrière,4
 1910,57,Felice,Casorati,1
@@ -13866,26 +14431,29 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,87,Georges-Olivier,Desvallières,3
 1910,88,Maurice de,Vlaminck,5
 1910,89,Karl Edvard,Diriks,2
-1910,90,Mstislav,Dobuzhinsky,1
+1910,90,Mstislav,Dobuzhinsky,2
 1910,91,Henri,Doucet,1
 1910,99,Leander,Engström,1
 1910,100,James,Ensor,1
-1910,102,Adolf,Erbslöh,1
+1910,102,Adolf,Erbslöh,2
 1910,103,Thorvald,Erichsen,2
-1910,107,Aleksandra Aleksandrovna,Exster,2
+1910,107,Aleksandra Aleksandrovna,Exster,3
+1910,121,Robert,Fa'lk,2
 1910,123,Lyonel,Feininger,1
+1910,125,Pavel,Filonov,1
 1910,126,Bernhard Dorotheus,Folkestad,1
+1910,127,Artur,Fonvizin,1
 1910,128,Othon,Friesz,5
 1910,129,Roger,Fry,1
 1910,130,Akseli,Gallen-Kallela,1
 1910,132,Paul,Gauguin,9
-1910,133,Aleksandr Fedorovich,Gaush,2
+1910,133,Aleksandr Fedorovich,Gaush,3
 1910,135,Leo,Gestel,1
 1910,137,Giovanni,Giacometti,2
 1910,138,Harold,Gilman,1
 1910,140,Pierre Paul,Girieud,5
-1910,142,Albert,Gleizes,2
-1910,143,Natalia,Goncharova,2
+1910,142,Albert,Gleizes,3
+1910,143,Natalia,Goncharova,5
 1910,144,Spencer,Gore,1
 1910,145,Duncan,Grant,1
 1910,149,Isaac,Grünewald,1
@@ -13899,9 +14467,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,166,Karl,Hofer,3
 1910,170,James Dickson,Innes,1
 1910,171,Isaac,Israëls,1
-1910,173,Alexei,Jawlensky,3
+1910,173,Alexei,Jawlensky,4
 1910,176,Gwen,John,1
-1910,179,Alexander,Kanoldt,2
+1910,179,Alexander,Kanoldt,3
 1910,181,Károly,Kernstok,2
 1910,182,Fernand,Khnopff,1
 1910,183,Ernst Ludwig,Kirchner,3
@@ -13912,21 +14480,24 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,190,Oskar,Kokoschka,1
 1910,191,Georg,Kolbe,1
 1910,192,Käthe,Kollwitz,3
-1910,194,Nikolay,Krymov,2
+1910,193,Pyotr,Konchalovsky,2
+1910,194,Nikolay,Krymov,3
 1910,196,Alfred,Kubin,3
 1910,201,František,Kupka,1
+1910,202,Aleksandr,Kuprin,2
+1910,203,Pavel,Kuznetsov,1
 1910,205,Eugène,Laermans,1
 1910,207,Henry,Lamb,1
 1910,208,Pierre,Laprade,5
-1910,209,Mikhail,Larionov,2
+1910,209,Mikhail,Larionov,5
 1910,210,Marie,Laurencin,1
-1910,215,Henri Victor Gabriel,Le Fauconnier,3
+1910,215,Henri Victor Gabriel,Le Fauconnier,4
 1910,218,Wilhelm,Leibl,1
 1910,219,Georges,Lemmen,2
-1910,221,Aristarkh,Lentulov,1
+1910,221,Aristarkh,Lentulov,2
 1910,224,André,Lhote,2
 1910,225,Max,Liebermann,5
-1910,228,Georgy,Lukomsky,2
+1910,228,Georgy,Lukomsky,3
 1910,230,Henrik Louis,Lund,1
 1910,235,Aristide,Maillol,6
 1910,236,Edouard,Manet,9
@@ -13934,32 +14505,34 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,243,Ödön,Márffy,1
 1910,245,Albert,Marquet,5
 1910,246,Alberto,Martini,1
-1910,247,Il'ya,Mashkov,2
+1910,247,Il'ya,Mashkov,5
 1910,248,Henri,Matisse,10
 1910,250,Mikhail,Matyushin,1
 1910,254,Moritz,Melzer,3
 1910,255,Jean,Metzinger,1
 1910,256,Constantin,Meunier,2
+1910,257,Nikolay,Milioti,1
 1910,265,Aleksandr Pavlovič,Mogilevskij,1
 1910,267,Oskar,Moll,1
 1910,268,Claude,Monet,7
 1910,269,Adolphe,Monticelli,6
+1910,273,Alexsey,Morgunov,1
 1910,275,Otto,Mueller,2
 1910,276,Edvard,Munch,3
-1910,277,Gabriele,Münter,2
+1910,277,Gabriele,Münter,3
 1910,278,Elie,Nadelman,1
 1910,281,Heinrich,Nauen,5
 1910,284,Emil,Nolde,3
 1910,286,Willi,Nowak,1
 1910,288,Walter,Ophey,1
 1910,289,Dezső,Orbán,1
-1910,290,Anna Petrovna,Ostroumova-Lebedeva,1
+1910,290,Anna Petrovna,Ostroumova-Lebedeva,2
 1910,292,Bernhard,Pankok,1
 1910,293,Jules,Pascin,2
 1910,295,Max,Pechstein,6
 1910,296,Giuseppe,Pellizza da Volpedo,1
 1910,297,Constant,Permeke,1
-1910,298,Kuz'ma,Petrov-Vodkin,2
+1910,298,Kuz'ma,Petrov-Vodkin,4
 1910,301,Pablo,Picasso,5
 1910,304,Jan,Preisler,1
 1910,308,Hans,Purrmann,1
@@ -13977,7 +14550,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,329,Georges,Rouault,4
 1910,330,Henri,Rousseau,2
 1910,331,Ker-Xavier,Roussel,4
+1910,334,Nikolay,Ryabushinsky,1
 1910,336,Gösta,Sandels,1
+1910,338,Nikolay,Sapunov,1
+1910,339,Martiros,Sarian,1
 1910,345,Karl,Schmidt-Rottluff,5
 1910,348,Arthur,Segal,1
 1910,349,Giovanni,Segantini,2
@@ -13985,10 +14561,14 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,351,Paul,Sérusier,2
 1910,353,Georges,Seurat,3
 1910,355,René,Seyssaud,2
+1910,358,Iosif Solomonovič,Škol'nik,1
+1910,359,Léopold,Survage,1
 1910,360,Walter Richard,Sickert,2
 1910,361,Paul,Signac,6
 1910,364,Max,Slevogt,3
 1910,366,Johannes Carolus Bernardus,Sluijters,1
+1910,369,Konstantin,Somov,1
+1910,372,Ėduard Karlovič,Spandikov,1
 1910,375,Jacob,Steinhardt,1
 1910,380,Sergey,Sudyekin,1
 1910,381,Georg,Tappert,2
@@ -13996,7 +14576,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,385,Oluf,Wold-Torne,2
 1910,386,Henri de,Toulouse-Lautrec,3
 1910,387,Albert,Trachsel,1
-1910,391,Petr Savvič,Utkin,1
+1910,390,Nikolay Pavlovic,Ul'yanov,1
+1910,391,Petr Savvič,Utkin,2
 1910,394,Félix,Vallotton,5
 1910,395,Louis,Valtat,4
 1910,400,Kees van,Dongen,7
@@ -14006,7 +14587,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,410,Ludwig von,Hofmann,4
 1910,412,Franz von,Stuck,3
 1910,413,Fritz von,Uhde,4
-1910,414,Marianne,Werefkin,2
+1910,414,Marianne,Werefkin,3
 1910,416,Edouard,Vuillard,6
 1910,420,Erik,Werenskiold,2
 1910,429,Anders,Zorn,1
@@ -14112,7 +14693,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,603,Rudolf,Jettmar,2
 1910,604,Maximilian,Lenz,1
 1910,606,Friedrich,König,1
-1910,613,Vladimir Georgievich,Bekhteev,2
+1910,613,Vladimir Georgievich,Bekhteev,3
+1910,621,Nikolay,Kulbin,1
 1910,640,Maximilian,Liebenwein,1
 1910,641,Marianne,Stokes,1
 1910,642,Albert,Besnard,3
@@ -14232,6 +14814,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,855,Adolf Edward,Herstein,2
 1910,861,W. Franz,Jäger,2
 1910,862,Arthur,Illies,1
+1910,866,Viktor,Savinkov,1
+1910,870,A.M.,Samojlova,1
 1910,871,Walther,Klemm,2
 1910,876,Hugo,Krayn,1
 1910,878,"Josef, II",Kühn,3
@@ -14432,12 +15016,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,1407,Arnold,Waldschmidt,1
 1910,1409,Paul,Wilhelm,1
 1910,1411,Adolf,Strübe,1
-1910,1416,Sofia,Baudouin de Courtenay,1
-1910,1418,Gleb,Verhovskiy,1
-1910,1420,Anna,Zelmanova,1
-1910,1423,Svyatoslav Alexandrovich,Nagubnikov,1
-1910,1424,Evgeniy Yakovlevich,Sahajdačnyj,1
-1910,1426,Savely,Shleyfer,1
+1910,1416,Sofia,Baudouin de Courtenay,3
+1910,1418,Gleb,Verhovskiy,2
+1910,1420,Anna,Zelmanova,2
+1910,1423,Svyatoslav Alexandrovich,Nagubnikov,2
+1910,1424,Evgeniy Yakovlevich,Sahajdačnyj,2
+1910,1426,Savely,Shleyfer,2
+1910,1427,Victor,Barthe,1
 1910,1428,Fritz,Wimmer,1
 1910,1430,Otto,Wyler,1
 1910,1431,Oskar,Zwintscher,1
@@ -14508,6 +15093,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,1691,Alexander,Weise,1
 1910,1694,Karl,Bauer,1
 1910,1695,Eugen Friedrich,Berner,1
+1910,1700,Nikolai Efimovič,Rogovin,1
 1910,1701,Hans,Rossmann,1
 1910,1704,Eugène,Boudin,1
 1910,1705,Jean Louis,Forain,2
@@ -14534,7 +15120,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,1780,Jean-François,Raffaëlli,4
 1910,1781,Arturo,Rietti,1
 1910,1784,Imre Károly,Simay,2
-1910,1793,Igor,Grabar,1
+1910,1793,Igor,Grabar,2
 1910,1795,Charles,Lacoste,1
 1910,1801,Alfred William,Finch,1
 1910,1803,Adriaan Joseph,Heymans,1
@@ -14569,6 +15155,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,1854,Antal,Neogrady,1
 1910,1867,Vasili Ivanovich,Denisov,2
 1910,1869,Bertalan,Pór,1
+1910,1871,Ivan Adolfovich,Knabe,1
 1910,1875,Yelizaveta,Kruglikova,1
 1910,1879,Alfred,Sohn-Rethel,4
 1910,1883,Kristen,Holbø,2
@@ -14578,8 +15165,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,1887,Einar,Nerman,1
 1910,1888,Strandberg,Gadde,1
 1910,1891,Nikolay,Kuznetsov,1
+1910,1906,Aleksander,Sredin,1
 1910,1911,Mikhail,Kharlamov,1
 1910,1912,Nikolai I.,Khrustachev,1
+1910,1917,Aleksej Alekseevič,Jasinskij,1
 1910,1923,Alfred,Sisley,5
 1910,1924,Adrienne,Bruyère,1
 1910,1925,Marguerite,Lombois,1
@@ -14599,6 +15188,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,1944,Charles Haslewood,Shannon,1
 1910,1945,Philip Wilson,Steer,1
 1910,1954,Theodore Earl,Butler,1
+1910,1960,Anatoly,Arapov,1
+1910,1962,Abram,Arkhipov,1
 1910,1965,Konstantin,Bogayevsky,2
 1910,1968,Liubov Nikolaevna,Gaush,1
 1910,1972,Konstantin Vikent'evič,Dydyško,1
@@ -14607,36 +15198,42 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,1978,Mozart,Rottmann,1
 1910,1979,Margit,Rácz-Kovách,1
 1910,1982,Antal,Berkes,1
-1910,1989,Boris,Anisfel'd,1
+1910,1989,Boris,Anisfel'd,2
 1910,1992,Ivan,Bilibin,2
 1910,2003,Aleksandr,Golovin,1
-1910,2005,Konstantin,Yuon,1
-1910,2009,Boris,Kustodiyev,1
+1910,2005,Konstantin,Yuon,2
+1910,2007,Konstantin,Korovin,1
+1910,2009,Boris,Kustodiyev,2
 1910,2010,Yevgeny,Lansere,1
-1910,2014,Walter,Lokkenberg,1
-1910,2017,Sergey Vasil'yevich,Malyutin,1
-1910,2023,Vladimir Vasilevič,Perepletčikov,1
-1910,2027,Nicholas,Roerich,1
-1910,2029,Arkady,Rylov,1
+1910,2013,Agnes,Lindemann,1
+1910,2014,Walter,Lokkenberg,2
+1910,2017,Sergey Vasil'yevich,Malyutin,2
+1910,2019,Nikolai Vasilevich,Meshcherin,1
+1910,2023,Vladimir Vasilevič,Perepletčikov,2
+1910,2027,Nicholas,Roerich,2
+1910,2029,Arkady,Rylov,2
 1910,2031,Lipót,Herman,1
 1910,2035,Nikolai von,Seddeler,1
+1910,2037,Valentin,Serov,1
 1910,2044,Dmitry,Stelletsky,1
-1910,2045,Nicolas Alexandrovitch,Tarkhoff,2
-1910,2052,Sergey,Vinogradov,1
+1910,2045,Nicolas Alexandrovitch,Tarkhoff,4
+1910,2052,Sergey,Vinogradov,2
+1910,2057,Stepan Petrovich,Yaremich,1
 1910,2064,Nikolay,Lansere,1
 1910,2066,Miklós,Vadász,1
 1910,2067,Mihály,Munkácsy,3
 1910,2068,László,Paál,2
 1910,2069,Géza,Mészöly,1
-1910,2073,Dmitry,Mitrokhin,1
-1910,2075,Georgy,Narbut,1
-1910,2076,Pavel,Naumov,1
+1910,2073,Dmitry,Mitrokhin,3
+1910,2075,Georgy,Narbut,2
+1910,2076,Pavel,Naumov,2
 1910,2083,Aleksandr,Rostislavov,1
 1910,2086,Pavel Aleksandrovich,Smelov,1
 1910,2089,Ivan,Fomin,1
-1910,2090,Marija Jakovlevna,Chembers-Bilibina,1
-1910,2094,Aleksandr,Shervashidze,1
-1910,2099,Aleksandr,Yakovlev,1
+1910,2090,Marija Jakovlevna,Chembers-Bilibina,2
+1910,2091,Sergey,Chekhonin,1
+1910,2094,Aleksandr,Shervashidze,2
+1910,2099,Aleksandr,Yakovlev,2
 1910,2100,Michail Nikolaevič,Jakovlev,1
 1910,2110,Florence,Esté,1
 1910,2116,Louis,Thévenet,1
@@ -14728,7 +15325,11 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,2254,Tina,Blau-Lang,1
 1910,2255,Lucie,Lambert,1
 1910,2256,Alice,Dannenberg,2
+1910,2258,Apollinary,Vasnetsov,1
+1910,2259,Nikolai Vasilevich,Doseikin,1
+1910,2260,Nikolai Aleksandrovič,Klodt,1
 1910,2261,Stanislav Julianovič,Žukovskij,2
+1910,2263,Leonid,Pasternak,1
 1910,2264,Pauline Caroline Margarethe von,Kurowski,1
 1910,2265,Anna von,Amira,1
 1910,2266,Charlotte,Besnard,1
@@ -14824,15 +15425,19 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,2368,Wojciech,Weiss,1
 1910,2369,Józef,Pankiewicz,1
 1910,2375,Jan,Honsa,1
+1910,2377,Konstantin Konstantinovich,Pervukhin,1
+1910,2378,Aleksey,Stepanov,1
 1910,2379,Johan,Akkeringa,1
 1910,2380,Floris,Arntzenius,2
 1910,2381,Constant,Artz,1
 1910,2382,Anton Abraham van,Anrooy,1
 1910,2383,Victor,Bauffe,1
+1910,2387,Jan,Ciągliński,1
 1910,2388,Willem,van den Berg,1
 1910,2389,Maria Philippina,Bilders-van Bosse,1
 1910,2390,Théophile de,Bock,1
-1910,2393,Isaak,Brodsky,1
+1910,2391,Manuil Khristoforovich,Aladzhalov,1
+1910,2393,Isaak,Brodsky,2
 1910,2396,Georgette,Agutte,2
 1910,2401,Ilona,Benkő,1
 1910,2402,Dezső,Rózsaffy,1
@@ -14893,12 +15498,16 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,2497,Ernst,Norlind,2
 1910,2498,Erik,Hedberg,2
 1910,2499,Oscar,Björck,2
+1910,2500,Vasily,Surikov,1
 1910,2501,Pelle,Swedlund,2
 1910,2503,Olle,Hjortzberg,2
 1910,2504,Emil,Österman,2
 1910,2505,Alfred-Mauritz,Bergström,2
 1910,2510,Hubert de la,Rochefoucauld,1
-1910,2515,V. Ya,Chambers,1
+1910,2512,M. K.,Čiurlionis,1
+1910,2513,A. K.,Shhuko,1
+1910,2514,A. V.,Shhusev,1
+1910,2515,V. Ya,Chambers,2
 1910,2524,Leonid,Brailovskii,1
 1910,2525,Rimma Nikitična,Brailovskaja,1
 1910,2537,Viktor Ivanovich,Zarubin,1
@@ -14913,6 +15522,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,2582,Otto,Freundlich,1
 1910,2584,Hermann,Lismann,1
 1910,2586,Jean,Jovenau,1
+1910,2587,Konstantin,Evseev,1
 1910,2589,Alexander,Keller,1
 1910,2595,Alek'sandr,T'amanyan,1
 1910,2598,Mikhail Aleksandrovic,Šitov,1
@@ -15001,6 +15611,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,2909,,Ricard,1
 1910,2910,Louis,Charlot,1
 1910,2917,George,Manzana-Pissarro,1
+1910,2919,Luc-Albert,Moreau,1
 1910,2927,Théodore,Chassériau,2
 1910,2933,Xavier,Gosé,1
 1910,2934,Constantin,Guys,2
@@ -15131,13 +15742,18 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,3400,Reinhold,Nägele,1
 1910,3401,George Hendrik,Breitner,1
 1910,3419,Rudolf,Wilke,1
+1910,3425,M. A.,Derkach,1
+1910,3426,Aleksej Eremeevič,Karev,1
 1910,3429,Rudolf,Bém,1
 1910,3430,Vlastimil,Hofmann,1
 1910,3436,Andreas,Achenbach,1
 1910,3437,Oswald,Achenbach,1
 1910,3438,Giovanni,Boldini,2
 1910,3439,Léon,Bonnat,1
-1910,3440,Erma,Bossi,2
+1910,3440,Erma,Bossi,3
+1910,3441,V.,Zaporozhcev,1
+1910,3442,Sergey,Lobanov,1
+1910,3443,A.,Mikuli,1
 1910,3444,Alexandre-Gabriel,Decamps,1
 1910,3445,Narcisse Virgile,Diaz de la Peña,4
 1910,3446,Jules,Dupré,2
@@ -15163,6 +15779,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,3470,B.,Vautier,1
 1910,3471,Hedwig,Ruetz,1
 1910,3475,Frieda,Konstantin,1
+1910,3478,Veniamin,Eiges,1
+1910,3479,Boris A.,Takke,1
+1910,3480,I. A.,Skuje,1
 1910,3484,József,Egry,1
 1910,3486,Stanislav,Lolek,1
 1910,3490,Alois,Kalvoda,3
@@ -15341,12 +15960,14 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,4281,Jan Hillebrand,Wijsmuller,1
 1910,4282,Jacob Abraham,Zon,1
 1910,4283,Willem de,Zwart,1
+1910,4285,Z. A.,Baykova,1
+1910,4289,I. F.,Larionov,1
 1910,4308,Gitta,Gyenes,1
 1910,4310,Álmos,Jaschik,1
 1910,4312,János,Kmetty,1
 1910,4313,György,Kürthy,1
 1910,4315,Carl,Kappstein,1
-1910,4317,Petr Ivanovic,L'vov,1
+1910,4317,Petr Ivanovic,L'vov,2
 1910,4324,Tivadar,Mousson,1
 1910,4326,Vilmos,Nagy,1
 1910,4327,Magda,Oppel,1
@@ -15403,20 +16024,23 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,4545,Viktor,Olgyai,2
 1910,4548,Ernő,Vörös,1
 1910,4553,Varvara Dmitrievna,Bubnova,1
-1910,4561,Vladimir,Markov,1
+1910,4561,Vladimir,Markov,2
 1910,4562,Leo,Mitelman,1
 1910,4563,Vera Dmitrieva,Novodvorskaya,1
 1910,4571,Béla,Málnai,1
 1910,4578,Jenő,Szigeti,1
+1910,4580,Aleksej Fedorovič,Afanas'ev,1
 1910,4586,Victor,Dobrzynski,1
 1910,4613,Vladimir,Emme,1
 1910,4627,Nikolay,Saretsky,1
 1910,4652,Anna,Munthe-Norstedt,1
 1910,4678,Manó,Vesztróczy,2
 1910,4679,Frigyes,Miess,1
-1910,4700,Sofia,Nalepinskaya-Boychuk,1
-1910,4701,I.,Severin,1
-1910,4702,Anastasiya,Ukhanova,1
+1910,4698,Valentin,Bystrenin,1
+1910,4699,Lerky,Zheverzheyev,1
+1910,4700,Sofia,Nalepinskaya-Boychuk,2
+1910,4701,I.,Severin,2
+1910,4702,Anastasiya,Ukhanova,2
 1910,4726,Vilmos,Mátrai,1
 1910,4727,Julius Gyula,Basch,1
 1910,4742,Käte,Franck,1
@@ -15491,6 +16115,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,5076,Lajos,Rauscher,2
 1910,5087,Sándor,Nagy,2
 1910,5089,Antoine,Vollon,1
+1910,5125,Nikolai Leonidovich,Ivanov,1
 1910,5236,Jean Charles,Cazin,1
 1910,5256,Alphonse,Legros,2
 1910,5264,Émile Alfred,Dezaunay,1
@@ -16480,6 +17105,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,12233,J.,Gidding,1
 1910,12234,Philippine Anne Madeleine,Quarles van Ufford,1
 1910,12784,Bartold,Asendorpf,1
+1910,12921,Ivan,Zakharov,1
+1910,12929,V.M.,Triyk-Grekov,1
 1910,12937,Willy von,Beckerath,1
 1910,12938,Kurt,Schäfer,1
 1910,12939,Maria,Suk,1
@@ -16489,22 +17116,27 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1910,12948,Daniel,Noteboom,1
 1910,12950,,Bistrenin,1
 1910,12985,George Friedrich Ferdinand,Schiller,1
+1910,12986,F. K.,Konstantinov,1
+1910,12987,S. V.,Chorchop,1
 1910,12988,Alexei,Kokel',1
 1910,13020,V.K.,Tsarevskaya,1
 1910,13026,H.,Wegewijs,1
+1910,13038,,Silvestrov,1
 1910,13040,Rosa,Feinstein,1
 1910,13296,Vitya,Fedorov,1
 1910,13297,Anya,Vengrzhinovskaya,1
 1910,13298,Armand,Al'tman,1
 1910,13299,Volodya,Radionov,1
 1911,4,Cuno,Amiet,3
-1911,5,Vassily,Kandinsky,4
+1911,5,Vassily,Kandinsky,5
+1911,6,Kazimir,Malevich,2
 1911,7,Piet,Mondrian,2
 1911,12,Hans,Arp,1
 1911,14,Léon,Bakst,1
 1911,19,Paul,Baum,1
 1911,23,Max,Beckmann,1
 1911,26,Vincenc,Beneš,1
+1911,27,Alexandre,Benois,2
 1911,28,Róbert,Berény,1
 1911,29,Hendrik Petrus,Berlage,1
 1911,30,Émile,Bernard,1
@@ -16512,12 +17144,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,32,Albert,Bloch,3
 1911,34,Arnold,Böcklin,2
 1911,37,Pierre,Bonnard,3
+1911,38,Viktor,Borisov-Musatov,1
 1911,41,Georges,Braque,3
 1911,42,Horace,Brodzky,1
 1911,45,Hans,Brühlmann,1
 1911,47,Max,Buri,3
-1911,48,David,Burlyuk,2
-1911,49,Vladimir,Burlyuk,1
+1911,48,David,Burlyuk,5
+1911,49,Vladimir,Burlyuk,4
 1911,51,Charles,Camoin,2
 1911,52,Heinrich,Campendonk,2
 1911,56,Eugène,Carrière,3
@@ -16536,6 +17169,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,87,Georges-Olivier,Desvallières,2
 1911,88,Maurice de,Vlaminck,4
 1911,89,Karl Edvard,Diriks,2
+1911,90,Mstislav,Dobuzhinsky,3
 1911,91,Henri,Doucet,1
 1911,93,Malcolm,Drummond,2
 1911,95,Marcel,Duchamp,1
@@ -16543,13 +17177,21 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,98,André,Dunoyer de Segonzac,2
 1911,99,Leander,Engström,1
 1911,102,Adolf,Erbslöh,4
+1911,107,Aleksandra Aleksandrovna,Exster,2
 1911,108,Anton,Faistauer,1
+1911,113,Ivan,Klyun,1
+1911,116,Jean,Pougny,1
+1911,117,Ol'ga,Rozanova,2
+1911,118,Vladimir,Tatlin,3
+1911,121,Robert,Fa'lk,1
 1911,122,Bedřich,Feigl,1
 1911,123,Lyonel,Feininger,1
 1911,124,Emil,Filla,1
+1911,127,Artur,Fonvizin,2
 1911,128,Othon,Friesz,7
 1911,130,Akseli,Gallen-Kallela,1
 1911,132,Paul,Gauguin,3
+1911,133,Aleksandr Fedorovich,Gaush,2
 1911,134,Mark,Gertler,1
 1911,135,Leo,Gestel,1
 1911,136,Augusto,Giacometti,1
@@ -16558,6 +17200,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,139,Charles,Ginner,2
 1911,140,Pierre Paul,Girieud,5
 1911,142,Albert,Gleizes,2
+1911,143,Natalia,Goncharova,4
 1911,144,Spencer,Gore,3
 1911,145,Duncan,Grant,1
 1911,149,Isaac,Grünewald,1
@@ -16571,7 +17214,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,170,James Dickson,Innes,1
 1911,171,Isaac,Israëls,1
 1911,172,Richard,Janthur,1
-1911,173,Alexei,Jawlensky,3
+1911,173,Alexei,Jawlensky,4
 1911,175,Augustus,John,2
 1911,176,Gwen,John,1
 1911,178,Ernst,Josephson,1
@@ -16582,24 +17225,30 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,186,Cesar,Klein,1
 1911,190,Oskar,Kokoschka,1
 1911,192,Käthe,Kollwitz,1
-1911,193,Pyotr,Konchalovsky,1
+1911,193,Pyotr,Konchalovsky,5
+1911,194,Nikolay,Krymov,1
 1911,196,Alfred,Kubin,1
 1911,197,Othone,Coubine,1
 1911,198,Bohumil,Kubišta,2
+1911,202,Aleksandr,Kuprin,2
+1911,203,Pavel,Kuznetsov,3
 1911,205,Eugène,Laermans,1
 1911,206,Roger de,La Fresnaye,1
 1911,207,Henry,Lamb,2
 1911,208,Pierre,Laprade,2
+1911,209,Mikhail,Larionov,4
 1911,210,Marie,Laurencin,1
 1911,215,Henri Victor Gabriel,Le Fauconnier,5
 1911,216,Fernand,Léger,2
 1911,218,Wilhelm,Leibl,1
 1911,219,Georges,Lemmen,2
 1911,220,Jean Julien,Lemordant,1
+1911,221,Aristarkh,Lentulov,3
 1911,222,Rudolf,Levy,2
 1911,223,Wyndham,Lewis,1
 1911,224,André,Lhote,1
 1911,225,Max,Liebermann,6
+1911,228,Georgy,Lukomsky,3
 1911,231,Oscar,Lüthy,1
 1911,233,August,Macke,1
 1911,235,Aristide,Maillol,1
@@ -16609,21 +17258,24 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,240,Jean,Marchand,1
 1911,243,Ödön,Márffy,1
 1911,245,Albert,Marquet,5
-1911,247,Il'ya,Mashkov,1
+1911,247,Il'ya,Mashkov,5
 1911,248,Henri,Matisse,3
+1911,250,Mikhail,Matyushin,1
 1911,254,Moritz,Melzer,1
 1911,255,Jean,Metzinger,2
 1911,256,Constantin,Meunier,1
+1911,257,Nikolay,Milioti,2
 1911,261,George,Minne,1
 1911,263,Paula,Modersohn-Becker,1
 1911,267,Oskar,Moll,2
 1911,268,Claude,Monet,4
 1911,269,Adolphe,Monticelli,2
 1911,272,Wilhelm,Morgner,1
+1911,273,Alexsey,Morgunov,1
 1911,274,Koloman,Moser,1
 1911,275,Otto,Mueller,1
 1911,276,Edvard,Munch,2
-1911,277,Gabriele,Münter,3
+1911,277,Gabriele,Münter,4
 1911,278,Elie,Nadelman,1
 1911,282,Christopher,Nevinson,1
 1911,283,Jean,Niestlé,1
@@ -16631,8 +17283,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,286,Willi,Nowak,1
 1911,288,Walter,Ophey,1
 1911,289,Dezső,Orbán,1
+1911,290,Anna Petrovna,Ostroumova-Lebedeva,2
 1911,293,Jules,Pascin,3
 1911,295,Max,Pechstein,2
+1911,298,Kuz'ma,Petrov-Vodkin,1
 1911,300,Francis,Picabia,1
 1911,301,Pablo,Picasso,5
 1911,304,Jan,Preisler,1
@@ -16653,7 +17307,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,329,Georges,Rouault,4
 1911,330,Henri,Rousseau,1
 1911,331,Ker-Xavier,Roussel,3
+1911,334,Nikolay,Ryabushinsky,2
 1911,336,Gösta,Sandels,1
+1911,338,Nikolay,Sapunov,2
+1911,339,Martiros,Sarian,3
 1911,342,Lodewijk,Schelfhout,1
 1911,345,Karl,Schmidt-Rottluff,1
 1911,346,Arnold,Schoenberg,1
@@ -16661,18 +17318,25 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,351,Paul,Sérusier,4
 1911,353,Georges,Seurat,2
 1911,355,René,Seyssaud,2
+1911,357,Aleksandr,Shevchenko,1
+1911,358,Iosif Solomonovič,Škol'nik,1
 1911,360,Walter Richard,Sickert,5
 1911,361,Paul,Signac,4
 1911,362,Ladislav,Šíma,1
 1911,364,Max,Slevogt,3
 1911,366,Johannes Carolus Bernardus,Sluijters,2
+1911,369,Konstantin,Somov,2
 1911,371,Václav,Špála,1
+1911,372,Ėduard Karlovič,Spandikov,2
 1911,374,Léon,Spilliaert,1
 1911,378,Maurice,Sterne,1
+1911,380,Sergey,Sudyekin,2
 1911,381,Georg,Tappert,1
 1911,383,Lajos,Tihanyi,1
 1911,384,Charley,Toorop,2
 1911,386,Henri de,Toulouse-Lautrec,2
+1911,390,Nikolay Pavlovic,Ul'yanov,1
+1911,391,Petr Savvič,Utkin,3
 1911,392,Maurice,Utrillo,1
 1911,394,Félix,Vallotton,3
 1911,395,Louis,Valtat,1
@@ -16686,11 +17350,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,410,Ludwig von,Hofmann,2
 1911,412,Franz von,Stuck,2
 1911,413,Fritz von,Uhde,6
-1911,414,Marianne,Werefkin,3
+1911,414,Marianne,Werefkin,4
 1911,416,Edouard,Vuillard,4
 1911,420,Erik,Werenskiold,1
 1911,423,Alfred Aaron,Wolmark,1
 1911,424,Rik,Wouters,1
+1911,425,Georgy,Yakulov,4
 1911,429,Anders,Zorn,2
 1911,433,Hans,Baluschek,1
 1911,436,Ernst,Bischoff-Culm,1
@@ -16794,6 +17459,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,613,Vladimir Georgievich,Bekhteev,3
 1911,614,Hanns,Bolz,2
 1911,616,Elisabeth I.,Epstein,1
+1911,621,Nikolay,Kulbin,1
 1911,628,Richard,Seewald,1
 1911,632,Stanisław,Stückgold,1
 1911,638,,Beuroner Kunstschule,1
@@ -17011,6 +17677,20 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,1407,Arnold,Waldschmidt,2
 1911,1409,Paul,Wilhelm,2
 1911,1410,Richard,Seiffert-Wattenberg,1
+1911,1414,Auguste,Baillayre,1
+1911,1415,Lidia,Baillayre,1
+1911,1416,Sofia,Baudouin de Courtenay,1
+1911,1417,Veniamin Pavlovic,Belkin,1
+1911,1418,Gleb,Verhovskiy,1
+1911,1419,S.,Volenkova,1
+1911,1420,Anna,Zelmanova,1
+1911,1421,Ya.,Levakovska,1
+1911,1422,Petr,Lyvov,1
+1911,1423,Svyatoslav Alexandrovich,Nagubnikov,2
+1911,1424,Evgeniy Yakovlevich,Sahajdačnyj,1
+1911,1425,T.,Chelnokova,1
+1911,1426,Savely,Shleyfer,2
+1911,1427,Victor,Barthe,1
 1911,1428,Fritz,Wimmer,1
 1911,1429,Karl,Windels,1
 1911,1430,Otto,Wyler,1
@@ -17105,6 +17785,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,1695,Eugen Friedrich,Berner,1
 1911,1698,Ludwig,Kirschner,1
 1911,1699,Wilhelm,Repsold,2
+1911,1700,Nikolai Efimovič,Rogovin,1
 1911,1701,Hans,Rossmann,1
 1911,1702,Wilhelm,Schulz,1
 1911,1704,Eugène,Boudin,2
@@ -17138,14 +17819,28 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,1846,Friedrich,Schaper,1
 1911,1847,Bernhard,Schaum,1
 1911,1858,Jenő,Király,1
+1911,1863,E. N.,William,1
+1911,1864,V. A.,Galvich,1
+1911,1865,Ekaterina Vasilevna,Goldinger,1
+1911,1866,Ivan Georgievic,Gugunava,1
+1911,1867,Vasili Ivanovich,Denisov,2
 1911,1869,Bertalan,Pór,1
+1911,1875,Yelizaveta,Kruglikova,3
 1911,1876,Max,Oppenheimer,1
 1911,1881,Eugène,Zak,1
 1911,1885,Edward,Hald,1
 1911,1886,Albert,Hoffsten,1
 1911,1887,Einar,Nerman,1
+1911,1894,Petr Nikandroivč,Mironovic,1
 1911,1897,Hadar,Jönzén,1
+1911,1898,Stanislav-Vitold Vladislavovich,Noakovsky,1
 1911,1900,Erik Gustaf,Lindvall,1
+1911,1901,Fedor Ivanovich,Rerberg,1
+1911,1905,V. V.,Spasskiy,1
+1911,1907,A. P.,Tokarev,1
+1911,1911,Mikhail,Kharlamov,2
+1911,1912,Nikolai I.,Khrustachev,1
+1911,1917,Aleksej Alekseevič,Jasinskij,1
 1911,1923,Alfred,Sisley,4
 1911,1925,Marguerite,Lombois,1
 1911,1928,Gaston,De Beer,1
@@ -17159,9 +17854,41 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,1948,Jack B.,Yeats,1
 1911,1953,Joseph,Bernard,1
 1911,1958,Emilie,Charmy,1
+1911,1960,Anatoly,Arapov,2
+1911,1963,Avgust,Baller,1
+1911,1965,Konstantin,Bogayevsky,3
+1911,1966,Ossip Emmanujilowitsch,Brass,2
+1911,1969,Lidiya Nikandrovna,Verkhovskaya,1
+1911,1971,Boris,Grigor'yev,1
+1911,1972,Konstantin Vikent'evič,Dydyško,2
 1911,1973,Miklós,Némethy,1
 1911,1979,Margit,Rácz-Kovách,1
-1911,2027,Nicholas,Roerich,2
+1911,1989,Boris,Anisfel'd,2
+1911,1992,Ivan,Bilibin,2
+1911,2001,Nikolaj Petrovič,Feofilaktov,2
+1911,2003,Aleksandr,Golovin,1
+1911,2009,Boris,Kustodiyev,2
+1911,2010,Yevgeny,Lansere,1
+1911,2013,Agnes,Lindemann,2
+1911,2014,Walter,Lokkenberg,2
+1911,2015,Tatjana,Lugowskaya,2
+1911,2016,Filipp,Malyavin,1
+1911,2027,Nicholas,Roerich,4
+1911,2029,Arkady,Rylov,2
+1911,2037,Valentin,Serov,2
+1911,2057,Stepan Petrovich,Yaremich,2
+1911,2065,Elsa Alfredovna,Lasson-Spirova,1
+1911,2071,Nadezhda,Ljubavina,2
+1911,2073,Dmitry,Mitrokhin,2
+1911,2074,Zoja Jakovlevna,Mostova-Matveeva,1
+1911,2075,Georgy,Narbut,3
+1911,2076,Pavel,Naumov,1
+1911,2078,P.P.,Potipaka,1
+1911,2083,Aleksandr,Rostislavov,2
+1911,2084,Zinaida,Serebryakova,1
+1911,2093,Adolf Iosifovic,Charlemagne,2
+1911,2094,Aleksandr,Shervashidze,2
+1911,2096,V. D.,Shitikov,1
 1911,2116,Louis,Thévenet,1
 1911,2127,Charles Henri,Willems,1
 1911,2129,Hans Adolph,Bühler,1
@@ -17197,6 +17924,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,2366,Stanislaus,Kamocki,2
 1911,2374,Josef,Ullmann,2
 1911,2375,Jan,Honsa,2
+1911,2387,Jan,Ciągliński,2
+1911,2393,Isaak,Brodsky,2
 1911,2396,Georgette,Agutte,1
 1911,2398,János,Slakta,1
 1911,2417,Hermen,Anglada-Camarasa,1
@@ -17225,13 +17954,27 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,2493,Oscar,Hullgren,1
 1911,2498,Erik,Hedberg,1
 1911,2499,Oscar,Björck,1
+1911,2512,M. K.,Čiurlionis,2
+1911,2515,V. Ya,Chambers,2
+1911,2523,Grigorij Michajlovič,Bobrovskij,1
+1911,2524,Leonid,Brailovskii,2
+1911,2525,Rimma Nikitična,Brailovskaja,2
+1911,2531,Anna Semenovna,Glagoleva,1
+1911,2533,Erna von,Deters,1
+1911,2542,Ivan,Sacharov,2
+1911,2545,Evgenij Ivanovič,Kamzolkin,1
 1911,2552,Charles-Lucien,Léandre,1
+1911,2561,Andrey,Puparev,1
 1911,2569,Henri,Fantin-Latour,1
+1911,2570,Dmitry,Kardovsky,1
 1911,2577,Jacobs,Smits,1
 1911,2582,Otto,Freundlich,1
 1911,2584,Hermann,Lismann,3
 1911,2585,Ernesto,De Fiori,1
 1911,2586,Jean,Jovenau,3
+1911,2589,Alexander,Keller,1
+1911,2595,Alek'sandr,T'amanyan,2
+1911,2600,Vladimir,Izdebsky,1
 1911,2601,Jan,Toorop,4
 1911,2602,Jan,Verhoeven,1
 1911,2605,Jean Laurent,Challié,2
@@ -17281,6 +18024,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,2896,Raoul de,Mathan,1
 1911,2897,Jacqueline,Marval,1
 1911,2898,Harry,Bloomfield,1
+1911,2903,Viktor,Zamyraylo,3
 1911,2907,Armand,Guillaumin,1
 1911,2908,Jean,Peské,1
 1911,2917,George,Manzana-Pissarro,1
@@ -17301,6 +18045,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,3053,Paul,Deltombe,1
 1911,3055,Émile Auguste,Carolus-Duran,1
 1911,3063,Anatole-Eugène,Hillairet,1
+1911,3064,P.,Shherbov,1
+1911,3065,Nikolai Filippovich,Petrov,1
 1911,3066,Josué,Gaboriaud,3
 1911,3072,Henri,Ottmann,1
 1911,3087,Eduard,Anderson,1
@@ -17353,6 +18099,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,3391,Ines,Wetzel,1
 1911,3396,Fritz,Westendorp,1
 1911,3399,Robin Christian,Andersen,1
+1911,3410,Olga Della-Vos,Kardovskaya,1
+1911,3416,Maria Ivanovna,Ivashintsova,1
+1911,3417,Nadezhda Vladimirovna,Lermontova,1
 1911,3419,Rudolf,Wilke,1
 1911,3429,Rudolf,Bém,1
 1911,3430,Vlastimil,Hofmann,3
@@ -17361,6 +18110,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,3436,Andreas,Achenbach,1
 1911,3437,Oswald,Achenbach,1
 1911,3440,Erma,Bossi,3
+1911,3441,V.,Zaporozhcev,1
 1911,3445,Narcisse Virgile,Diaz de la Peña,1
 1911,3457,Friedrich,Rosenkranz,1
 1911,3467,Adolf,Wiesner,2
@@ -17402,10 +18152,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,3736,William,Rothenstein,1
 1911,3741,Carl,Spitzweg,1
 1911,3769,Sándor,Kolbay,1
+1911,3771,V. K.,Dolin,1
 1911,3774,Felix Albrecht,Harta,1
 1911,3775,Sebastian,Isepp,1
 1911,3776,Rudolf,Kriser,1
 1911,3777,Erwin,Lang,1
+1911,3783,Christian Cornelius,Krohn,1
 1911,3786,János,Kossin,1
 1911,3787,Károly,Kotász,1
 1911,3790,Gina,Kovács,1
@@ -17414,6 +18166,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,3823,Aurél,Náray,1
 1911,3842,Arthur,Podolini Volkmann,1
 1911,3845,André,Lambert,1
+1911,3856,V. N.,Olejnik,1
+1911,3888,Elena Ivanovna,Kamenceva,1
 1911,3890,Márta,Aranyosmaróthi Rónay,1
 1911,3892,Ferenc,Sass,1
 1911,3897,Emil,Preetorius,1
@@ -17448,25 +18202,34 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,4064,Prosper,Colmant,1
 1911,4074,Huib,Luns,1
 1911,4096,Julie von,Paul,1
+1911,4107,N. S.,Smirnova,1
 1911,4123,Philippine Elisabeth,Richter,1
 1911,4154,Leopold,Thieme,1
 1911,4190,Jindřich,Prucha,1
+1911,4197,Vladimir,Orlov,1
 1911,4198,Franz Wilhelm Maria,Deutmann,1
 1911,4200,Jacob,Dooyewaard,1
 1911,4206,Salomon,Garf,1
 1911,4215,Theo,Goedvriend,1
+1911,4219,N. I.,Bastarev-Vasilyev,1
+1911,4221,Léon,Zack,1
 1911,4229,Arnold Hendrik,Koning,1
 1911,4238,Hendrik Willem,Mesdag,1
 1911,4245,Willem Elisa,Roelofs,1
+1911,4250,A. A.,Rybkin,1
+1911,4253,Semen,Frolov,1
 1911,4254,Georg,Altheim,1
 1911,4261,Adolf,Beyer,2
 1911,4262,Anna,Beyer,1
 1911,4268,Willy,Sluiter,1
 1911,4273,Emanuel Ernest Van Der,Ven,1
+1911,4289,I. F.,Larionov,1
 1911,4305,Ilka,Frankelné Vozáb,1
 1911,4308,Gitta,Gyenes,1
 1911,4310,Álmos,Jaschik,1
 1911,4311,Miksa,Keitner,1
+1911,4317,Petr Ivanovic,L'vov,1
+1911,4323,A. A.,Somova-Mikhailova,1
 1911,4324,Tivadar,Mousson,1
 1911,4328,Zoltán,Páldy,1
 1911,4329,Lajos,Petrovits,1
@@ -17484,8 +18247,45 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,4488,Oliver,Hall,1
 1911,4497,Alexander,Jamieson,1
 1911,4532,Lipót,Edelsheim-Gyulai,1
+1911,4561,Vladimir,Markov,1
 1911,4578,Jenő,Szigeti,1
 1911,4579,Robert,Lénárd,1
+1911,4580,Aleksej Fedorovič,Afanas'ev,1
+1911,4581,N. N.,Boldyrev,1
+1911,4582,Emil,Wiesel,1
+1911,4583,V. A.,Gavrilko,1
+1911,4584,Nikolay,Goloshapov,1
+1911,4585,Nikolay,Grigor'yev,1
+1911,4586,Victor,Dobrzynski,2
+1911,4587,Oswald,Dubakh,1
+1911,4588,A. G.,Ivanov,1
+1911,4589,Lev,Ilyin,1
+1911,4590,E. A.,Kelina,1
+1911,4591,Elena,Kiseleva,1
+1911,4592,V. N.,Kresanov,1
+1911,4593,Konrad,Krzyżanowski,1
+1911,4594,Aleksandr,Manganari,1
+1911,4595,Pavel,Pashkov,1
+1911,4596,Nikolay,Pirogov,1
+1911,4597,Vladimir,Polunin,1
+1911,4598,Yu. A.,Popova,1
+1911,4599,A. M.,Potapovsky,1
+1911,4600,Evgeny,Pravednikov,1
+1911,4601,Elena,Rabeneck,1
+1911,4602,Ivan,Rerberg,1
+1911,4603,A. S.,Rybakov,1
+1911,4604,"I, N.",Sabo,1
+1911,4605,Vera,Semenova-Tjan-Shanskaya,1
+1911,4606,Pavel,Smotritsky,1
+1911,4607,Evgeniya,Smirnova-Ivanova,1
+1911,4608,V. V.,Trusov,1
+1911,4609,Boris,Fogel,1
+1911,4610,Yakov,Chapchal,1
+1911,4611,"N, M.",Shirshov,1
+1911,4612,M. V.,Shreter,1
+1911,4613,Vladimir,Emme,2
+1911,4614,Ljubov' Vasil'evna,Yakovleva-Shaporina,1
+1911,4615,Evgeny,Jakub,1
 1911,4656,Wilhelm,Smith,1
 1911,4657,Emerik,Stenberg,1
 1911,4665,Anna,Nordgren,1
@@ -17496,9 +18296,59 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,4694,Gustaf,Rydberg,1
 1911,4695,Anna Maria,Gardell-Ericson,1
 1911,4746,Otto,Sinding,1
+1911,4775,Natalia,Agapeva,1
+1911,4776,Ivan,Antropov,1
+1911,4777,Sergei,Gerasimov,1
+1911,4778,F. V.,Golst,1
+1911,4779,S. V.,Dmitriev,1
+1911,4780,M. A.,Dubenskaya,1
+1911,4781,L. L.,Egorov,1
+1911,4782,K.,Ershov,1
+1911,4783,I. S.,Zaycev,1
+1911,4784,Maria,Zikeyeva,1
+1911,4785,B. O.,Kamenskaya,1
+1911,4786,V. I.,Kelcev,1
+1911,4787,V. A.,Klimov,1
+1911,4788,V. G.,Kovalcig,1
+1911,4789,A. A.,Krasavsky,1
+1911,4790,S. V.,Krivoshein,1
+1911,4791,Michail Varfolomeevič,Kuznetsov-Volzhsky,1
+1911,4792,Aleksander,Kurennoy,1
+1911,4793,René,Leclerq,1
+1911,4794,Konstantin,Lipskerov,1
+1911,4795,M. B.,Levi,1
+1911,4796,Aleksandr Vasil'evič,Lysenko,1
+1911,4797,Dmitry,Melnikov,1
+1911,4798,Avagim Ėmmanuilovič,Miganadžjan,1
+1911,4799,S. A.,Yakovlev,1
+1911,4800,N. P.,Yanycenko,1
+1911,4801,Nina,Yanova,1
+1911,4802,Dmitry Nikiforovich,Yakunin,1
+1911,4803,V. A.,Yakovlev,1
+1911,4804,K. A.,Chencov,1
+1911,4805,Vladimir,Franketti,1
+1911,4806,Nikolai Mikhailovich,Chernyshev,1
+1911,4807,Vladimir Fedorovich,Fisher,1
+1911,4808,N. R.,Savvin,1
+1911,4809,S. F.,Sokolov,1
+1911,4810,Ivan Fedorovich,Rakhmanov,1
+1911,4811,Aleksandr Nikolaevič,Mikhailovsky,1
+1911,4812,Viktor Nikandrovich,Palmov,1
+1911,4813,Nikolay,Prakhov,1
+1911,4814,Aleksander,Pokrovsky,1
+1911,4815,B. I.,Petrov,1
+1911,4819,Mikhail,Biron,1
+1911,4868,U. S.,Shkolnik,1
+1911,4928,Pavel,Andriyashev,1
 1911,4936,Jo,Koster,1
+1911,4942,Mikhail,Gerschenfeld,1
 1911,4965,Johannes,Bosboom,1
+1911,4979,Petro Oleksiiovych,Levchenko,1
 1911,4981,Andor,Székely,1
+1911,4989,Lyudmila Iosifovna,Mikhnevich-Burlyuk,2
+1911,5000,Michail Isaakovič,Solomonov,1
+1911,5031,Nikolai,Triik,1
+1911,5032,Evgeniya,Malishevskaya,1
 1911,5077,Ernő,Barta,1
 1911,5238,Georges,Ribemont-Dessaignes,1
 1911,5259,Robert,Lefèvre,1
@@ -17647,6 +18497,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,6679,Böske,Pünkösty,1
 1911,6684,Ferencz,Csányi,1
 1911,6687,Jacek,Malczewski,2
+1911,6688,,Myasnovo,1
 1911,6698,Silvio,S. A.,1
 1911,6699,Antonia,Vighné,1
 1911,6701,Antal,Kröszl,1
@@ -18673,6 +19524,21 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1911,11862,Fredrik,Wohlfart,1
 1911,11863,Elis,Aslund,1
 1911,12092,Carl,Schmitz-Pleis,1
+1911,12265,A. N.,Bart,1
+1911,12918,Hussein,Ali,1
+1911,12919,Pavel,Denisov,1
+1911,12921,Ivan,Zakharov,1
+1911,12922,P.,Kovalenko,1
+1911,12923,Nikolay,Kupin,1
+1911,12924,,Levin,1
+1911,12925,L.,Markov,1
+1911,12926,V.,Nikulin,1
+1911,12927,Petr,Rhimsha,1
+1911,12929,V.M.,Triyk-Grekov,1
+1911,12930,K.,Tir,1
+1911,12931,D.,Yakimenko,1
+1911,12961,Rostislav,Voinov,1
+1911,12962,V. V.,Mayakovsky,1
 1911,13165,Emil,Brischle,1
 1911,13167,Auguste,Cammissar,1
 1911,13203,Heinrich,Ebel,1
@@ -18689,8 +19555,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,1,William Bernard,Adeney,1
 1912,2,Peter,Alma,2
 1912,4,Cuno,Amiet,6
-1912,5,Vassily,Kandinsky,4
-1912,6,Kazimir,Malevich,1
+1912,5,Vassily,Kandinsky,6
+1912,6,Kazimir,Malevich,2
 1912,7,Piet,Mondrian,4
 1912,8,Alexander,Archipenko,1
 1912,12,Hans,Arp,2
@@ -18700,45 +19566,45 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,23,Max,Beckmann,7
 1912,24,Vanessa,Bell,2
 1912,26,Vincenc,Beneš,4
-1912,27,Alexandre,Benois,1
+1912,27,Alexandre,Benois,2
 1912,28,Róbert,Berény,2
 1912,30,Émile,Bernard,1
 1912,31,Robert Polhill,Bevan,1
 1912,32,Albert,Bloch,3
 1912,33,Umberto,Boccioni,5
-1912,37,Pierre,Bonnard,10
+1912,37,Pierre,Bonnard,11
 1912,41,Georges,Braque,5
 1912,42,Horace,Brodzky,1
 1912,44,Patrick Henry,Bruce,1
 1912,45,Hans,Brühlmann,1
 1912,47,Max,Buri,3
-1912,48,David,Burlyuk,1
-1912,49,Vladimir,Burlyuk,1
-1912,51,Charles,Camoin,3
+1912,48,David,Burlyuk,3
+1912,49,Vladimir,Burlyuk,3
+1912,51,Charles,Camoin,4
 1912,52,Heinrich,Campendonk,1
 1912,53,Josef,Čapek,2
 1912,55,Carlo,Carrà,5
-1912,56,Eugène,Carrière,1
+1912,56,Eugène,Carrière,2
 1912,57,Felice,Casorati,1
-1912,58,Paul,Cézanne,9
+1912,58,Paul,Cézanne,10
 1912,59,Auguste-Elysée,Chabaud,3
 1912,64,Charles,Conder,1
 1912,65,Lovis,Corinth,8
-1912,66,Gustave,Courbet,3
+1912,66,Gustave,Courbet,4
 1912,67,Walter,Crane,1
-1912,68,Henri Edmond,Cross,2
+1912,68,Henri Edmond,Cross,3
 1912,70,Dezső,Czigány,1
 1912,75,Per,Deberitz,2
-1912,77,Edgar,Degas,4
-1912,79,Robert,Delaunay,4
+1912,77,Edgar,Degas,5
+1912,79,Robert,Delaunay,5
 1912,81,Jean,Delville,1
-1912,83,Maurice,Denis,4
-1912,84,André,Derain,6
+1912,83,Maurice,Denis,5
+1912,84,André,Derain,8
 1912,85,Gustave de,Smet,1
 1912,87,Georges-Olivier,Desvallières,2
-1912,88,Maurice de,Vlaminck,5
+1912,88,Maurice de,Vlaminck,6
 1912,89,Karl Edvard,Diriks,1
-1912,90,Mstislav,Dobuzhinsky,1
+1912,90,Mstislav,Dobuzhinsky,2
 1912,91,Henri,Doucet,1
 1912,93,Malcolm,Drummond,1
 1912,95,Marcel,Duchamp,3
@@ -18748,35 +19614,39 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,103,Thorvald,Erichsen,2
 1912,105,Frederick,Etchells,2
 1912,106,Henri,Evenepoel,1
-1912,107,Aleksandra Aleksandrovna,Exster,1
+1912,107,Aleksandra Aleksandrovna,Exster,2
 1912,108,Anton,Faistauer,3
+1912,117,Ol'ga,Rozanova,1
+1912,118,Vladimir,Tatlin,1
+1912,121,Robert,Fa'lk,1
 1912,122,Bedřich,Feigl,2
 1912,123,Lyonel,Feininger,1
 1912,124,Emil,Filla,3
 1912,126,Bernhard Dorotheus,Folkestad,2
-1912,128,Othon,Friesz,7
+1912,128,Othon,Friesz,9
 1912,129,Roger,Fry,4
-1912,132,Paul,Gauguin,7
-1912,133,Aleksandr Fedorovich,Gaush,1
+1912,132,Paul,Gauguin,8
+1912,133,Aleksandr Fedorovich,Gaush,2
 1912,134,Mark,Gertler,1
 1912,135,Leo,Gestel,2
 1912,137,Giovanni,Giacometti,3
 1912,138,Harold,Gilman,1
 1912,139,Charles,Ginner,2
 1912,140,Pierre Paul,Girieud,5
-1912,142,Albert,Gleizes,4
-1912,143,Natalia,Goncharova,2
+1912,142,Albert,Gleizes,5
+1912,143,Natalia,Goncharova,3
 1912,144,Spencer,Gore,3
 1912,145,Duncan,Grant,2
 1912,146,Juan,Gris,5
-1912,150,Charles-François-Prosper,Guérin,3
+1912,147,Alexis,Gritchenko,1
+1912,150,Charles-François-Prosper,Guérin,4
 1912,155,Ferenc,Hatvany,3
 1912,156,Henri,Hayden,1
-1912,157,Erich,Heckel,5
+1912,157,Erich,Heckel,6
 1912,158,Jean,Heiberg,2
 1912,159,Walter,Helbig,2
 1912,160,Robert,Henri,1
-1912,161,Auguste,Herbin,7
+1912,161,Auguste,Herbin,8
 1912,164,Ferdinand,Hodler,5
 1912,166,Karl,Hofer,3
 1912,169,Hermann,Huber,3
@@ -18789,126 +19659,142 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,180,Arne,Kavli,2
 1912,181,Károly,Kernstok,1
 1912,182,Fernand,Khnopff,3
-1912,183,Ernst Ludwig,Kirchner,6
+1912,183,Ernst Ludwig,Kirchner,7
 1912,185,Paul,Klee,4
 1912,186,Cesar,Klein,2
 1912,187,Gustav,Klimt,1
 1912,190,Oskar,Kokoschka,3
 1912,191,Georg,Kolbe,2
 1912,192,Käthe,Kollwitz,1
+1912,193,Pyotr,Konchalovsky,2
 1912,194,Nikolay,Krymov,1
 1912,195,Per,Krohg,2
 1912,196,Alfred,Kubin,2
 1912,198,Bohumil,Kubišta,2
 1912,200,Reinhold,Kündig,1
+1912,202,Aleksandr,Kuprin,1
+1912,203,Pavel,Kuznetsov,1
 1912,205,Eugène,Laermans,2
 1912,206,Roger de,La Fresnaye,4
 1912,207,Henry,Lamb,3
-1912,208,Pierre,Laprade,2
-1912,209,Mikhail,Larionov,1
+1912,208,Pierre,Laprade,3
+1912,209,Mikhail,Larionov,2
 1912,210,Marie,Laurencin,6
-1912,215,Henri Victor Gabriel,Le Fauconnier,4
-1912,216,Fernand,Léger,4
+1912,215,Henri Victor Gabriel,Le Fauconnier,5
+1912,216,Fernand,Léger,5
 1912,217,Wilhelm,Lehmbruck,2
 1912,218,Wilhelm,Leibl,2
 1912,219,Georges,Lemmen,1
+1912,221,Aristarkh,Lentulov,2
 1912,222,Rudolf,Levy,2
 1912,223,Wyndham,Lewis,3
-1912,224,André,Lhote,4
+1912,224,André,Lhote,5
 1912,225,Max,Liebermann,8
+1912,228,Georgy,Lukomsky,1
 1912,230,Henrik Louis,Lund,3
 1912,231,Oscar,Lüthy,2
-1912,233,August,Macke,4
+1912,233,August,Macke,5
 1912,234,Helmuth,Macke,1
-1912,235,Aristide,Maillol,2
-1912,236,Edouard,Manet,6
-1912,237,Henri Charles,Manguin,4
-1912,239,Franz,Marc,5
+1912,235,Aristide,Maillol,3
+1912,236,Edouard,Manet,7
+1912,237,Henri Charles,Manguin,5
+1912,239,Franz,Marc,6
 1912,240,Jean,Marchand,2
 1912,242,Louis,Marcoussis,1
 1912,243,Ödön,Márffy,1
-1912,245,Albert,Marquet,5
+1912,245,Albert,Marquet,6
 1912,246,Alberto,Martini,1
-1912,248,Henri,Matisse,4
+1912,247,Il'ya,Mashkov,2
+1912,248,Henri,Matisse,5
 1912,251,Alfred Henry,Maurer,1
 1912,252,Ludwig,Meidner,1
 1912,254,Moritz,Melzer,2
 1912,255,Jean,Metzinger,3
 1912,256,Constantin,Meunier,1
-1912,257,Nikolay,Milioti,1
+1912,257,Nikolay,Milioti,2
 1912,261,George,Minne,1
 1912,263,Paula,Modersohn-Becker,1
 1912,265,Aleksandr Pavlovič,Mogilevskij,2
 1912,266,Louis René,Moilliet,1
 1912,267,Oskar,Moll,1
-1912,268,Claude,Monet,8
-1912,269,Adolphe,Monticelli,2
-1912,271,Gustave,Moreau,1
+1912,268,Claude,Monet,9
+1912,269,Adolphe,Monticelli,3
+1912,271,Gustave,Moreau,2
 1912,272,Wilhelm,Morgner,3
+1912,273,Alexsey,Morgunov,1
 1912,274,Koloman,Moser,1
-1912,275,Otto,Mueller,4
+1912,275,Otto,Mueller,5
 1912,276,Edvard,Munch,5
-1912,277,Gabriele,Münter,3
-1912,281,Heinrich,Nauen,1
+1912,277,Gabriele,Münter,4
+1912,281,Heinrich,Nauen,2
 1912,282,Christopher,Nevinson,1
 1912,284,Emil,Nolde,4
 1912,286,Willi,Nowak,3
 1912,288,Walter,Ophey,2
 1912,289,Dezső,Orbán,2
+1912,290,Anna Petrovna,Ostroumova-Lebedeva,1
 1912,292,Bernhard,Pankok,1
 1912,293,Jules,Pascin,4
-1912,295,Max,Pechstein,6
+1912,295,Max,Pechstein,7
 1912,296,Giuseppe,Pellizza da Volpedo,1
 1912,297,Constant,Permeke,1
-1912,298,Kuz'ma,Petrov-Vodkin,2
+1912,298,Kuz'ma,Petrov-Vodkin,3
 1912,300,Francis,Picabia,2
-1912,301,Pablo,Picasso,7
+1912,301,Pablo,Picasso,8
 1912,306,Gaetano,Previati,2
 1912,307,Antonín,Procházka,3
 1912,308,Hans,Purrmann,1
 1912,309,Leo,Putz,1
-1912,310,Pierre,Puvis de Chavannes,2
+1912,310,Pierre,Puvis de Chavannes,3
 1912,311,Jean,Puy,3
 1912,314,William,Ratcliffe,1
-1912,316,Odilon,Redon,3
-1912,317,Pierre-Auguste,Renoir,9
+1912,316,Odilon,Redon,4
+1912,317,Pierre-Auguste,Renoir,10
 1912,319,József,Rippl-Rónai,2
-1912,323,Auguste,Rodin,2
+1912,323,Auguste,Rodin,3
 1912,325,Christian,Rohlfs,1
 1912,329,Georges,Rouault,2
 1912,330,Henri,Rousseau,4
-1912,331,Ker-Xavier,Roussel,6
+1912,331,Ker-Xavier,Roussel,7
 1912,333,Luigi,Russolo,5
+1912,338,Nikolay,Sapunov,1
+1912,339,Martiros,Sarian,1
 1912,342,Lodewijk,Schelfhout,3
 1912,343,Egon,Schiele,5
 1912,345,Karl,Schmidt-Rottluff,4
 1912,346,Arnold,Schoenberg,1
 1912,348,Arthur,Segal,1
-1912,351,Paul,Sérusier,1
-1912,353,Georges,Seurat,1
+1912,351,Paul,Sérusier,2
+1912,353,Georges,Seurat,2
 1912,354,Gino,Severini,5
 1912,355,René,Seyssaud,3
+1912,358,Iosif Solomonovič,Škol'nik,1
 1912,360,Walter Richard,Sickert,3
-1912,361,Paul,Signac,5
+1912,361,Paul,Signac,6
 1912,362,Ladislav,Šíma,2
 1912,364,Max,Slevogt,4
 1912,366,Johannes Carolus Bernardus,Sluijters,3
+1912,369,Konstantin,Somov,1
 1912,370,Henrik,Sørensen,2
 1912,371,Václav,Špála,2
+1912,372,Ėduard Karlovič,Spandikov,1
 1912,373,Stanley,Spencer,2
 1912,375,Jacob,Steinhardt,1
+1912,380,Sergey,Sudyekin,1
 1912,381,Georg,Tappert,2
 1912,382,Johan Thorn,Prikker,2
 1912,383,Lajos,Tihanyi,2
 1912,384,Charley,Toorop,1
 1912,385,Oluf,Wold-Torne,2
-1912,386,Henri de,Toulouse-Lautrec,5
+1912,386,Henri de,Toulouse-Lautrec,6
 1912,389,Edgard,Tytgat,1
+1912,390,Nikolay Pavlovic,Ul'yanov,1
+1912,391,Petr Savvič,Utkin,1
 1912,392,Maurice,Utrillo,2
-1912,394,Félix,Vallotton,3
-1912,395,Louis,Valtat,2
+1912,394,Félix,Vallotton,4
+1912,395,Louis,Valtat,3
 1912,398,Gustave van de,Woestijne,3
-1912,400,Kees van,Dongen,6
+1912,400,Kees van,Dongen,7
 1912,401,Vincent van,Gogh,7
 1912,402,Jacoba van,Heemskerck van Beest,2
 1912,403,Otto van,Rees,2
@@ -18919,11 +19805,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,412,Franz von,Stuck,3
 1912,413,Fritz von,Uhde,3
 1912,414,Marianne,Werefkin,2
-1912,416,Edouard,Vuillard,7
+1912,416,Edouard,Vuillard,8
 1912,420,Erik,Werenskiold,3
 1912,421,James McNeill,Whistler,1
 1912,423,Alfred Aaron,Wolmark,2
 1912,424,Rik,Wouters,1
+1912,425,Georgy,Yakulov,1
 1912,429,Anders,Zorn,3
 1912,430,Jan,Zrzavý,1
 1912,433,Hans,Baluschek,2
@@ -18985,7 +19872,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,521,André,Blandin,2
 1912,526,Anne-Pierre de,Kat,1
 1912,527,René,De Man,1
-1912,538,Francois,Gailliard,1
+1912,536,Jules,Dubois,1
+1912,538,Francois,Gailliard,2
 1912,541,Henri,Roidot,1
 1912,550,Léon de,Smet,2
 1912,552,Jehan,Frison,1
@@ -19025,12 +19913,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,611,Egon,Adler,1
 1912,613,Vladimir Georgievich,Bekhteev,2
 1912,614,Hanns,Bolz,2
-1912,616,Elisabeth I.,Epstein,2
+1912,616,Elisabeth I.,Epstein,3
+1912,621,Nikolay,Kulbin,3
 1912,624,Carl,Mense,1
 1912,634,Hans,Thuar,1
 1912,637,Conrad,Kikkert,1
 1912,640,Maximilian,Liebenwein,1
-1912,642,Albert,Besnard,2
+1912,642,Albert,Besnard,3
 1912,643,Ernst,Stöhr,1
 1912,644,Jef,Leempoels,2
 1912,645,Johann Victor,Krämer,1
@@ -19042,10 +19931,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,676,Josef,Flossmann,1
 1912,681,Georg Nicolai,Achen,1
 1912,682,Otto,Bauriedl,2
-1912,684,Jacques-Emile,Blanche,4
+1912,684,Jacques-Emile,Blanche,5
 1912,685,Felix,Bürgers,1
 1912,686,Fritz,Burger,1
-1912,688,Charles,Cottet,2
+1912,688,Charles,Cottet,3
 1912,689,Paul Eduard,Crodel,1
 1912,690,Eugene,Dekkert,1
 1912,691,Ludwig,Dettmann,1
@@ -19088,7 +19977,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,741,Richard,Winternitz,1
 1912,742,Alfred,Withers,1
 1912,743,Eugen,Wolff,1
-1912,745,Gaston de,Latouche,3
+1912,745,Gaston de,Latouche,4
 1912,747,Carl,Schmoll von Eisenwerth,2
 1912,748,Adolf,Zdrazila,2
 1912,751,Władisław,Slewiński,1
@@ -19128,10 +20017,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,827,Eugen,Feiks,2
 1912,829,Helene,Funke,2
 1912,830,Ludwig,Wieden,1
+1912,833,Adolf Izrailovich,Milman,1
 1912,834,Wilhelm,Gallhof,2
 1912,837,Alexander,Gerbig,2
 1912,838,Emil Von,Gerliczy,2
 1912,839,Hermann,Goebel,3
+1912,842,Vasily,Rozhdestvensky,1
 1912,845,Eugen,Hamm,2
 1912,847,Bernhard,Hasler,3
 1912,849,Franz,Heckendorf,3
@@ -19142,6 +20033,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,861,W. Franz,Jäger,1
 1912,862,Arthur,Illies,1
 1912,864,Ernst,Isselmann,1
+1912,866,Viktor,Savinkov,1
 1912,869,Hans,Keller,2
 1912,871,Walther,Klemm,5
 1912,874,Peter,Koch,1
@@ -19225,7 +20117,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,1047,Bartolomeo,Bezzi,2
 1912,1055,Alessandro,Battaglia,1
 1912,1056,Dante,Ricci,1
-1912,1079,Guillaume,Dubufe,1
+1912,1079,Guillaume,Dubufe,2
 1912,1081,Cesare,Saccaggi,1
 1912,1092,Guglielmo,Ciardi,3
 1912,1093,Beppe,Ciardi,2
@@ -19290,11 +20182,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,1256,Klaus,Richter,2
 1912,1258,Adolf,Oberländer,2
 1912,1259,Paul,Roloff,1
-1912,1261,Lucien,Simon,2
+1912,1261,Lucien,Simon,3
 1912,1262,Josef,Schmid-Fichtelberg,2
 1912,1267,Malgonia,Stern,1
 1912,1270,Ludwig,Stutz,1
 1912,1271,Rudolf,Tewes,2
+1912,1273,German Vassilievic,Fedorov,1
+1912,1274,Ivan,Fedotov,1
 1912,1275,István,Csók,1
 1912,1276,Károly,Ferenczy,2
 1912,1277,Adolf,Fényes,1
@@ -19318,9 +20212,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,1318,Izsák,Perlmutter,1
 1912,1320,Marcus,Behmer,1
 1912,1322,Henry,Bing,1
-1912,1323,Charles François,Daubigny,2
-1912,1324,Honoré,Daumier,4
-1912,1325,Eugène,Delacroix,2
+1912,1323,Charles François,Daubigny,3
+1912,1324,Honoré,Daumier,5
+1912,1325,Eugène,Delacroix,3
 1912,1326,Hans,Am Ende,1
 1912,1327,Gino,DeFinetti,1
 1912,1330,Sella,Hasse,2
@@ -19328,7 +20222,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,1335,Pál,Szinyei Merse,2
 1912,1336,János,Thorma,1
 1912,1338,János,Vaszary,2
-1912,1340,Jean-François,Millet,1
+1912,1340,Jean-François,Millet,2
 1912,1341,Richard,Müller,4
 1912,1342,Paul,Scheurich,1
 1912,1346,Hermann,Struck,1
@@ -19337,17 +20231,20 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,1352,Hermann F. A.,Westphal,1
 1912,1355,Alois,Hänisch,2
 1912,1361,Eugen,Kirchner,1
-1912,1386,Alcide-Marie,Le Beau,2
+1912,1386,Alcide-Marie,Le Beau,3
 1912,1387,Fritz,Boehle,1
 1912,1388,Gustav Johannes,Buchner,1
 1912,1389,Alfréd,Feiks,1
-1912,1390,Jules Leon,Flandrin,3
+1912,1390,Jules Leon,Flandrin,4
 1912,1395,Werner,Hoffmann,2
 1912,1396,Jozef,Israëls,1
 1912,1400,Oskar,Kruse-Lietzenburg,1
 1912,1409,Paul,Wilhelm,3
 1912,1410,Richard,Seiffert-Wattenberg,1
 1912,1412,Günther,Stüdemann,1
+1912,1420,Anna,Zelmanova,1
+1912,1423,Svyatoslav Alexandrovich,Nagubnikov,1
+1912,1426,Savely,Shleyfer,1
 1912,1428,Fritz,Wimmer,2
 1912,1429,Karl,Windels,1
 1912,1430,Otto,Wyler,1
@@ -19385,7 +20282,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,1504,Reinhold,Ewald,2
 1912,1506,Arnold,Faber,1
 1912,1508,Karl,Fahringer,1
-1912,1509,Georges Léon,Dufrenoy,2
+1912,1509,Georges Léon,Dufrenoy,3
 1912,1511,Clara Elisabeth,Fischer,1
 1912,1512,Anton,Forster,1
 1912,1513,Otto,Gadau,1
@@ -19452,18 +20349,19 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,1693,Rudolf,André,1
 1912,1694,Karl,Bauer,1
 1912,1699,Wilhelm,Repsold,1
-1912,1704,Eugène,Boudin,2
-1912,1705,Jean Louis,Forain,4
-1912,1706,Jean-Baptiste-Camille,Corot,2
-1912,1707,Johan Barthold,Jongkind,1
-1912,1708,Camille,Pissarro,6
-1912,1709,Berthe,Morisot,2
+1912,1704,Eugène,Boudin,3
+1912,1705,Jean Louis,Forain,5
+1912,1706,Jean-Baptiste-Camille,Corot,3
+1912,1707,Johan Barthold,Jongkind,2
+1912,1708,Camille,Pissarro,7
+1912,1709,Berthe,Morisot,3
 1912,1710,George,Morren,1
 1912,1711,Maxime,Maufra,3
 1912,1712,Gustave,Loiseau,1
 1912,1718,Erzsébet,Szegfy,1
 1912,1720,Albert de,Belleroche,1
 1912,1722,Henry,Caro-Delvaille,1
+1912,1726,Louise,Galtier-Boissière,1
 1912,1727,,Hermann-Paul,1
 1912,1728,Ernest Joseph,Laurent,1
 1912,1729,Maurice,Lobre,1
@@ -19490,9 +20388,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,1772,Alfred,Verhaeren,2
 1912,1773,Helene von,Beckerath,1
 1912,1775,Herman,Hartwich,1
-1912,1780,Jean-François,Raffaëlli,3
+1912,1780,Jean-François,Raffaëlli,4
 1912,1782,Valerius,De Saedeleer,2
 1912,1787,Alfons,Wölfle,1
+1912,1788,Andre,Barbier,1
 1912,1789,Anna Katarina,Boberg,1
 1912,1790,Etienne,Bosch,2
 1912,1793,Igor,Grabar,1
@@ -19500,13 +20399,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,1800,Rodolphe de,Saegher,1
 1912,1803,Adriaan Joseph,Heymans,2
 1912,1807,Edmond,Verstraeten,1
-1912,1809,Albert,André,2
+1912,1809,Albert,André,3
 1912,1817,Jean Joseph,Delvin,1
-1912,1818,Georges d',Espagnat,4
+1912,1818,Georges d',Espagnat,5
 1912,1820,Paul César,Helleu,1
 1912,1823,Carl,Larsson,1
 1912,1824,Albert,Marque,1
-1912,1826,René,Piot,2
+1912,1826,René,Piot,3
 1912,1829,Jean van den,Eeckhoudt,1
 1912,1832,Lili,Somló,1
 1912,1834,Jenő,Csuk,1
@@ -19526,35 +20425,54 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,1881,Eugène,Zak,3
 1912,1883,Kristen,Holbø,1
 1912,1884,August,Jacobsen,1
-1912,1923,Alfred,Sisley,5
+1912,1923,Alfred,Sisley,6
 1912,1924,Adrienne,Bruyère,1
 1912,1926,Alexandre,Blanchet,1
 1912,1930,"Nathaniel, II",Hone,1
-1912,1931,Jean-Auguste-Dominique,Ingres,1
+1912,1931,Jean-Auguste-Dominique,Ingres,2
 1912,1932,Julien,Genot,1
 1912,1938,Willem,Paerels,3
 1912,1941,Oscar,Petyt,1
 1912,1944,Charles Haslewood,Shannon,3
 1912,1945,Philip Wilson,Steer,1
-1912,1946,Félix Elie,Tobeen,2
+1912,1946,Félix Elie,Tobeen,3
 1912,1947,Friedrich August,Weinzheimer,2
 1912,1954,Theodore Earl,Butler,1
 1912,1958,Emilie,Charmy,1
-1912,1965,Konstantin,Bogayevsky,1
+1912,1960,Anatoly,Arapov,1
+1912,1965,Konstantin,Bogayevsky,2
+1912,1966,Ossip Emmanujilowitsch,Brass,1
+1912,1972,Konstantin Vikent'evič,Dydyško,1
 1912,1982,Antal,Berkes,1
-1912,1992,Ivan,Bilibin,1
+1912,1989,Boris,Anisfel'd,1
+1912,1992,Ivan,Bilibin,2
 1912,2002,Nikolay,Ge,1
 1912,2003,Aleksandr,Golovin,1
 1912,2005,Konstantin,Yuon,1
-1912,2009,Boris,Kustodiyev,1
-1912,2027,Nicholas,Roerich,2
+1912,2009,Boris,Kustodiyev,2
+1912,2010,Yevgeny,Lansere,1
+1912,2013,Agnes,Lindemann,1
+1912,2015,Tatjana,Lugowskaya,1
+1912,2027,Nicholas,Roerich,3
 1912,2029,Arkady,Rylov,1
-1912,2044,Dmitry,Stelletsky,1
-1912,2045,Nicolas Alexandrovitch,Tarkhoff,1
-1912,2057,Stepan Petrovich,Yaremich,1
+1912,2037,Valentin,Serov,1
+1912,2044,Dmitry,Stelletsky,2
+1912,2045,Nicolas Alexandrovitch,Tarkhoff,2
+1912,2057,Stepan Petrovich,Yaremich,2
 1912,2067,Mihály,Munkácsy,1
 1912,2068,László,Paál,1
 1912,2069,Géza,Mészöly,1
+1912,2073,Dmitry,Mitrokhin,1
+1912,2074,Zoja Jakovlevna,Mostova-Matveeva,1
+1912,2075,Georgy,Narbut,1
+1912,2076,Pavel,Naumov,1
+1912,2078,P.P.,Potipaka,1
+1912,2082,Nicolai,Remisoff,1
+1912,2084,Zinaida,Serebryakova,1
+1912,2087,Leonid,Sologub,1
+1912,2089,Ivan,Fomin,1
+1912,2090,Marija Jakovlevna,Chembers-Bilibina,1
+1912,2093,Adolf Iosifovic,Charlemagne,1
 1912,2094,Aleksandr,Shervashidze,1
 1912,2116,Louis,Thévenet,2
 1912,2128,Otto,Bruenauer,2
@@ -19563,7 +20481,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,2151,Olga,Oppenheimer,1
 1912,2159,Ivan,Thiele,1
 1912,2162,Valentín de,Zubiaurre,1
+1912,2171,Marguerite,Gérard,1
 1912,2181,Rosa,Bonheur,1
+1912,2186,Elisabeth Louise,Vigée-LeBrun,1
 1912,2215,Julian Alden,Weir,1
 1912,2225,Mariya,Bashkirtseva,1
 1912,2226,Henriette,Ronner,1
@@ -19607,10 +20527,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,2374,Josef,Ullmann,2
 1912,2375,Jan,Honsa,2
 1912,2379,Johan,Akkeringa,1
-1912,2387,Jan,Ciągliński,1
+1912,2387,Jan,Ciągliński,2
 1912,2403,János,Csermely,1
 1912,2415,Jules,Adler,2
-1912,2416,Edmond,Aman-Jean,1
+1912,2416,Edmond,Aman-Jean,2
 1912,2417,Hermen,Anglada-Camarasa,1
 1912,2419,Lionello,Balestrieri,2
 1912,2426,Maurice,Bompard,2
@@ -19621,7 +20541,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,2434,Raoul,Du Gardier,2
 1912,2436,William Julien Émile Édouard,Laparra,1
 1912,2437,Jean-Paul,Laurens,1
-1912,2438,Albert-Charles,Lebourg,2
+1912,2438,Albert-Charles,Lebourg,3
 1912,2440,Louis,Legrand,1
 1912,2441,Auguste,Lepère,2
 1912,2444,Henry,Moret,1
@@ -19630,7 +20550,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,2452,Alfred,Roll,1
 1912,2453,Fernand,Sabatté,1
 1912,2455,Raymond,Woog,1
-1912,2456,Félix,Ziem,1
+1912,2456,Félix,Ziem,2
 1912,2457,Ignacio,Zuloaga,4
 1912,2459,Théophile Alexandre,Steinlen,1
 1912,2460,Antonin,Hudecek,1
@@ -19646,15 +20566,16 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,2490,Otto,Hesselbom,1
 1912,2499,Oscar,Björck,1
 1912,2507,Adolphe Marie,Beaufrère,1
-1912,2512,M. K.,Čiurlionis,1
+1912,2512,M. K.,Čiurlionis,2
+1912,2519,Nikolay,Andreyev,1
 1912,2523,Grigorij Michajlovič,Bobrovskij,1
 1912,2538,Siebe Johannes ten,Cate,1
-1912,2539,James,Tissot,1
+1912,2539,James,Tissot,2
 1912,2549,Jean Jacques,Henner,1
 1912,2552,Charles-Lucien,Léandre,1
-1912,2569,Henri,Fantin-Latour,2
+1912,2569,Henri,Fantin-Latour,3
 1912,2571,Oszkár,Glatz,2
-1912,2572,Rodolphe,Bresdin,1
+1912,2572,Rodolphe,Bresdin,2
 1912,2573,Richard,Baseleer,2
 1912,2574,Victor,Hageman,1
 1912,2575,Frans,Hens,2
@@ -19668,6 +20589,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,2585,Ernesto,De Fiori,1
 1912,2586,Jean,Jovenau,1
 1912,2594,Piet A.,Serton van Rosweyde,2
+1912,2595,Alek'sandr,T'amanyan,1
 1912,2601,Jan,Toorop,5
 1912,2602,Jan,Verhoeven,2
 1912,2603,Arianus,Van Zeegen,1
@@ -19678,12 +20600,18 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,2616,Floris Hendrik,Verster,1
 1912,2618,Otto,Ackermann,1
 1912,2637,Mattheus Josephus,Lau,1
+1912,2639,Louis Léopold,Boilly,1
+1912,2641,Sébastien,Bourdon,1
+1912,2643,Jacques-Louis,David,1
 1912,2644,Hans,Berger,2
 1912,2646,Eduard,Boss,2
-1912,2649,Paul Camille,Guigou,2
-1912,2656,Pierre-Paul,Prud'hon,1
-1912,2657,Théodule,Ribot,2
+1912,2648,Jean-Baptiste,Greuze,1
+1912,2649,Paul Camille,Guigou,3
+1912,2650,Eugène,Isabey,1
+1912,2656,Pierre-Paul,Prud'hon,2
+1912,2657,Théodule,Ribot,3
 1912,2661,Werner,Feuz,2
+1912,2665,Horace,Vernet,1
 1912,2668,Ottilie Wilhelmine,Roederstein,1
 1912,2669,Géza,Bornemisza,1
 1912,2670,Søren,Onsager,2
@@ -19748,12 +20676,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,2883,Mikoláš,Aleš,1
 1912,2884,Henri Joseph,Thomas,1
 1912,2886,Agustín,Carrera,1
-1912,2891,,anonymous,1
-1912,2894,Francis,Jourdain,1
+1912,2891,,anonymous,2
+1912,2894,Francis,Jourdain,2
 1912,2895,Léon,Lehmann,1
 1912,2896,Raoul de,Mathan,2
 1912,2897,Jacqueline,Marval,3
-1912,2907,Armand,Guillaumin,1
+1912,2907,Armand,Guillaumin,2
 1912,2910,Louis,Charlot,1
 1912,2911,Adolphe,Dechaenaud,1
 1912,2912,André Edouard,Devambez,2
@@ -19762,10 +20690,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,2919,Luc-Albert,Moreau,1
 1912,2923,Jean,Béraud,1
 1912,2925,Edgar,Chahine,2
-1912,2927,Théodore,Chassériau,1
+1912,2927,Théodore,Chassériau,2
+1912,2929,Jules,Chéret,1
+1912,2931,Alfred,Dehodencq,1
 1912,2933,Xavier,Gosé,1
-1912,2934,Constantin,Guys,1
-1912,2938,Gustave,Ricard,1
+1912,2934,Constantin,Guys,2
+1912,2938,Gustave,Ricard,2
 1912,2940,John Singer,Sargent,2
 1912,2945,Jean,Veber,2
 1912,2946,Lucien,Mainssieux,1
@@ -19782,14 +20712,18 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,3016,August,Brömse,2
 1912,3017,Friedrich von,Radler,1
 1912,3018,Hermann,Grom-Rottmayer,1
-1912,3051,François,Bonvin,1
-1912,3052,Marcellin,Desboutin,1
+1912,3049,Adolphe-Félix,Cals,1
+1912,3051,François,Bonvin,2
+1912,3052,Marcellin,Desboutin,2
 1912,3054,Gustave,Colin,1
 1912,3055,Émile Auguste,Carolus-Duran,2
 1912,3056,Jeanne,Forain,1
+1912,3061,Antoine-Louis,Barye,1
 1912,3062,Rodolphe,Bolliger,1
+1912,3070,Aleksander,Beygul,1
 1912,3072,Henri,Ottmann,2
 1912,3074,Mary,Cassatt,3
+1912,3075,Aleksander Pavlovoc,Pligin,1
 1912,3086,Theodor,Alt,1
 1912,3087,Eduard,Anderson,1
 1912,3088,Emil,Beer,1
@@ -19819,7 +20753,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,3122,Walter,Virchow,1
 1912,3124,Clara,Witte-Pelz,1
 1912,3155,Charles Paul,Renouard,1
-1912,3158,Bernard,Boutet de Monvel,1
+1912,3158,Bernard,Boutet de Monvel,2
 1912,3165,Georges,Jeanniot,2
 1912,3175,Henri,Farge,1
 1912,3179,Gaston,Prunier,1
@@ -19913,7 +20847,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,3351,Minna,Zimmermann,1
 1912,3353,August,Gaul,1
 1912,3358,Federico,Zandomeneghi,1
-1912,3363,Théodore,Géricault,3
+1912,3363,Théodore,Géricault,4
 1912,3366,Hannah de,Grahl,1
 1912,3367,Johann,Walter-Kurau,1
 1912,3386,Alfred,Lombard,2
@@ -19921,6 +20855,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,3399,Robin Christian,Andersen,2
 1912,3401,George Hendrik,Breitner,1
 1912,3403,John,Constable,2
+1912,3417,Nadezhda Vladimirovna,Lermontova,1
 1912,3424,Jessica,Dismorr,1
 1912,3430,Vlastimil,Hofmann,2
 1912,3431,Richard,Goldensohn,1
@@ -19928,13 +20863,19 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,3435,Emil,Sprenger,1
 1912,3437,Oswald,Achenbach,1
 1912,3438,Giovanni,Boldini,3
-1912,3439,Léon,Bonnat,2
+1912,3439,Léon,Bonnat,3
 1912,3440,Erma,Bossi,2
-1912,3445,Narcisse Virgile,Diaz de la Peña,2
-1912,3446,Jules,Dupré,2
+1912,3442,Sergey,Lobanov,1
+1912,3444,Alexandre-Gabriel,Decamps,1
+1912,3445,Narcisse Virgile,Diaz de la Peña,3
+1912,3446,Jules,Dupré,3
+1912,3447,Eugène,Fromentin,1
 1912,3448,Jean-Léon,Gérôme,1
 1912,3451,Ludwig,Knaus,1
+1912,3458,Jean Louis Ernest,Meissonier,1
+1912,3463,Théodore,Rousseau,1
 1912,3464,Ferdinand,Roybet,1
+1912,3469,Constant,Troyon,1
 1912,3475,Frieda,Konstantin,1
 1912,3481,Oskar,Fiala,1
 1912,3482,M.,Martinkova,1
@@ -20016,10 +20957,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,3667,František,Kysela,1
 1912,3669,Ludvig,Karsten,1
 1912,3675,Henri-Joseph,Harpignies,1
-1912,3676,Stanislas,Lépine,1
+1912,3676,Stanislas,Lépine,2
 1912,3677,Henri Jean Guillaume,Martin,2
 1912,3678,Frédéric,Montenard,1
-1912,3679,Victor Alfred Paul,Vignon,1
+1912,3679,Victor Alfred Paul,Vignon,2
 1912,3680,Vally,Friedmann,1
 1912,3685,René,Billotte,1
 1912,3686,Arthur Henri Christiaan,Briët,1
@@ -20047,11 +20988,19 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,3761,Zoltán,Karczag,1
 1912,3763,Augusta von,Zitzewitz,1
 1912,3769,Sándor,Kolbay,1
+1912,3770,Vassily,Gonorsky,1
+1912,3771,V. K.,Dolin,1
+1912,3772,S. M.,Kevorkova,1
 1912,3773,Hans,Böhler,1
 1912,3774,Felix Albrecht,Harta,1
 1912,3775,Sebastian,Isepp,1
 1912,3777,Erwin,Lang,1
 1912,3778,Otto Friedrich Carl,Lendecke,1
+1912,3780,Marusya,Lentovska,1
+1912,3781,B. G.,Fridenson,1
+1912,3782,S. A.,Klyushnikov,1
+1912,3783,Christian Cornelius,Krohn,1
+1912,3784,G. F.,Kashmensky,1
 1912,3790,Gina,Kovács,1
 1912,3820,Dezső,Mokry-Mészáros,1
 1912,3824,Josef,Gočár,1
@@ -20095,6 +21044,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,3989,James Garden,Laing,1
 1912,3992,Robert Weir,Allan,1
 1912,3996,John,Muirhead,1
+1912,4006,Jean-Baptiste,Carpeaux,1
 1912,4026,Alice,Bailly,1
 1912,4029,Sabine,Licht,1
 1912,4039,Hans,Schwegerle,1
@@ -20129,6 +21079,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,4239,Pieter Cornelis de,Moor,2
 1912,4240,Gerard Gustaaf,Muller,1
 1912,4245,Willem Elisa,Roelofs,1
+1912,4253,Semen,Frolov,1
 1912,4254,Georg,Altheim,1
 1912,4255,Hans,Aulhorn,1
 1912,4261,Adolf,Beyer,1
@@ -20143,6 +21094,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,4282,Jacob Abraham,Zon,1
 1912,4283,Willem de,Zwart,1
 1912,4305,Ilka,Frankelné Vozáb,1
+1912,4317,Petr Ivanovic,L'vov,1
 1912,4324,Tivadar,Mousson,1
 1912,4329,Lajos,Petrovits,1
 1912,4331,Móricz,Sándor,1
@@ -20152,7 +21104,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,4335,Aladár,Körösfői-Kriesch,2
 1912,4339,Paul,Chabas,1
 1912,4340,Ferdinand,Humbert,1
-1912,4341,Henry,Lerolle,1
+1912,4341,Henry,Lerolle,2
 1912,4343,Tony,Robert-Fleury,1
 1912,4344,Pierre,Lagarde,1
 1912,4345,Albert,Maignan,1
@@ -20169,7 +21121,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,4377,Henri,Gervex,1
 1912,4378,Jules Joseph,Lefebvre,1
 1912,4382,Léon,Cauvy,1
-1912,4391,Georges,Chenard-Huché,1
+1912,4391,Georges,Chenard-Huché,2
 1912,4393,Eugène Henri Alexandre,Chigot,1
 1912,4401,Jean Louis Marcel,Cosson,1
 1912,4419,Louis-Marie,Désiré-Lucas,1
@@ -20209,8 +21161,14 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,4536,Jozsef,Pechan,1
 1912,4542,Zoltán,Csáktornyai,1
 1912,4545,Viktor,Olgyai,1
+1912,4553,Varvara Dmitrievna,Bubnova,1
+1912,4560,L. N.,Kurchaninova,1
+1912,4561,Vladimir,Markov,1
+1912,4562,Leo,Mitelman,1
+1912,4563,Vera Dmitrieva,Novodvorskaya,1
 1912,4579,Robert,Lénárd,2
 1912,4593,Konrad,Krzyżanowski,1
+1912,4629,Nikolai,Sheverdyev,1
 1912,4663,Karl,Klimsch,1
 1912,4676,Bertalan,Karlovszky,1
 1912,4680,César María,Herrer Marcher,1
@@ -20229,6 +21187,36 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,4748,Elsa,Nicklass,1
 1912,4749,Christian,Skredsvig,1
 1912,4751,Hede von,Trapp,1
+1912,4763,Nikolay,Kalmakov,2
+1912,4814,Aleksander,Pokrovsky,1
+1912,4818,Pavel,Baklanov,1
+1912,4819,Mikhail,Biron,1
+1912,4820,Lidia,Borzhik,1
+1912,4821,Vladimir,Vassilev,1
+1912,4822,Ivan,Ginkovsky,1
+1912,4823,Petr,Ermilov,1
+1912,4824,Sergey,Izvekov,1
+1912,4825,Ivan,Ipatov,1
+1912,4826,Karl,Kish,1
+1912,4827,Dmitry,Kokurin,1
+1912,4828,Nikolai,Konstantinov,1
+1912,4829,Aleksey,Kravchenko,1
+1912,4830,Aleksey Andreevich,Krasovsky,1
+1912,4831,Vasily Vasilyevich,Krajnev,1
+1912,4832,Mikhail,Leblan,1
+1912,4833,Vadim,Nevski,1
+1912,4834,Stepan,Orlov,1
+1912,4836,Aleksandr,Pavlov,1
+1912,4837,Sergey,Pomanski,1
+1912,4838,Marina,Ryndzyunskaya,1
+1912,4839,Dimitri,Sobolev,1
+1912,4840,Alexander,Sokolov,1
+1912,4841,Aleksandr,Fabergé,1
+1912,4842,Natalia,Jureva,1
+1912,4843,M. I.,Divova,1
+1912,4844,Boris Alekseevič,Ferdinandov,1
+1912,4853,Lyudmila F.,Schmit-Ryzhova,1
+1912,4857,Aleksandr,Nikolaev,1
 1912,4869,Nikolaj Petrovič,Bogdanov-Bel'skij,1
 1912,4907,Julius,Paulsen,1
 1912,4908,Peter Vilhelm,Ilsted,1
@@ -20249,20 +21237,100 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,5014,Ivan,Grohar,1
 1912,5015,Rudolf von,Alt,1
 1912,5025,Irène,Reno,3
-1912,5035,Frédéric,Bazille,1
-1912,5038,Jules,Bastien-Lepage,1
-1912,5044,Paul Jacques Aimé,Baudry,1
-1912,5050,William-Adolphe,Bouguereau,1
+1912,5033,Théodore Caruelle d',Aligny,1
+1912,5034,,Baghetti,1
+1912,5035,Frédéric,Bazille,2
+1912,5036,Henri Charles Antoine,Baron,1
+1912,5038,Jules,Bastien-Lepage,2
+1912,5039,,Boileau,1
+1912,5040,Jacques,Beltrand,1
+1912,5041,Antoine,Béranger,1
+1912,5044,Paul Jacques Aimé,Baudry,2
+1912,5047,Eugène,Bonington,1
+1912,5048,Marie,Bracquemond,1
+1912,5049,Jacques Raymond,Brascassat,1
+1912,5050,William-Adolphe,Bouguereau,2
+1912,5075,Antonina,Westfalen,1
 1912,5076,Lajos,Rauscher,1
 1912,5077,Ernő,Barta,1
-1912,5089,Antoine,Vollon,2
-1912,5232,Auguste,Raffet,1
-1912,5236,Jean Charles,Cazin,1
-1912,5237,Georges,Michel,1
-1912,5238,Georges,Ribemont-Dessaignes,2
-1912,5241,Philippe,Rousseau,1
-1912,5252,Charles,Chaplin,1
-1912,5256,Alphonse,Legros,3
+1912,5078,Rene,O'Connel,1
+1912,5080,Aleksandr,Rubtsov,2
+1912,5083,Vladimir,Shchuko,1
+1912,5084,Victor,Vincelet,1
+1912,5085,Carles,Vernet,1
+1912,5089,Antoine,Vollon,3
+1912,5090,Paul,Gavarni,1
+1912,5091,,Gardet,1
+1912,5092,François-Joseph,Heim,1
+1912,5117,Vassily Vassilyevic,Evreinov,1
+1912,5148,Pierre,Guérin,1
+1912,5149,Nicolas-Auguste,Hesse,1
+1912,5150,Henri,Grevedon,1
+1912,5151,Antoine-Jean,Gros,1
+1912,5152,Paul,Huet,1
+1912,5153,Jules,Dalou,1
+1912,5164,Evgeny Konstantinovich,Pskovitinov,1
+1912,5187,Louis,Debucourt,1
+1912,5188,,"Marne, de",1
+1912,5189,Jean,Jongk'ng,1
+1912,5190,,Adam,1
+1912,5191,Charles,Bourgeois,1
+1912,5192,,de Vivien,1
+1912,5193,,Vodo,1
+1912,5194,Jean Urbain,Guérin,1
+1912,5195,Jean-Baptiste,Isabey,1
+1912,5196,François,Lagrenée,1
+1912,5197,Xavier,Leprince,1
+1912,5198,,Martin,1
+1912,5199,,Holliet,1
+1912,5200,Jean Antoine,Pinchon,1
+1912,5201,Lizinka Aimée Zoe de,Mirbel,1
+1912,5202,,Saint,1
+1912,5204,Ivan Petrovich,Dalheim,1
+1912,5205,Auguste,Desarnod,1
+1912,5206,Vincent,Courteuil,1
+1912,5207,Adolphe,Ladurner,1
+1912,5208,,Mitoire,1
+1912,5209,Thomas de,Thomon,1
+1912,5210,Fontaine de,Swebach,1
+1912,5211,Louis Marie,Sicard,1
+1912,5212,Henri François,Riesener,1
+1912,5213,Alfred,Dedreux,1
+1912,5214,,Drolling,1
+1912,5215,Edouard,Dufeu,1
+1912,5226,Charles Émile,Jacque,1
+1912,5227,"François, Baron",Gérard,1
+1912,5228,Henry,Monnier,1
+1912,5229,Charles,Aubry,1
+1912,5230,Blanche,Ory-Robin,1
+1912,5231,Isidore,Pils,1
+1912,5232,Auguste,Raffet,2
+1912,5233,Anne-Louis,Girodet de Roucy-Trioson,1
+1912,5234,Philippe Auguste,Jeanron,1
+1912,5235,,Jouve,1
+1912,5236,Jean Charles,Cazin,2
+1912,5237,Georges,Michel,2
+1912,5238,Georges,Ribemont-Dessaignes,3
+1912,5239,Jean-Baptiste,Regnault,1
+1912,5240,Léon,Riesener,1
+1912,5241,Philippe,Rousseau,2
+1912,5243,Octave,Tassaert,1
+1912,5245,Nicolas Antoine,Taunay,1
+1912,5246,Camille,Flers,1
+1912,5247,,Estachon,1
+1912,5248,Louis Adolphe,Hervier,1
+1912,5249,N. de,Forbin-Janson,1
+1912,5250,Louis,Français,1
+1912,5251,Louis,Hersent,1
+1912,5252,Charles,Chaplin,2
+1912,5253,Ary,Scheffer,1
+1912,5254,Thomas,Couture,1
+1912,5255,Eugène Louis,Lami,1
+1912,5256,Alphonse,Legros,4
+1912,5257,Louis,Lejeune,1
+1912,5258,Jacques Antoine Marie,Lemoine,1
+1912,5259,Robert,Lefèvre,1
+1912,5260,Ecole de Millet,anonymous:,1
 1912,5272,Paul-Michel,Dupuy,1
 1912,5277,Maurice,Eliot,1
 1912,5280,Jules-Abel,Faivre,1
@@ -20802,12 +21870,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,8672,Lionel,Walden,1
 1912,8682,Kate,Sargint,1
 1912,8685,Robert,Fowler,1
+1912,8694,Nikolaj Viktorovich,Gagarin,1
 1912,8714,"Jean, the younger",Benner,1
 1912,8717,Georg,Gerlach,1
 1912,8723,Tranquillo,Cremona,1
 1912,8730,Domenico,Morelli,1
 1912,8763,Giuseppe de,Nittis,2
-1912,8769,François,Vernay,1
+1912,8769,François,Vernay,2
 1912,8784,Auguste Théodore,Desch,1
 1912,8796,Johannes Martin,Grimelund,1
 1912,8827,J. Alfonso,Toft,1
@@ -20821,13 +21890,17 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,8980,Pierre,Scoupreman,1
 1912,8981,Renée,Stièvenart,1
 1912,8992,Adolphe,Wansart,1
+1912,8995,Wilhelm,Schleifer,1
+1912,9000,Louis,Le Poittevin,1
 1912,9021,Philippe,Derchain,1
+1912,9046,Constantin,Trovant,1
 1912,9058,Jules,Rigal,1
 1912,9059,Hilda,Fearon,1
-1912,9063,Nicolas-Toussaint,Charlet,1
+1912,9063,Nicolas-Toussaint,Charlet,2
 1912,9065,Alfred Joseph,Pazolt,1
 1912,9072,Alberto,Pasini,1
 1912,9074,Henri Ernest,Parayre,1
+1912,9083,Nicolas François,Dun,1
 1912,9142,Léon,Barillot,1
 1912,9148,Hippolyte Dominique,Berteaux,1
 1912,9150,Louis François,Biloul,1
@@ -21419,7 +22492,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,12482,Gino,Romiti,1
 1912,12485,Carla,Celesia di Vegliasco,1
 1912,12490,Hans,Nieser,1
-1912,12502,Vladimir,Baranoff-Rossiné,1
+1912,12502,Vladimir,Baranoff-Rossiné,2
 1912,12554,Eugenio,Bonivento,1
 1912,12672,Arturo,Ferrari,1
 1912,12690,Luigi,Rossi,1
@@ -21434,6 +22507,17 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,12891,Jan Cornelis,Bander,1
 1912,12894,Angelo,Landi,1
 1912,12914,Augusto,Ortolani,1
+1912,12949,Genrietta,Blank,1
+1912,12950,,Bistrenin,1
+1912,12951,Mikhail,Verner,1
+1912,12952,,Devit,1
+1912,12953,,D.,1
+1912,12954,,Ermann,1
+1912,12955,,Kozminskiy,1
+1912,12956,M.,K-ko,1
+1912,12957,Yulia,Kulbina,1
+1912,12958,,Miss,1
+1912,12959,,Skalon,1
 1912,12980,Louis de,Cœur,1
 1912,12981,N. De,Kessel,1
 1912,12982,,Manu,1
@@ -21492,6 +22576,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,13502,Stephen,Baghot De La Bere,1
 1912,13503,Robert Hugh,Buxton,1
 1912,13504,A. Duncan,Carse,1
+1912,13506,Nikolaj Nikolaevič,Pomansky,1
 1912,13524,Mary Howard Elphinstone,McClintock,1
 1912,13525,William Matthew,Hale,1
 1912,13526,Claude,Hayes,1
@@ -21641,18 +22726,20 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1912,13928,Angelos,Giallina,1
 1913,1,William Bernard,Adeney,1
 1913,2,Peter,Alma,1
-1913,3,Natan,Alt'man,1
+1913,3,Natan,Alt'man,7
 1913,4,Cuno,Amiet,1
-1913,5,Vassily,Kandinsky,5
+1913,5,Vassily,Kandinsky,6
+1913,6,Kazimir,Malevich,1
 1913,7,Piet,Mondrian,2
 1913,8,Alexander,Archipenko,2
 1913,12,Hans,Arp,3
-1913,14,Léon,Bakst,1
+1913,14,Léon,Bakst,2
 1913,15,Giacomo,Balla,4
 1913,19,Paul,Baum,3
 1913,20,Willi,Baumeister,1
 1913,23,Max,Beckmann,5
 1913,26,Vincenc,Beneš,2
+1913,27,Alexandre,Benois,6
 1913,28,Róbert,Berény,1
 1913,30,Émile,Bernard,4
 1913,31,Robert Polhill,Bevan,4
@@ -21661,10 +22748,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,34,Arnold,Böcklin,2
 1913,36,David,Bomberg,2
 1913,37,Pierre,Bonnard,9
-1913,41,Georges,Braque,4
+1913,41,Georges,Braque,5
 1913,42,Horace,Brodzky,2
 1913,44,Patrick Henry,Bruce,3
-1913,48,David,Burlyuk,2
+1913,48,David,Burlyuk,3
 1913,49,Vladimir,Burlyuk,3
 1913,51,Charles,Camoin,4
 1913,52,Heinrich,Campendonk,2
@@ -21674,7 +22761,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,57,Felice,Casorati,1
 1913,58,Paul,Cézanne,9
 1913,59,Auguste-Elysée,Chabaud,1
-1913,60,Marc,Chagall,1
+1913,60,Marc,Chagall,2
 1913,65,Lovis,Corinth,6
 1913,66,Gustave,Courbet,7
 1913,67,Walter,Crane,2
@@ -21687,10 +22774,11 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,80,Sonia,Delaunay,1
 1913,81,Jean,Delville,1
 1913,83,Maurice,Denis,7
-1913,84,André,Derain,7
+1913,84,André,Derain,8
 1913,85,Gustave de,Smet,1
 1913,87,Georges-Olivier,Desvallières,2
-1913,88,Maurice de,Vlaminck,5
+1913,88,Maurice de,Vlaminck,6
+1913,90,Mstislav,Dobuzhinsky,6
 1913,91,Henri,Doucet,2
 1913,93,Malcolm,Drummond,2
 1913,97,Raoul,Dufy,2
@@ -21700,12 +22788,20 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,102,Adolf,Erbslöh,5
 1913,104,Max,Ernst,1
 1913,105,Frederick,Etchells,2
+1913,107,Aleksandra Aleksandrovna,Exster,1
 1913,108,Anton,Faistauer,2
+1913,112,Anna Michajlovna,Kirillova,2
+1913,117,Ol'ga,Rozanova,1
+1913,118,Vladimir,Tatlin,3
+1913,121,Robert,Fa'lk,2
 1913,123,Lyonel,Feininger,1
 1913,124,Emil,Filla,2
+1913,125,Pavel,Filonov,1
 1913,126,Bernhard Dorotheus,Folkestad,1
+1913,127,Artur,Fonvizin,2
 1913,128,Othon,Friesz,8
 1913,132,Paul,Gauguin,6
+1913,133,Aleksandr Fedorovich,Gaush,5
 1913,134,Mark,Gertler,2
 1913,135,Leo,Gestel,3
 1913,136,Augusto,Giacometti,1
@@ -21714,9 +22810,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,139,Charles,Ginner,3
 1913,140,Pierre Paul,Girieud,1
 1913,142,Albert,Gleizes,4
-1913,143,Natalia,Goncharova,2
+1913,143,Natalia,Goncharova,5
 1913,144,Spencer,Gore,5
 1913,146,Juan,Gris,3
+1913,147,Alexis,Gritchenko,1
 1913,150,Charles-François-Prosper,Guérin,3
 1913,152,Otto,Gutfreund,1
 1913,154,Marsden,Hartley,1
@@ -21743,27 +22840,32 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,190,Oskar,Kokoschka,5
 1913,191,Georg,Kolbe,1
 1913,192,Käthe,Kollwitz,2
-1913,193,Pyotr,Konchalovsky,1
+1913,193,Pyotr,Konchalovsky,2
 1913,195,Per,Krohg,1
 1913,196,Alfred,Kubin,1
-1913,197,Othone,Coubine,2
+1913,197,Othone,Coubine,3
 1913,198,Bohumil,Kubišta,2
 1913,200,Reinhold,Kündig,1
+1913,202,Aleksandr,Kuprin,1
+1913,203,Pavel,Kuznetsov,3
 1913,205,Eugène,Laermans,1
 1913,207,Henry,Lamb,1
 1913,208,Pierre,Laprade,5
-1913,209,Mikhail,Larionov,1
+1913,209,Mikhail,Larionov,5
 1913,210,Marie,Laurencin,1
-1913,215,Henri Victor Gabriel,Le Fauconnier,3
+1913,214,Mikhail Vasilevich,Le-Dantyu,1
+1913,215,Henri Victor Gabriel,Le Fauconnier,4
 1913,216,Fernand,Léger,4
 1913,217,Wilhelm,Lehmbruck,3
 1913,218,Wilhelm,Leibl,3
 1913,220,Jean Julien,Lemordant,1
+1913,221,Aristarkh,Lentulov,2
 1913,222,Rudolf,Levy,2
 1913,223,Wyndham,Lewis,2
 1913,224,André,Lhote,4
 1913,225,Max,Liebermann,7
 1913,227,Bertold,Löffler,3
+1913,228,Georgy,Lukomsky,5
 1913,231,Oscar,Lüthy,2
 1913,232,Stanton,Macdonald-Wright,1
 1913,233,August,Macke,4
@@ -21777,13 +22879,14 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,242,Louis,Marcoussis,1
 1913,243,Ödön,Márffy,1
 1913,245,Albert,Marquet,6
-1913,247,Il'ya,Mashkov,1
+1913,247,Il'ya,Mashkov,2
 1913,248,Henri,Matisse,8
 1913,252,Ludwig,Meidner,3
 1913,254,Moritz,Melzer,8
 1913,255,Jean,Metzinger,3
+1913,257,Nikolay,Milioti,3
 1913,261,George,Minne,1
-1913,265,Aleksandr Pavlovič,Mogilevskij,2
+1913,265,Aleksandr Pavlovič,Mogilevskij,3
 1913,266,Louis René,Moilliet,1
 1913,267,Oskar,Moll,2
 1913,268,Claude,Monet,8
@@ -21801,13 +22904,16 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,286,Willi,Nowak,2
 1913,288,Walter,Ophey,1
 1913,289,Dezső,Orbán,1
+1913,290,Anna Petrovna,Ostroumova-Lebedeva,4
 1913,292,Bernhard,Pankok,1
 1913,293,Jules,Pascin,4
 1913,295,Max,Pechstein,10
 1913,297,Constant,Permeke,2
+1913,298,Kuz'ma,Petrov-Vodkin,5
 1913,299,Albert,Pfister,2
 1913,300,Francis,Picabia,1
-1913,301,Pablo,Picasso,9
+1913,301,Pablo,Picasso,10
+1913,302,Niko,Pirosmanishvili,1
 1913,304,Jan,Preisler,2
 1913,307,Antonín,Procházka,1
 1913,308,Hans,Purrmann,2
@@ -21829,7 +22935,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,331,Ker-Xavier,Roussel,5
 1913,332,Morgan,Russell,1
 1913,333,Luigi,Russolo,5
-1913,342,Lodewijk,Schelfhout,4
+1913,334,Nikolay,Ryabushinsky,1
+1913,338,Nikolay,Sapunov,3
+1913,339,Martiros,Sarian,5
+1913,342,Lodewijk,Schelfhout,5
 1913,343,Egon,Schiele,6
 1913,345,Karl,Schmidt-Rottluff,3
 1913,348,Arthur,Segal,3
@@ -21837,8 +22946,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,352,Albert,Servaes,1
 1913,353,Georges,Seurat,1
 1913,354,Gino,Severini,6
+1913,357,Aleksandr,Shevchenko,2
+1913,358,Iosif Solomonovič,Škol'nik,1
 1913,360,Walter Richard,Sickert,4
-1913,361,Paul,Signac,5
+1913,361,Paul,Signac,6
 1913,362,Ladislav,Šíma,1
 1913,364,Max,Slevogt,5
 1913,366,Johannes Carolus Bernardus,Sluijters,2
@@ -21847,16 +22958,19 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,373,Stanley,Spencer,1
 1913,374,Léon,Spilliaert,1
 1913,375,Jacob,Steinhardt,1
+1913,380,Sergey,Sudyekin,3
 1913,381,Georg,Tappert,4
 1913,383,Lajos,Tihanyi,1
 1913,384,Charley,Toorop,2
 1913,386,Henri de,Toulouse-Lautrec,5
 1913,389,Edgard,Tytgat,1
+1913,390,Nikolay Pavlovic,Ul'yanov,2
+1913,391,Petr Savvič,Utkin,5
 1913,392,Maurice,Utrillo,2
 1913,394,Félix,Vallotton,3
 1913,395,Louis,Valtat,4
 1913,398,Gustave van de,Woestijne,1
-1913,400,Kees van,Dongen,8
+1913,400,Kees van,Dongen,9
 1913,401,Vincent van,Gogh,10
 1913,402,Jacoba van,Heemskerck van Beest,3
 1913,403,Otto van,Rees,2
@@ -21867,12 +22981,14 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,412,Franz von,Stuck,3
 1913,413,Fritz von,Uhde,4
 1913,414,Marianne,Werefkin,4
+1913,415,Mikhail,Vrubel',1
 1913,416,Edouard,Vuillard,8
 1913,417,Edward,Wadsworth,2
 1913,421,James McNeill,Whistler,2
 1913,422,Erich,Wichman,1
 1913,423,Alfred Aaron,Wolmark,2
-1913,425,Georgy,Yakulov,1
+1913,425,Georgy,Yakulov,4
+1913,427,Kyril Mikhailovich,Zdanevich,1
 1913,429,Anders,Zorn,1
 1913,430,Jan,Zrzavý,1
 1913,433,Hans,Baluschek,3
@@ -21990,7 +23106,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,618,Franz,Henseler,1
 1913,619,Josef,Kölschbach,1
 1913,620,Adriaan Johan,Korteweg,1
-1913,621,Nikolay,Kulbin,1
+1913,621,Nikolay,Kulbin,3
 1913,622,Alfred,Loeb,1
 1913,623,Corrado Alberto,Mazzei,1
 1913,624,Carl,Mense,2
@@ -22004,7 +23120,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,634,Hans,Thuar,2
 1913,635,Pawel,Kowalenko,1
 1913,636,Gordon,McCouch,1
-1913,637,Conrad,Kikkert,1
+1913,637,Conrad,Kikkert,2
 1913,640,Maximilian,Liebenwein,1
 1913,642,Albert,Besnard,3
 1913,643,Ernst,Stöhr,1
@@ -22085,7 +23201,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,800,Georg,Brandes,2
 1913,801,Hans,Brasch,1
 1913,802,Erich,Buchwald-Zinnwald,3
-1913,803,Agnes von,Bülow,1
+1913,803,Agnes von,Bülow,2
 1913,804,Ernst,Burmester,2
 1913,805,Erich,Büttner,2
 1913,806,Karl,Caspar,3
@@ -22111,6 +23227,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,828,Carl Friedrich,Felber,1
 1913,829,Helene,Funke,3
 1913,830,Ludwig,Wieden,1
+1913,833,Adolf Izrailovich,Milman,1
 1913,834,Wilhelm,Gallhof,3
 1913,835,Oskar,Gawell,2
 1913,836,August,Gebhard,1
@@ -22119,6 +23236,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,839,Hermann,Goebel,3
 1913,840,Hans,Gott,2
 1913,841,Julius,Graumann,2
+1913,842,Vasily,Rozhdestvensky,1
 1913,843,Arthur,Grimm,1
 1913,844,Oskar H.,Hagemann,2
 1913,845,Eugen,Hamm,2
@@ -22139,10 +23257,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,860,Wil,Howard,2
 1913,861,W. Franz,Jäger,2
 1913,862,Arthur,Illies,1
+1913,863,V. I.,Pozharsky,1
 1913,864,Ernst,Isselmann,3
 1913,865,Gustav,Kampmann,1
+1913,866,Viktor,Savinkov,1
 1913,867,Friedrich von,Keller,1
 1913,869,Hans,Keller,2
+1913,870,A.M.,Samojlova,1
 1913,871,Walther,Klemm,4
 1913,872,Else,Klossowski,1
 1913,873,Michel,Koch,1
@@ -22294,6 +23415,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,1266,Heinrich,Schröder,1
 1913,1268,Heinrich,Schulz,1
 1913,1271,Rudolf,Tewes,1
+1913,1273,German Vassilievic,Fedorov,1
 1913,1275,István,Csók,2
 1913,1276,Károly,Ferenczy,1
 1913,1277,Adolf,Fényes,1
@@ -22347,11 +23469,16 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,1409,Paul,Wilhelm,1
 1913,1410,Richard,Seiffert-Wattenberg,1
 1913,1412,Günther,Stüdemann,1
+1913,1416,Sofia,Baudouin de Courtenay,1
+1913,1417,Veniamin Pavlovic,Belkin,6
+1913,1423,Svyatoslav Alexandrovich,Nagubnikov,2
+1913,1427,Victor,Barthe,1
 1913,1428,Fritz,Wimmer,1
 1913,1430,Otto,Wyler,1
 1913,1431,Oskar,Zwintscher,1
 1913,1432,Fritz,Giebelhausen,1
 1913,1434,Olaf,Gulbransson,1
+1913,1439,Rolf,Winkler,1
 1913,1440,Magnus,Zeller,2
 1913,1441,Carl,Albrecht,1
 1913,1443,Hans von,Bartels,1
@@ -22486,6 +23613,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,1650,Hans,Fritsch,2
 1913,1666,Max,Kuschel,1
 1913,1669,Siegfried,Mackowsky,1
+1913,1700,Nikolai Efimovič,Rogovin,1
 1913,1704,Eugène,Boudin,4
 1913,1705,Jean Louis,Forain,2
 1913,1706,Jean-Baptiste-Camille,Corot,3
@@ -22551,30 +23679,99 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,1849,Margarete,Wohlwill,1
 1913,1852,Gyula,Tichy,1
 1913,1853,István,Zádor,1
+1913,1875,Yelizaveta,Kruglikova,4
 1913,1876,Max,Oppenheimer,3
 1913,1877,Herbert,Fiedler,1
 1913,1878,Wilhelm,Lange,1
 1913,1879,Alfred,Sohn-Rethel,1
 1913,1880,Hans,Steiner,1
-1913,1881,Eugène,Zak,2
+1913,1881,Eugène,Zak,4
 1913,1883,Kristen,Holbø,1
+1913,1890,Konstantin,Kuznetsov,1
+1913,1912,Nikolai I.,Khrustachev,4
+1913,1916,Aleksandr Georgievich,Yakimchenko,2
+1913,1919,A.,Yastrzhembsky,1
 1913,1923,Alfred,Sisley,7
 1913,1924,Adrienne,Bruyère,1
 1913,1926,Alexandre,Blanchet,1
 1913,1931,Jean-Auguste-Dominique,Ingres,1
+1913,1934,Georges,Le Serrec de Kervily,1
 1913,1935,Derwent,Lees,1
 1913,1941,Oscar,Petyt,1
 1913,1945,Philip Wilson,Steer,2
 1913,1947,Friedrich August,Weinzheimer,2
 1913,1958,Emilie,Charmy,1
+1913,1960,Anatoly,Arapov,4
+1913,1961,Aleksandr,Arnshtam,2
+1913,1962,Abram,Arkhipov,1
+1913,1963,Avgust,Baller,1
+1913,1964,Michail Pavlovič,Bobyšov,2
+1913,1965,Konstantin,Bogayevsky,4
+1913,1966,Ossip Emmanujilowitsch,Brass,3
+1913,1968,Liubov Nikolaevna,Gaush,1
+1913,1969,Lidiya Nikandrovna,Verkhovskaya,1
+1913,1970,G.A.,Grandi,1
+1913,1971,Boris,Grigor'yev,3
+1913,1972,Konstantin Vikent'evič,Dydyško,1
 1913,1979,Margit,Rácz-Kovách,1
 1913,1982,Antal,Berkes,1
+1913,1989,Boris,Anisfel'd,4
+1913,1992,Ivan,Bilibin,3
+1913,2001,Nikolaj Petrovič,Feofilaktov,2
+1913,2005,Konstantin,Yuon,1
+1913,2009,Boris,Kustodiyev,3
+1913,2010,Yevgeny,Lansere,4
+1913,2013,Agnes,Lindemann,2
+1913,2014,Walter,Lokkenberg,1
+1913,2023,Vladimir Vasilevič,Perepletčikov,2
+1913,2027,Nicholas,Roerich,3
 1913,2031,Lipót,Herman,1
+1913,2037,Valentin,Serov,1
+1913,2044,Dmitry,Stelletsky,3
+1913,2045,Nicolas Alexandrovitch,Tarkhoff,3
+1913,2046,Eugiché,Tatewossianz,1
 1913,2048,"Paolo, Prince",Troubetzkoy,1
+1913,2057,Stepan Petrovich,Yaremich,3
+1913,2060,E.Ya.,Sander-Rodlova,1
+1913,2061,M.P.,Sandin,1
+1913,2062,M.I.,Iwashincova,1
+1913,2063,O.N.,Karatygina,1
+1913,2064,Nikolay,Lansere,3
+1913,2065,Elsa Alfredovna,Lasson-Spirova,2
 1913,2066,Miklós,Vadász,1
 1913,2067,Mihály,Munkácsy,1
 1913,2068,László,Paál,1
 1913,2069,Géza,Mészöly,1
+1913,2070,Mykhail,Latri,5
+1913,2071,Nadezhda,Ljubavina,2
+1913,2072,Anna Vladimirovna,Remizova-Vasilyeva,1
+1913,2073,Dmitry,Mitrokhin,5
+1913,2074,Zoja Jakovlevna,Mostova-Matveeva,5
+1913,2075,Georgy,Narbut,3
+1913,2076,Pavel,Naumov,3
+1913,2077,Andrey,Ol',1
+1913,2078,P.P.,Potipaka,1
+1913,2079,Aleksei Aleksandrovich,Radakov,1
+1913,2080,N.E.,Radlov,1
+1913,2082,Nicolai,Remisoff,4
+1913,2083,Aleksandr,Rostislavov,2
+1913,2084,Zinaida,Serebryakova,3
+1913,2085,N.P.,Skosarevskaya,2
+1913,2086,Pavel Aleksandrovich,Smelov,2
+1913,2087,Leonid,Sologub,5
+1913,2088,R.O.,Ulman,1
+1913,2089,Ivan,Fomin,2
+1913,2090,Marija Jakovlevna,Chembers-Bilibina,3
+1913,2091,Sergey,Chekhonin,3
+1913,2092,Boris,Shaposhnikov,1
+1913,2093,Adolf Iosifovic,Charlemagne,2
+1913,2094,Aleksandr,Shervashidze,3
+1913,2095,Lev,Zhegin,1
+1913,2096,V. D.,Shitikov,5
+1913,2097,N.N.,Shmakov,2
+1913,2098,Vasily,Shukhayev,1
+1913,2099,Aleksandr,Yakovlev,4
+1913,2100,Michail Nikolaevič,Jakovlev,1
 1913,2108,Katherine Sophie,Dreier,1
 1913,2116,Louis,Thévenet,2
 1913,2129,Hans Adolph,Bühler,1
@@ -22615,6 +23812,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,2375,Jan,Honsa,1
 1913,2379,Johan,Akkeringa,2
 1913,2380,Floris,Arntzenius,1
+1913,2387,Jan,Ciągliński,1
 1913,2395,Árpádné,Feszty,1
 1913,2398,János,Slakta,1
 1913,2402,Dezső,Rózsaffy,1
@@ -22643,6 +23841,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,2474,Paul Louis,Baignières,1
 1913,2490,Otto,Hesselbom,1
 1913,2552,Charles-Lucien,Léandre,1
+1913,2557,Ignaty,Nivinsky,1
 1913,2569,Henri,Fantin-Latour,2
 1913,2571,Oszkár,Glatz,1
 1913,2573,Richard,Baseleer,1
@@ -22653,7 +23852,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,2579,Emile,Vloors,1
 1913,2582,Otto,Freundlich,1
 1913,2584,Hermann,Lismann,1
-1913,2586,Jean,Jovenau,1
+1913,2586,Jean,Jovenau,2
+1913,2595,Alek'sandr,T'amanyan,1
 1913,2601,Jan,Toorop,3
 1913,2604,Ferenc,Olgyay,1
 1913,2605,Jean Laurent,Challié,1
@@ -22719,6 +23919,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,2871,Richard,Lauda,1
 1913,2884,Henri Joseph,Thomas,1
 1913,2886,Agustín,Carrera,1
+1913,2891,,anonymous,1
 1913,2892,Gustave Louis,Jaulmes,1
 1913,2894,Francis,Jourdain,3
 1913,2895,Léon,Lehmann,1
@@ -22759,7 +23960,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,3048,Alexandre,Urbain,1
 1913,3054,Gustave,Colin,1
 1913,3055,Émile Auguste,Carolus-Duran,1
+1913,3068,Evgeny,Agafonov,1
+1913,3069,Heinrich,Blumenfeld,1
+1913,3070,Aleksander,Beygul,1
+1913,3071,M. I.,Mikheev,1
 1913,3074,Mary,Cassatt,1
+1913,3075,Aleksander Pavlovoc,Pligin,2
 1913,3076,Francisco de,Goya,2
 1913,3086,Theodor,Alt,1
 1913,3092,Arthur,Degner,1
@@ -22786,8 +23992,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,3288,Hela,Peters,1
 1913,3300,Karel,Myslbek,1
 1913,3306,Burkhard,Mangold,1
+1913,3310,Sof'ya,Dymshits-Tolstaya,2
 1913,3311,Attila,Sassy,1
 1913,3312,Harold,Bengen,2
+1913,3313,,Fiebig,1
 1913,3315,Ferenc,Csont,1
 1913,3316,Vilmos,Fémes Beck,1
 1913,3317,Béla Ernő,Götz,1
@@ -22833,12 +24041,15 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,3399,Robin Christian,Andersen,1
 1913,3401,George Hendrik,Breitner,1
 1913,3403,John,Constable,1
+1913,3408,I. A.,Grandi,1
+1913,3416,Maria Ivanovna,Ivashintsova,2
 1913,3418,,Les amies de la dentelle,1
 1913,3419,Rudolf,Wilke,1
 1913,3420,Elfriede,Thum,1
 1913,3421,Hans,Schütz,1
 1913,3422,Lene,Schneider-Kainer,2
 1913,3423,Carl Constantin Heinrich,Steffeck,1
+1913,3426,Aleksej Eremeevič,Karev,2
 1913,3429,Rudolf,Bém,1
 1913,3430,Vlastimil,Hofmann,1
 1913,3439,Léon,Bonnat,1
@@ -22853,6 +24064,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,3466,Christian Adolf,Schreyer,1
 1913,3469,Constant,Troyon,1
 1913,3475,Frieda,Konstantin,1
+1913,3480,I. A.,Skuje,1
 1913,3484,József,Egry,1
 1913,3486,Stanislav,Lolek,2
 1913,3487,Oldřich,Blažíček,2
@@ -23012,6 +24224,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,3777,Erwin,Lang,2
 1913,3778,Otto Friedrich Carl,Lendecke,1
 1913,3779,Dagobert,Peche,1
+1913,3782,S. A.,Klyushnikov,2
 1913,3785,János,Korcsek,1
 1913,3786,János,Kossin,1
 1913,3787,Károly,Kotász,1
@@ -23033,7 +24246,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,3842,Arthur,Podolini Volkmann,1
 1913,3843,László,Pogány,1
 1913,3844,Frank,Brangwyn,1
+1913,3868,Joachim von,Bülow,1
 1913,3878,Alois,Kolb,1
+1913,3888,Elena Ivanovna,Kamenceva,1
 1913,3890,Márta,Aranyosmaróthi Rónay,1
 1913,3891,Sándor,Sárréti Daróczy,1
 1913,3892,Ferenc,Sass,1
@@ -23135,6 +24350,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,4005,František,Nágl,2
 1913,4006,Jean-Baptiste,Carpeaux,1
 1913,4019,József,Róna,1
+1913,4021,Aleksander,Koyransky,1
+1913,4023,O. P.,Mikhailova,2
 1913,4024,Otakar,Španiel,1
 1913,4025,Jan,Trampota,1
 1913,4026,Alice,Bailly,1
@@ -23233,6 +24450,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,4216,Arnold Marc,Gorter,1
 1913,4226,Johannes Hendricus,Jurres,1
 1913,4229,Arnold Hendrik,Koning,1
+1913,4231,M. S.,Chuyko,1
 1913,4232,Edzard,Koning,1
 1913,4235,Willem,Maris,1
 1913,4236,Willem,Martens,1
@@ -23246,6 +24464,22 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,4272,Louis Willem van,Soest,1
 1913,4279,Dirk,Wiggers,1
 1913,4281,Jan Hillebrand,Wijsmuller,1
+1913,4286,A. I.,Abramov,1
+1913,4287,Julian Pavlovic,Anisimov,1
+1913,4288,Timofej I.,Bogomazov,1
+1913,4289,I. F.,Larionov,1
+1913,4290,Vaceslav,Levkiyevsky,1
+1913,4291,M. M.,Mikhailov,1
+1913,4292,Sergej Michajlovič,Romanovič,1
+1913,4293,G. E.,Pavlyuchenko,1
+1913,4294,Aleksander,Belyaev,1
+1913,4295,I.,Ermilov,1
+1913,4296,,Novikov,1
+1913,4297,O.,Olgina,1
+1913,4298,L.,Ksenyeva,1
+1913,4299,,Lipa,1
+1913,4300,,Rushevskaya,1
+1913,4301,Olga,Yacimirskaya,1
 1913,4308,Gitta,Gyenes,1
 1913,4310,Álmos,Jaschik,1
 1913,4311,Miksa,Keitner,1
@@ -23289,14 +24523,27 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,4497,Alexander,Jamieson,1
 1913,4498,William,Strang,1
 1913,4501,Arnold,Gara,2
+1913,4518,Sergey,Gruzenberg,4
+1913,4519,Vadym,Falieev,1
 1913,4536,Jozsef,Pechan,1
 1913,4542,Zoltán,Csáktornyai,1
+1913,4547,,anonymous: Lubki,1
 1913,4551,Richard,Grimm,1
 1913,4578,Jenő,Szigeti,1
 1913,4579,Robert,Lénárd,1
+1913,4586,Victor,Dobrzynski,1
+1913,4614,Ljubov' Vasil'evna,Yakovleva-Shaporina,1
 1913,4678,Manó,Vesztróczy,1
+1913,4690,Boris,Kamensky,1
 1913,4696,Maria,Heyne,1
 1913,4697,Rudolf,Kohtz,1
+1913,4710,Magda,Nachman Acharya,2
+1913,4711,Yulia,Obolenskaya,2
+1913,4725,Pavel,Šillingovskij,1
+1913,4729,Olga,Bari,1
+1913,4730,A. F.,Blumenfeld,2
+1913,4731,Andrey,Belogrud,2
+1913,4732,Z.,Veselovskaya-Tugenhold,1
 1913,4734,Thorolf,Holmboe,2
 1913,4736,Gudmund,Stenersen,2
 1913,4737,Gustav,Wentzel,1
@@ -23308,7 +24555,27 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,4753,Marie Bolette Wilhelmine,Falsen,1
 1913,4754,Eilif,Peterssen,1
 1913,4756,Oda,Krohg,1
+1913,4758,Fedor,Sacharov,1
+1913,4759,A. A.,Ziloti,2
+1913,4761,A.,Ivanov,1
+1913,4762,I. P.,Kalinkin,1
+1913,4763,Nikolay,Kalmakov,4
+1913,4764,E. I.,Karmin,1
+1913,4765,Stepan,Krichinsky,2
+1913,4766,V. N.,Levitsky,2
+1913,4767,Ivan,Mosalevsky,2
+1913,4768,Mikhail,Ogranonovich,1
+1913,4769,S. K.,Raynova,1
+1913,4770,Nina,Simonovich-Efimova,1
+1913,4771,Savely Abramovitch,Sorin,2
+1913,4772,Marija,Favorskaja,1
+1913,4773,Dm.,Fedorov,1
+1913,4774,F. M.,Chernousenko,1
+1913,4806,Nikolai Mikhailovich,Chernyshev,1
+1913,4816,N. P.,Grekova,1
+1913,4817,L.,Kuznetsova,1
 1913,4855,László,Vágó,1
+1913,4881,Rafail Iosifovich,Buynicki,1
 1913,4937,Nicolaas,Bastert,2
 1913,4955,Gerrit Willem,Dijsselhof,1
 1913,4958,Willem Arnold,Witsen,1
@@ -23320,9 +24587,97 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,4969,Emmanuel,Vierin,1
 1913,4981,Andor,Székely,1
 1913,5008,Julius,Kollmann,1
+1913,5024,Vadim,Falileev,1
+1913,5026,Mikhail,Shirokov,1
 1913,5038,Jules,Bastien-Lepage,1
 1913,5044,Paul Jacques Aimé,Baudry,1
 1913,5055,Mihály,Zichy,1
+1913,5078,Rene,O'Connel,1
+1913,5093,Georgy Avetisovic,Avetisyan,1
+1913,5094,Vassily Mitrofanovic,Alekseev,1
+1913,5095,Egor,Baramzin,1
+1913,5096,Jakov,Belsen,1
+1913,5097,Maria,Botkina,1
+1913,5098,Polina,Bukh,1
+1913,5099,Mikhail,Buind,1
+1913,5100,Aleksandr Nikolaevič,Vyezžev,1
+1913,5101,Jakov,Weber,1
+1913,5102,M. L.,Shafran,1
+1913,5103,Evgeny,Vashhenko,1
+1913,5104,,Elpe,1
+1913,5105,Grigory Aleksandrovic,Zhizhilenko,1
+1913,5106,Ivan Osipovich,Dudin,1
+1913,5107,Petr Lavrovich,Veselov,1
+1913,5108,Pavel Fedorovich,Voronov,1
+1913,5109,,V. G.,1
+1913,5110,A. P.,Grinev,1
+1913,5111,Milda Ivanovna,Grünfeldt,1
+1913,5112,Vsevolod Aleksandrovic,Dmitriev,1
+1913,5113,Igor,Dmitriev,1
+1913,5114,Ivan Yakovlevich,Dmitriev,1
+1913,5115,Leopol'd Avgustovich,Ditrich,1
+1913,5116,V. V.,Kozlov,1
+1913,5117,Vassily Vassilyevic,Evreinov,1
+1913,5118,Sergej Semenovič,Egornov,1
+1913,5119,Nikolai Nikolaevich,Efimov,1
+1913,5120,S. V.,Zapolski-Dovnar,1
+1913,5121,Alexandre,Sakharov,1
+1913,5122,Maksim Osipovich,Zachgeim,1
+1913,5123,Grigorii Dimitrievich,Zimin,1
+1913,5124,Aleksei Prokofevich,Zinovev,1
+1913,5125,Nikolai Leonidovich,Ivanov,1
+1913,5126,Mikhail Filippovich,Ivanov,1
+1913,5127,,N.K.,1
+1913,5128,David,Kakabadze,1
+1913,5129,Ilya Aleksandrovich,Kalachev,1
+1913,5130,Ilya Aleksandrovich,Kambarov,1
+1913,5131,Vladimir Romanovich,Kargus-Smolenskij,1
+1913,5132,Antonina Vissarionovna,Kitaeva,1
+1913,5133,Vladimir Anatol'evič,Klopov,1
+1913,5134,Aleksandra Timofeevna,Komarova,1
+1913,5135,Vyacheslav Fedorovich,Korenev,1
+1913,5136,O. N.,Tretyakova,1
+1913,5137,Mitrofan Prokoffievich,Korsun,1
+1913,5138,Lidia Mikhailovna,Kostric,1
+1913,5139,Aleksandr Vassil'evich,Lebedev,1
+1913,5140,Ilya Ilyich,Litvinov,1
+1913,5141,,P. L.,1
+1913,5142,Aleksander Damianov,Makarevsky,1
+1913,5143,B. N.,Markov,1
+1913,5144,Maria Aloisovna,Malakhovskaya,1
+1913,5145,Pavel Vassilyevic,Mudrolyubov,1
+1913,5146,Filip Alekseevich,Muromcev,1
+1913,5147,N. N.,Nikolsky,1
+1913,5155,S. N.,Nasedkin,1
+1913,5156,Ekaterina Nikolaevna,Nozikova,1
+1913,5157,Ivan Ermolaevich,Nyunin,1
+1913,5158,N. Kh.,Ovchinnikov,1
+1913,5159,A.,Palgunov,1
+1913,5160,Stepan Grigoryevich,Pisachov,1
+1913,5161,Boris Vladimirovich,Poray-Koshic,1
+1913,5162,Vadim Evgenevich,Pospolitaki,1
+1913,5163,Nikolai Adrianovich,Protopopov,1
+1913,5164,Evgeny Konstantinovich,Pskovitinov,1
+1913,5165,Aleksandr Andreevich,Raevsky,1
+1913,5166,Yu. A.,Raev,1
+1913,5167,Sofia,Sveca,1
+1913,5168,Ekaterina Filippovna,Samujlson,2
+1913,5170,A. V.,Sosionkov,1
+1913,5171,Konstantin,Sokolov,1
+1913,5172,,Stankevich,1
+1913,5173,Nikolai Nikolaevich,Storozhevsky,1
+1913,5174,T. M.,Terpilovskaya,1
+1913,5175,Evgeniya Mikhailovna,Tverdaya,1
+1913,5176,Ivan Vassilevich,Tihomirov,1
+1913,5177,Fedor Ivanovich,Tomov,1
+1913,5178,Nikolai Davidovich,Trofimenko,1
+1913,5179,,N. U.,1
+1913,5180,V. Ya.,Finkelstein,1
+1913,5181,A. A.,Kharlampovich,1
+1913,5182,N. G.,Hludow,1
+1913,5183,O. V.,Chaikovskaya,1
+1913,5184,Zahar Vassilyevich,Chuev,1
+1913,5185,Julij Jakovlevič,Gombarg,1
 1913,5226,Charles Émile,Jacque,1
 1913,5252,Charles,Chaplin,1
 1913,5254,Thomas,Couture,1
@@ -23888,6 +25243,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,7636,Eugène-Benjamin,Selmy,1
 1913,7646,Joaquim,Sunyer Miró,1
 1913,7647,Tancrede,Synave,1
+1913,7678,Asor,Hansen,1
 1913,7699,Mervyn,Lawrence,1
 1913,7712,Harry John,Pearson,1
 1913,7753,Henri,Binard,1
@@ -24351,6 +25707,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,9662,Lodovico,Zambeletti,1
 1913,9665,Margret,Reynolds,1
 1913,9666,Geoffrey,Birkbeck,1
+1913,9667,E. G.,Shalaginova,1
+1913,9673,A. G.,Shibanov,1
 1913,9716,Gennaro,Villani,1
 1913,9732,Ascanio,Tealdi,2
 1913,9739,Mazzini,Beduschi,1
@@ -24610,10 +25968,21 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1913,12866,Sonia,Lewitzka,1
 1913,12891,Jan Cornelis,Bander,1
 1913,12892,Gerard Willem,Becker,1
+1913,12951,Mikhail,Verner,1
+1913,13105,M.,Gankin,1
+1913,13106,E.,Zivarts,1
+1913,13107,M. F.,Martynov,1
+1913,13108,V. V.,Mate,1
+1913,13109,A. A.,Mitnikov,1
+1913,13110,L.,Ovsyannikov,1
+1913,13111,V. I.[?],Levitskiy,1
+1913,13112,Oskar,Meshaninov,1
 1913,13999,Anna,Davidson,2
 1914,1,William Bernard,Adeney,2
+1914,3,Natan,Alt'man,1
 1914,4,Cuno,Amiet,1
 1914,5,Vassily,Kandinsky,4
+1914,6,Kazimir,Malevich,1
 1914,7,Piet,Mondrian,1
 1914,8,Alexander,Archipenko,3
 1914,14,Léon,Bakst,1
@@ -24622,6 +25991,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,23,Max,Beckmann,5
 1914,24,Vanessa,Bell,2
 1914,26,Vincenc,Beneš,1
+1914,27,Alexandre,Benois,1
 1914,28,Róbert,Berény,1
 1914,30,Émile,Bernard,4
 1914,31,Robert Polhill,Bevan,3
@@ -24631,7 +26001,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,36,David,Bomberg,3
 1914,37,Pierre,Bonnard,6
 1914,39,Emile-Antoine,Bourdelle,1
-1914,41,Georges,Braque,1
+1914,41,Georges,Braque,2
 1914,42,Horace,Brodzky,1
 1914,44,Patrick Henry,Bruce,2
 1914,45,Hans,Brühlmann,2
@@ -24648,6 +26018,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,58,Paul,Cézanne,7
 1914,59,Auguste-Elysée,Chabaud,1
 1914,60,Marc,Chagall,2
+1914,62,Vasily,Chekrygin,1
 1914,65,Lovis,Corinth,3
 1914,66,Gustave,Courbet,4
 1914,67,Walter,Crane,2
@@ -24660,11 +26031,11 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,77,Edgar,Degas,4
 1914,79,Robert,Delaunay,2
 1914,83,Maurice,Denis,5
-1914,84,André,Derain,3
+1914,84,André,Derain,4
 1914,85,Gustave de,Smet,1
 1914,87,Georges-Olivier,Desvallières,3
-1914,88,Maurice de,Vlaminck,1
-1914,90,Mstislav,Dobuzhinsky,2
+1914,88,Maurice de,Vlaminck,2
+1914,90,Mstislav,Dobuzhinsky,3
 1914,91,Henri,Doucet,2
 1914,93,Malcolm,Drummond,2
 1914,96,Raymond,Duchamp-Villon,1
@@ -24674,10 +26045,15 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,102,Adolf,Erbslöh,5
 1914,104,Max,Ernst,3
 1914,105,Frederick,Etchells,2
-1914,107,Aleksandra Aleksandrovna,Exster,2
+1914,107,Aleksandra Aleksandrovna,Exster,4
 1914,108,Anton,Faistauer,2
 1914,110,Marie,Vassilieff,1
+1914,111,Vasiliǐ,Kamenskiǐ,1
+1914,115,Lyubov',Popova,1
 1914,117,Ol'ga,Rozanova,1
+1914,118,Vladimir,Tatlin,1
+1914,119,Nadezhda,Udal'tsova,1
+1914,121,Robert,Fa'lk,1
 1914,123,Lyonel,Feininger,2
 1914,124,Emil,Filla,1
 1914,128,Othon,Friesz,4
@@ -24691,9 +26067,10 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,139,Charles,Ginner,3
 1914,140,Pierre Paul,Girieud,1
 1914,142,Albert,Gleizes,2
-1914,143,Natalia,Goncharova,2
+1914,143,Natalia,Goncharova,4
 1914,144,Spencer,Gore,3
 1914,145,Duncan,Grant,2
+1914,147,Alexis,Gritchenko,1
 1914,150,Charles-François-Prosper,Guérin,1
 1914,155,Ferenc,Hatvany,1
 1914,156,Henri,Hayden,1
@@ -24716,24 +26093,30 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,186,Cesar,Klein,2
 1914,187,Gustav,Klimt,2
 1914,190,Oskar,Kokoschka,3
+1914,193,Pyotr,Konchalovsky,1
+1914,194,Nikolay,Krymov,2
 1914,196,Alfred,Kubin,1
 1914,197,Othone,Coubine,2
 1914,198,Bohumil,Kubišta,2
+1914,202,Aleksandr,Kuprin,1
 1914,205,Eugène,Laermans,3
 1914,206,Roger de,La Fresnaye,3
 1914,207,Henry,Lamb,2
 1914,208,Pierre,Laprade,1
-1914,209,Mikhail,Larionov,1
+1914,209,Mikhail,Larionov,2
 1914,210,Marie,Laurencin,4
-1914,215,Henri Victor Gabriel,Le Fauconnier,1
+1914,214,Mikhail Vasilevich,Le-Dantyu,1
+1914,215,Henri Victor Gabriel,Le Fauconnier,2
 1914,216,Fernand,Léger,1
 1914,217,Wilhelm,Lehmbruck,1
 1914,218,Wilhelm,Leibl,2
+1914,221,Aristarkh,Lentulov,1
 1914,222,Rudolf,Levy,4
 1914,223,Wyndham,Lewis,2
 1914,224,André,Lhote,3
 1914,225,Max,Liebermann,6
 1914,227,Bertold,Löffler,2
+1914,228,Georgy,Lukomsky,1
 1914,233,August,Macke,6
 1914,234,Helmuth,Macke,2
 1914,235,Aristide,Maillol,1
@@ -24745,6 +26128,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,243,Ödön,Márffy,1
 1914,245,Albert,Marquet,1
 1914,246,Alberto,Martini,1
+1914,247,Il'ya,Mashkov,1
 1914,248,Henri,Matisse,3
 1914,251,Alfred Henry,Maurer,1
 1914,252,Ludwig,Meidner,2
@@ -24753,13 +26137,14 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,255,Jean,Metzinger,3
 1914,256,Constantin,Meunier,2
 1914,257,Nikolay,Milioti,1
-1914,265,Aleksandr Pavlovič,Mogilevskij,1
+1914,265,Aleksandr Pavlovič,Mogilevskij,2
 1914,267,Oskar,Moll,3
 1914,268,Claude,Monet,7
 1914,269,Adolphe,Monticelli,1
 1914,270,Giorgio,Morandi,2
 1914,271,Gustave,Moreau,2
 1914,272,Wilhelm,Morgner,2
+1914,273,Alexsey,Morgunov,1
 1914,275,Otto,Mueller,2
 1914,276,Edvard,Munch,4
 1914,277,Gabriele,Münter,3
@@ -24773,12 +26158,12 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,286,Willi,Nowak,3
 1914,288,Walter,Ophey,3
 1914,289,Dezső,Orbán,1
-1914,290,Anna Petrovna,Ostroumova-Lebedeva,2
+1914,290,Anna Petrovna,Ostroumova-Lebedeva,3
 1914,292,Bernhard,Pankok,2
 1914,293,Jules,Pascin,3
 1914,295,Max,Pechstein,7
 1914,300,Francis,Picabia,2
-1914,301,Pablo,Picasso,4
+1914,301,Pablo,Picasso,5
 1914,306,Gaetano,Previati,1
 1914,307,Antonín,Procházka,1
 1914,308,Hans,Purrmann,3
@@ -24799,12 +26184,14 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,331,Ker-Xavier,Roussel,4
 1914,333,Luigi,Russolo,4
 1914,339,Martiros,Sarian,1
+1914,342,Lodewijk,Schelfhout,1
 1914,343,Egon,Schiele,6
 1914,345,Karl,Schmidt-Rottluff,5
 1914,348,Arthur,Segal,3
 1914,352,Albert,Servaes,1
 1914,353,Georges,Seurat,1
 1914,354,Gino,Severini,4
+1914,357,Aleksandr,Shevchenko,1
 1914,360,Walter Richard,Sickert,4
 1914,361,Paul,Signac,4
 1914,362,Ladislav,Šíma,1
@@ -24814,6 +26201,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,371,Václav,Špála,1
 1914,373,Stanley,Spencer,1
 1914,377,John,Sten,1
+1914,380,Sergey,Sudyekin,1
 1914,381,Georg,Tappert,1
 1914,383,Lajos,Tihanyi,1
 1914,384,Charley,Toorop,2
@@ -24841,6 +26229,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,422,Erich,Wichman,1
 1914,423,Alfred Aaron,Wolmark,1
 1914,424,Rik,Wouters,1
+1914,427,Kyril Mikhailovich,Zdanevich,1
 1914,430,Jan,Zrzavý,1
 1914,433,Hans,Baluschek,1
 1914,437,Josef,Block,1
@@ -24929,7 +26318,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,616,Elisabeth I.,Epstein,1
 1914,617,Ugo,Giannattasio,1
 1914,618,Franz,Henseler,2
-1914,621,Nikolay,Kulbin,1
+1914,621,Nikolay,Kulbin,2
 1914,622,Alfred,Loeb,1
 1914,624,Carl,Mense,3
 1914,626,Adriana Catharina van,Rees-Dutilh,1
@@ -24937,7 +26326,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,628,Richard,Seewald,3
 1914,631,Curt,Störmer,1
 1914,634,Hans,Thuar,3
-1914,637,Conrad,Kikkert,1
+1914,637,Conrad,Kikkert,2
 1914,640,Maximilian,Liebenwein,1
 1914,642,Albert,Besnard,3
 1914,643,Ernst,Stöhr,1
@@ -25023,12 +26412,14 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,827,Eugen,Feiks,2
 1914,828,Carl Friedrich,Felber,1
 1914,830,Ludwig,Wieden,1
+1914,833,Adolf Izrailovich,Milman,1
 1914,834,Wilhelm,Gallhof,2
 1914,835,Oskar,Gawell,1
 1914,837,Alexander,Gerbig,1
 1914,838,Emil Von,Gerliczy,2
 1914,839,Hermann,Goebel,1
 1914,840,Hans,Gott,2
+1914,842,Vasily,Rozhdestvensky,1
 1914,843,Arthur,Grimm,1
 1914,845,Eugen,Hamm,2
 1914,846,Carl Christoph,Hartig,1
@@ -25042,11 +26433,15 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,857,Heinrich,Heuser,2
 1914,858,Heinrich,Heyne,2
 1914,861,W. Franz,Jäger,1
+1914,863,V. I.,Pozharsky,1
 1914,864,Ernst,Isselmann,2
+1914,866,Viktor,Savinkov,1
 1914,869,Hans,Keller,1
+1914,870,A.M.,Samojlova,1
 1914,871,Walther,Klemm,5
 1914,876,Hugo,Krayn,1
 1914,878,"Josef, II",Kühn,1
+1914,879,Antonina,Sofronova,1
 1914,887,Fritz,Lederer,1
 1914,890,Ewald,Manz,1
 1914,891,Hans,Meid,2
@@ -25206,6 +26601,8 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,1268,Heinrich,Schulz,1
 1914,1270,Ludwig,Stutz,1
 1914,1271,Rudolf,Tewes,1
+1914,1273,German Vassilievic,Fedorov,1
+1914,1274,Ivan,Fedotov,1
 1914,1275,István,Csók,2
 1914,1276,Károly,Ferenczy,1
 1914,1277,Adolf,Fényes,1
@@ -25268,6 +26665,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,1411,Adolf,Strübe,2
 1914,1412,Günther,Stüdemann,2
 1914,1413,Paul,Thalheimer,1
+1914,1420,Anna,Zelmanova,1
 1914,1428,Fritz,Wimmer,1
 1914,1429,Karl,Windels,2
 1914,1430,Otto,Wyler,1
@@ -25409,12 +26807,18 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,1838,Wilhelm,Giese,1
 1914,1839,Abraham,Hermanjat,1
 1914,1843,Otto Richard,Langer,1
+1914,1865,Ekaterina Vasilevna,Goldinger,1
 1914,1876,Max,Oppenheimer,2
 1914,1878,Wilhelm,Lange,1
 1914,1879,Alfred,Sohn-Rethel,1
 1914,1881,Eugène,Zak,2
-1914,1891,Nikolay,Kuznetsov,1
+1914,1891,Nikolay,Kuznetsov,2
 1914,1898,Stanislav-Vitold Vladislavovich,Noakovsky,1
+1914,1899,Sergej Ivanovič,Petrov,1
+1914,1901,Fedor Ivanovich,Rerberg,1
+1914,1906,Aleksander,Sredin,2
+1914,1917,Aleksej Alekseevič,Jasinskij,1
+1914,1922,Michail Semenovič,Pyrin,1
 1914,1923,Alfred,Sisley,4
 1914,1926,Alexandre,Blanchet,1
 1914,1931,Jean-Auguste-Dominique,Ingres,1
@@ -25427,15 +26831,45 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,1947,Friedrich August,Weinzheimer,2
 1914,1953,Joseph,Bernard,1
 1914,1958,Emilie,Charmy,1
-1914,1965,Konstantin,Bogayevsky,1
+1914,1961,Aleksandr,Arnshtam,1
+1914,1962,Abram,Arkhipov,2
+1914,1964,Michail Pavlovič,Bobyšov,1
+1914,1965,Konstantin,Bogayevsky,2
 1914,1966,Ossip Emmanujilowitsch,Brass,1
+1914,1969,Lidiya Nikandrovna,Verkhovskaya,1
+1914,1971,Boris,Grigor'yev,1
 1914,1982,Antal,Berkes,1
-1914,1989,Boris,Anisfel'd,1
+1914,1989,Boris,Anisfel'd,2
 1914,1992,Ivan,Bilibin,1
+1914,2005,Konstantin,Yuon,1
+1914,2007,Konstantin,Korovin,1
 1914,2009,Boris,Kustodiyev,2
-1914,2027,Nicholas,Roerich,2
+1914,2013,Agnes,Lindemann,2
+1914,2017,Sergey Vasil'yevich,Malyutin,2
+1914,2019,Nikolai Vasilevich,Meshcherin,1
+1914,2023,Vladimir Vasilevič,Perepletčikov,2
+1914,2024,Pyotr,Petrovichev,1
+1914,2027,Nicholas,Roerich,3
 1914,2029,Arkady,Rylov,1
+1914,2037,Valentin,Serov,1
 1914,2045,Nicolas Alexandrovitch,Tarkhoff,1
+1914,2052,Sergey,Vinogradov,1
+1914,2060,E.Ya.,Sander-Rodlova,1
+1914,2063,O.N.,Karatygina,1
+1914,2070,Mykhail,Latri,1
+1914,2072,Anna Vladimirovna,Remizova-Vasilyeva,1
+1914,2073,Dmitry,Mitrokhin,1
+1914,2074,Zoja Jakovlevna,Mostova-Matveeva,1
+1914,2075,Georgy,Narbut,1
+1914,2079,Aleksei Aleksandrovich,Radakov,1
+1914,2082,Nicolai,Remisoff,1
+1914,2083,Aleksandr,Rostislavov,1
+1914,2084,Zinaida,Serebryakova,1
+1914,2091,Sergey,Chekhonin,1
+1914,2093,Adolf Iosifovic,Charlemagne,1
+1914,2094,Aleksandr,Shervashidze,1
+1914,2097,N.N.,Shmakov,1
+1914,2098,Vasily,Shukhayev,1
 1914,2099,Aleksandr,Yakovlev,1
 1914,2116,Louis,Thévenet,2
 1914,2122,Louis,Van der Swaelmen,1
@@ -25447,6 +26881,11 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,2250,Clare,Atwood,2
 1914,2255,Lucie,Lambert,1
 1914,2256,Alice,Dannenberg,1
+1914,2258,Apollinary,Vasnetsov,1
+1914,2259,Nikolai Vasilevich,Doseikin,1
+1914,2260,Nikolai Aleksandrovič,Klodt,1
+1914,2261,Stanislav Julianovič,Žukovskij,2
+1914,2263,Leonid,Pasternak,1
 1914,2267,Thérèse,Schwartze,2
 1914,2268,Mary Sargant,Florence,1
 1914,2272,Susanne,Robertson,2
@@ -25473,10 +26912,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,2368,Wojciech,Weiss,1
 1914,2374,Josef,Ullmann,1
 1914,2375,Jan,Honsa,2
-1914,2377,Konstantin Konstantinovich,Pervukhin,1
+1914,2377,Konstantin Konstantinovich,Pervukhin,2
+1914,2378,Aleksey,Stepanov,1
 1914,2379,Johan,Akkeringa,1
 1914,2380,Floris,Arntzenius,2
-1914,2393,Isaak,Brodsky,1
+1914,2386,Leonard,Turzhansky,1
+1914,2391,Manuil Khristoforovich,Aladzhalov,1
+1914,2393,Isaak,Brodsky,3
 1914,2395,Árpádné,Feszty,1
 1914,2396,Georgette,Agutte,1
 1914,2398,János,Slakta,1
@@ -25497,8 +26939,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,2465,Joža,Úprka,1
 1914,2474,Paul Louis,Baignières,1
 1914,2488,Ferdinand,Boberg,1
+1914,2500,Vasily,Surikov,1
 1914,2509,François,Beauck,1
-1914,2523,Grigorij Michajlovič,Bobrovskij,1
+1914,2523,Grigorij Michajlovič,Bobrovskij,2
 1914,2524,Leonid,Brailovskii,1
 1914,2537,Viktor Ivanovich,Zarubin,1
 1914,2549,Jean Jacques,Henner,1
@@ -25608,6 +27051,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,3023,Broncia,Koller,1
 1914,3049,Adolphe-Félix,Cals,1
 1914,3053,Paul,Deltombe,1
+1914,3064,P.,Shherbov,1
 1914,3072,Henri,Ottmann,1
 1914,3073,Julius,Wentscher II,1
 1914,3074,Mary,Cassatt,2
@@ -25660,7 +27104,18 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,3387,Carlos,Reymond,1
 1914,3396,Fritz,Westendorp,1
 1914,3399,Robin Christian,Andersen,2
-1914,3410,Olga Della-Vos,Kardovskaya,1
+1914,3406,Alisa Yakovlevna,Brusketti-Mitrokhina,1
+1914,3407,,Budkovskaya,1
+1914,3408,I. A.,Grandi,1
+1914,3409,Iosif Naumovich,Gurvich,1
+1914,3410,Olga Della-Vos,Kardovskaya,3
+1914,3411,Andrei Romanovich,Diderichs,1
+1914,3412,Varvara Daviti,Bebutova,1
+1914,3413,I. A.,Ermolova,1
+1914,3414,T. V.,Zhukovskaya-Bak,1
+1914,3415,A. I.,Ivanov,1
+1914,3416,Maria Ivanovna,Ivashintsova,1
+1914,3417,Nadezhda Vladimirovna,Lermontova,1
 1914,3422,Lene,Schneider-Kainer,2
 1914,3430,Vlastimil,Hofmann,2
 1914,3432,Ivo,Hauptmann,1
@@ -25712,6 +27167,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,3762,Edmund Pick,Morino,1
 1914,3763,Augusta von,Zitzewitz,2
 1914,3764,Matthias,Streicher,1
+1914,3771,V. K.,Dolin,1
 1914,3774,Felix Albrecht,Harta,1
 1914,3775,Sebastian,Isepp,2
 1914,3785,János,Korcsek,1
@@ -25757,6 +27213,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,4054,Vitol'd,Byalynitsky-Birulya,1
 1914,4055,F.,Lindau,1
 1914,4057,Johan,Johansson,1
+1914,4060,Oleksandr,Murashko,1
 1914,4067,Joseph,Dierickx,1
 1914,4068,Georges,Fichefet,1
 1914,4070,Adolphe-Jean,Hamesse,1
@@ -25780,6 +27237,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,4201,August von,Brandis,2
 1914,4206,Salomon,Garf,1
 1914,4217,Hendrik Johannes,Haverman,2
+1914,4223,Vasyl',Masyutyn,1
 1914,4229,Arnold Hendrik,Koning,1
 1914,4238,Hendrik Willem,Mesdag,1
 1914,4239,Pieter Cornelis de,Moor,1
@@ -25788,6 +27246,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,4272,Louis Willem van,Soest,1
 1914,4281,Jan Hillebrand,Wijsmuller,1
 1914,4283,Willem de,Zwart,1
+1914,4288,Timofej I.,Bogomazov,1
+1914,4290,Vaceslav,Levkiyevsky,1
+1914,4292,Sergej Michajlovič,Romanovič,1
 1914,4302,Gyula,Batthyany,2
 1914,4303,László,Csáky,1
 1914,4304,Petar,Dobrovits,1
@@ -25826,11 +27287,38 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,4593,Konrad,Krzyżanowski,1
 1914,4597,Vladimir,Polunin,1
 1914,4610,Yakov,Chapchal,1
+1914,4629,Nikolai,Sheverdyev,1
 1914,4697,Rudolf,Kohtz,1
+1914,4705,Stanislav,Gurvich-Gursky,1
+1914,4707,Valentina Mihajlovna,Hodasevič,1
+1914,4710,Magda,Nachman Acharya,1
+1914,4711,Yulia,Obolenskaya,1
+1914,4715,V. F.,Shestopalov,1
+1914,4722,Mikhail,Nesterov,1
+1914,4723,Mikhail Fedorovich,Andreenko,1
+1914,4724,Nikolay,Tyrsa,1
+1914,4725,Pavel,Šillingovskij,1
 1914,4734,Thorolf,Holmboe,1
 1914,4740,Max,Bucherer,1
 1914,4744,Halfdan Frithjof,Strom,2
 1914,4751,Hede von,Trapp,1
+1914,4773,Dm.,Fedorov,1
+1914,4796,Aleksandr Vasil'evič,Lysenko,1
+1914,4814,Aleksander,Pokrovsky,1
+1914,4818,Pavel,Baklanov,1
+1914,4823,Petr,Ermilov,1
+1914,4825,Ivan,Ipatov,1
+1914,4828,Nikolai,Konstantinov,1
+1914,4830,Aleksey Andreevich,Krasovsky,1
+1914,4832,Mikhail,Leblan,1
+1914,4833,Vadim,Nevski,1
+1914,4834,Stepan,Orlov,1
+1914,4836,Aleksandr,Pavlov,1
+1914,4838,Marina,Ryndzyunskaya,1
+1914,4839,Dimitri,Sobolev,1
+1914,4840,Alexander,Sokolov,1
+1914,4841,Aleksandr,Fabergé,1
+1914,4842,Natalia,Jureva,1
 1914,4865,István,Nagy,1
 1914,4930,José,Bermejo Sobera,1
 1914,4933,Henryk,Glicenstein,1
@@ -25845,6 +27333,16 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,5035,Frédéric,Bazille,1
 1914,5101,Jakov,Weber,1
 1914,5163,Nikolai Adrianovich,Protopopov,1
+1914,5216,Ivan,Bobkov,1
+1914,5217,Sergey,Bajdin,1
+1914,5218,A. A.,Baryshnikov,1
+1914,5219,Georgi,Golts,1
+1914,5220,Nikolai,Lopatin,1
+1914,5221,Galina Viktorovna,Labunskaya,1
+1914,5222,N. D.,Pavlyuchenmko,1
+1914,5223,Sergei,Podgaevskii,1
+1914,5224,I. V.,Firsov,1
+1914,5225,Lev,Ostofyev,1
 1914,5236,Jean Charles,Cazin,1
 1914,5248,Louis Adolphe,Hervier,1
 1914,5257,Louis,Lejeune,2
@@ -26386,7 +27884,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,8010,Lucien Gustave,Jottrand,1
 1914,8011,Eug.,Karpathi,1
 1914,8012,Reinier Willem,Kennedy,1
-1914,8013,Paul,Krasnobaieff,1
+1914,8013,Paul,Krasnobaieff,2
 1914,8014,Charles,Kvapil,1
 1914,8015,Emile,Laloux,1
 1914,8018,Emma,Lambotte,1
@@ -26920,6 +28418,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,10903,Desmond Macready,Chute,1
 1914,10904,George Marinus,Tamson,1
 1914,10905,Hendrik,Weegewijs,1
+1914,10969,Vycheslav Pavlovich,Bychkov,1
+1914,10974,Nikolaj Semenovich,Zajczev,1
+1914,10975,Aleksej Vladimirovič,Isupov,1
 1914,10978,Mary Ethel,Hunter,1
 1914,10986,Lucie,Dam van Isselt,1
 1914,10988,Alida van,Houten,1
@@ -27410,6 +28911,21 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,13018,Antonio Giovanni,Possamai,1
 1914,13019,Antonio,Sant'Elia,1
 1914,13037,Stepan,Kolesnikov,1
+1914,13085,Petr,Afanasyev,1
+1914,13086,Alexandr,Vengrzhinovskij,1
+1914,13087,Alexei,Grot,1
+1914,13088,Lyubov',Gubina,1
+1914,13091,Konstantin,Zaycev,1
+1914,13092,Nikolay,Karetnikov,1
+1914,13093,Nikolay,Kornilov,1
+1914,13094,Kuprian,Kuprianov,1
+1914,13096,Lyubov',Letnikova,1
+1914,13097,Olga,Natalyina,1
+1914,13098,Dmitriy,Orlov,1
+1914,13100,Vasiliy,Sveshnikov,1
+1914,13101,P. L.,von Fessing,1
+1914,13103,Mariya,Chizhova,1
+1914,13104,Nikolay,Sharikov,1
 1914,13202,Alessandro,Zezzos,1
 1914,13334,Joe,Leo,1
 1914,13335,Samuel,Fridolin,1
@@ -27424,6 +28940,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,13442,Pietro,Gaudenzi,1
 1914,13493,Isobel Lilian,Gloag,1
 1914,13500,Edwin,Alexander,1
+1914,13506,Nikolaj Nikolaevič,Pomansky,1
 1914,13547,Otto,Günther-Naumburg,1
 1914,13552,Antonio,Camaur,1
 1914,13553,Mario De,Murtas Mossa,1
@@ -27504,7 +29021,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1914,13999,Anna,Davidson,1
 1915,1,William Bernard,Adeney,2
 1915,2,Peter,Alma,1
-1915,5,Vassily,Kandinsky,1
+1915,3,Natan,Alt'man,2
+1915,5,Vassily,Kandinsky,2
+1915,6,Kazimir,Malevich,1
 1915,7,Piet,Mondrian,2
 1915,8,Alexander,Archipenko,1
 1915,12,Hans,Arp,1
@@ -27518,11 +29037,13 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,37,Pierre,Bonnard,1
 1915,42,Horace,Brodzky,1
 1915,47,Max,Buri,1
+1915,48,David,Burlyuk,1
+1915,49,Vladimir,Burlyuk,1
 1915,52,Heinrich,Campendonk,2
 1915,55,Carlo,Carrà,1
 1915,57,Felice,Casorati,1
 1915,58,Paul,Cézanne,1
-1915,60,Marc,Chagall,1
+1915,60,Marc,Chagall,2
 1915,65,Lovis,Corinth,2
 1915,72,Hippolyte,Daeye,1
 1915,77,Edgar,Degas,1
@@ -27530,11 +29051,21 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,79,Robert,Delaunay,1
 1915,83,Maurice,Denis,1
 1915,84,André,Derain,2
+1915,90,Mstislav,Dobuzhinsky,1
 1915,93,Malcolm,Drummond,1
 1915,100,James,Ensor,1
 1915,102,Adolf,Erbslöh,1
 1915,105,Frederick,Etchells,1
+1915,107,Aleksandra Aleksandrovna,Exster,1
 1915,108,Anton,Faistauer,1
+1915,109,Xenia,Boguslawskaja,1
+1915,113,Ivan,Klyun,1
+1915,115,Lyubov',Popova,1
+1915,116,Jean,Pougny,1
+1915,117,Ol'ga,Rozanova,1
+1915,118,Vladimir,Tatlin,1
+1915,119,Nadezhda,Udal'tsova,1
+1915,121,Robert,Fa'lk,1
 1915,122,Bedřich,Feigl,1
 1915,124,Emil,Filla,1
 1915,129,Roger,Fry,1
@@ -27545,7 +29076,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,138,Harold,Gilman,2
 1915,139,Charles,Ginner,2
 1915,142,Albert,Gleizes,1
+1915,143,Natalia,Goncharova,1
 1915,145,Duncan,Grant,1
+1915,147,Alexis,Gritchenko,1
 1915,149,Isaac,Grünewald,2
 1915,163,Sigrid,Hjertén,2
 1915,173,Alexei,Jawlensky,1
@@ -27556,37 +29089,52 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,185,Paul,Klee,1
 1915,190,Oskar,Kokoschka,1
 1915,192,Käthe,Kollwitz,1
+1915,193,Pyotr,Konchalovsky,2
 1915,196,Alfred,Kubin,1
 1915,197,Othone,Coubine,1
+1915,202,Aleksandr,Kuprin,1
+1915,203,Pavel,Kuznetsov,1
 1915,205,Eugène,Laermans,1
+1915,209,Mikhail,Larionov,1
 1915,210,Marie,Laurencin,1
 1915,215,Henri Victor Gabriel,Le Fauconnier,2
 1915,216,Fernand,Léger,1
 1915,218,Wilhelm,Leibl,1
+1915,221,Aristarkh,Lentulov,1
 1915,223,Wyndham,Lewis,2
 1915,225,Max,Liebermann,1
 1915,233,August,Macke,1
 1915,239,Franz,Marc,2
 1915,240,Jean,Marchand,1
+1915,247,Il'ya,Mashkov,2
 1915,254,Moritz,Melzer,1
+1915,262,Piotr,Miturich,2
+1915,273,Alexsey,Morgunov,1
 1915,276,Edvard,Munch,1
 1915,277,Gabriele,Münter,2
 1915,279,John Northcote,Nash,2
 1915,280,Paul,Nash,2
 1915,282,Christopher,Nevinson,3
+1915,290,Anna Petrovna,Ostroumova-Lebedeva,1
 1915,295,Max,Pechstein,1
+1915,298,Kuz'ma,Petrov-Vodkin,1
 1915,301,Pablo,Picasso,2
 1915,314,William,Ratcliffe,1
 1915,317,Pierre-Auguste,Renoir,1
 1915,319,József,Rippl-Rónai,1
 1915,321,William,Roberts,2
+1915,339,Martiros,Sarian,2
 1915,342,Lodewijk,Schelfhout,2
 1915,354,Gino,Severini,1
 1915,360,Walter Richard,Sickert,1
 1915,361,Paul,Signac,1
 1915,366,Johannes Carolus Bernardus,Sluijters,1
+1915,369,Konstantin,Somov,1
 1915,373,Stanley,Spencer,1
+1915,380,Sergey,Sudyekin,1
 1915,386,Henri de,Toulouse-Lautrec,1
+1915,390,Nikolay Pavlovic,Ul'yanov,1
+1915,391,Petr Savvič,Utkin,1
 1915,402,Jacoba van,Heemskerck van Beest,2
 1915,404,Théo van,Rysselberghe,1
 1915,411,Hans von,Marées,1
@@ -27595,6 +29143,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,414,Marianne,Werefkin,1
 1915,416,Edouard,Vuillard,1
 1915,417,Edward,Wadsworth,2
+1915,425,Georgy,Yakulov,2
 1915,436,Ernst,Bischoff-Culm,1
 1915,447,Joseph,Damberger,1
 1915,448,Ludwig,Dill,1
@@ -27675,13 +29224,16 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,812,Wilhelm,Claus,1
 1915,822,Josef,Eberz,1
 1915,830,Ludwig,Wieden,1
+1915,833,Adolf Izrailovich,Milman,1
 1915,834,Wilhelm,Gallhof,1
+1915,842,Vasily,Rozhdestvensky,1
 1915,849,Franz,Heckendorf,1
 1915,855,Adolf Edward,Herstein,2
 1915,856,Ferdinand,Herwig,1
 1915,858,Heinrich,Heyne,1
 1915,859,Adolf,Hildenbrand,1
 1915,861,W. Franz,Jäger,1
+1915,866,Viktor,Savinkov,1
 1915,871,Walther,Klemm,1
 1915,876,Hugo,Krayn,1
 1915,878,"Josef, II",Kühn,1
@@ -27738,6 +29290,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,1258,Adolf,Oberländer,1
 1915,1262,Josef,Schmid-Fichtelberg,1
 1915,1266,Heinrich,Schröder,1
+1915,1273,German Vassilievic,Fedorov,1
 1915,1275,István,Csók,1
 1915,1283,Gusztáv,Magyar-Mannheimer,1
 1915,1284,Paul,Bach,1
@@ -27749,6 +29302,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,1360,Adelbert,Niemeyer,1
 1915,1361,Eugen,Kirchner,1
 1915,1410,Richard,Seiffert-Wattenberg,1
+1915,1417,Veniamin Pavlovic,Belkin,1
 1915,1428,Fritz,Wimmer,1
 1915,1430,Otto,Wyler,1
 1915,1434,Olaf,Gulbransson,1
@@ -27773,16 +29327,35 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,1757,Isidore,Opsomer,1
 1915,1770,Franz van,Holder,1
 1915,1772,Alfred,Verhaeren,1
+1915,1793,Igor,Grabar,1
 1915,1805,Jenny,Montigny,1
 1915,1837,Oswald,Galle,1
 1915,1846,Friedrich,Schaper,1
+1915,1875,Yelizaveta,Kruglikova,1
 1915,1879,Alfred,Sohn-Rethel,1
 1915,1885,Edward,Hald,1
 1915,1923,Alfred,Sisley,1
 1915,1935,Derwent,Lees,1
 1915,1945,Philip Wilson,Steer,1
+1915,1961,Aleksandr,Arnshtam,1
+1915,1966,Ossip Emmanujilowitsch,Brass,1
+1915,1971,Boris,Grigor'yev,1
+1915,1972,Konstantin Vikent'evič,Dydyško,1
+1915,1989,Boris,Anisfel'd,1
+1915,1992,Ivan,Bilibin,1
+1915,2001,Nikolaj Petrovič,Feofilaktov,1
+1915,2009,Boris,Kustodiyev,1
+1915,2010,Yevgeny,Lansere,1
+1915,2013,Agnes,Lindemann,1
 1915,2031,Lipót,Herman,1
 1915,2066,Miklós,Vadász,1
+1915,2070,Mykhail,Latri,1
+1915,2071,Nadezhda,Ljubavina,1
+1915,2073,Dmitry,Mitrokhin,1
+1915,2091,Sergey,Chekhonin,1
+1915,2093,Adolf Iosifovic,Charlemagne,1
+1915,2096,V. D.,Shitikov,1
+1915,2097,N.N.,Shmakov,1
 1915,2099,Aleksandr,Yakovlev,1
 1915,2162,Valentín de,Zubiaurre,1
 1915,2226,Henriette,Ronner,1
@@ -27797,7 +29370,9 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,2347,Alexander Demetrius,Goltz,1
 1915,2350,Augustin,Roth,1
 1915,2457,Ignacio,Zuloaga,1
+1915,2514,A. V.,Shhusev,1
 1915,2529,,"anonymous: russian, icons",1
+1915,2546,Sergey,Kolesnikov,1
 1915,2571,Oszkár,Glatz,1
 1915,2575,Frans,Hens,1
 1915,2576,Charles,Mertens,1
@@ -27824,11 +29399,16 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,2891,,anonymous,1
 1915,3018,Hermann,Grom-Rottmayer,1
 1915,3020,Leopold,Blauensteiner,1
+1915,3075,Aleksander Pavlovoc,Pligin,2
 1915,3115,Berta,Schütz,1
 1915,3274,Richard,Mauch,1
+1915,3310,Sof'ya,Dymshits-Tolstaya,2
 1915,3326,Adriano,Baracchini-Caputi,1
 1915,3330,Gottardo,Segantini,1
 1915,3399,Robin Christian,Andersen,1
+1915,3411,Andrei Romanovich,Diderichs,1
+1915,3416,Maria Ivanovna,Ivashintsova,1
+1915,3417,Nadezhda Vladimirovna,Lermontova,1
 1915,3424,Jessica,Dismorr,1
 1915,3430,Vlastimil,Hofmann,1
 1915,3584,Willy,Jaeckel,1
@@ -27836,6 +29416,7 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,3741,Carl,Spitzweg,1
 1915,3751,Eduard,Zetsche,1
 1915,3760,Willi,Geiger,2
+1915,3783,Christian Cornelius,Krohn,1
 1915,3812,Henrik,Major,1
 1915,3844,Frank,Brangwyn,1
 1915,3910,Eduard,Ameseder,1
@@ -27846,8 +29427,24 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,4017,Bernhard,Jaeger,1
 1915,4063,Heinrich,Kley,1
 1915,4070,Adolphe-Jean,Hamesse,1
+1915,4518,Sergey,Gruzenberg,1
 1915,4676,Bertalan,Karlovszky,1
+1915,4703,Lev,Bruni,2
+1915,4704,K.,Goldfarb,1
+1915,4705,Stanislav,Gurvich-Gursky,1
+1915,4706,V. F.,Shekhtel,1
+1915,4707,Valentina Mihajlovna,Hodasevič,2
+1915,4709,,N. N.,1
+1915,4710,Magda,Nachman Acharya,2
+1915,4711,Yulia,Obolenskaya,2
+1915,4713,Elizaveta,Potekhina,1
+1915,4715,V. F.,Shestopalov,1
+1915,4724,Nikolay,Tyrsa,1
+1915,4773,Dm.,Fedorov,1
+1915,4832,Mikhail,Leblan,1
 1915,4933,Henryk,Glicenstein,1
+1915,5025,Irène,Reno,1
+1915,5136,O. N.,Tretyakova,1
 1915,5321,Anna Hope,Hudson,1
 1915,5383,Gerard,Chowne,1
 1915,5384,Lucien,Pissarro,1
@@ -28088,6 +29685,15 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,10671,Alfredo,Protti,1
 1915,10805,Camillo,Rho,1
 1915,10840,Guido,Cadorin,1
+1915,10980,V. A.,Vebb,1
+1915,10982,Georgy,Vereysky,1
+1915,11045,Aleksandr Aleksandrovič,Gromov,1
+1915,11052,L. A.,Mikhailovskaya,1
+1915,11065,Ivan Viktorovich,Alekseev,1
+1915,11066,Konstantin Vasil'evič,Kandaurov,1
+1915,11068,Théodor,Konstantinoff,1
+1915,11070,Raisa Ivanovna,Kotovič-Borisjak,1
+1915,11073,Aleksandra,Shchekotikhina-Pototskaya,1
 1915,11173,Hans,Wilt,1
 1915,11174,Therese,Schachner,1
 1915,11175,Franz,Windhager,1
@@ -28180,3 +29786,17 @@ e.startdate,a.id,firstname,lastname,number_of_venues
 1915,12343,Raffaello,Ferro,1
 1915,12382,Benjamin,Coria,1
 1915,12848,Philipp,Helmer,1
+1916,3,Natan,Alt'man,1
+1916,6,Kazimir,Malevich,1
+1916,109,Xenia,Boguslawskaja,1
+1916,110,Marie,Vassilieff,1
+1916,111,Vasiliǐ,Kamenskiǐ,1
+1916,112,Anna Michajlovna,Kirillova,1
+1916,113,Ivan,Klyun,1
+1916,114,Vera Efimovna,Pestel',1
+1916,115,Lyubov',Popova,1
+1916,116,Jean,Pougny,1
+1916,117,Ol'ga,Rozanova,1
+1916,118,Vladimir,Tatlin,1
+1916,119,Nadezhda,Udal'tsova,1
+1916,120,Mikhail Ivanovich,Menkov,1

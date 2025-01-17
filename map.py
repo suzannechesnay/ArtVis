@@ -29,13 +29,13 @@ async def get_map_data(
     
 def create_map(startdate, enddate):
     # Load the dataset
-    df = pd.read_csv('data_cleaning_and_queries' + os.sep + 'artVis_data_cleaned.csv')
+    df = pd.read_csv('data_cleaning_and_queries' + os.sep + 'exhibitions.csv')
     
     # Filter for the specified years
-    filtered_df = df.loc[(df['e.startdate'] >= startdate) & (df['e.startdate'] <= enddate)]
+    filtered_df = df.loc[(df['e_startdate'] >= startdate) & (df['e_startdate'] <= enddate)]
 
     # Group by latitude and longitude
-    grouped = filtered_df.groupby(['e.latitude', 'e.longitude']).size().reset_index(name='count')
+    grouped = filtered_df.groupby(['e_latitude', 'e_longitude']).size().reset_index(name='count')
 
     # Create a base map
     m = folium.Map(location=[50, 10], zoom_start=4)
@@ -43,8 +43,8 @@ def create_map(startdate, enddate):
     # Add circle markers
     for _, row in grouped.iterrows():
         folium.CircleMarker(
-            location=[row['e.latitude'], row['e.longitude']],
-            radius=row['count'] / 100,
+            location=[row['e_latitude'], row['e_longitude']],
+            radius=row['count'] / 10,
             color='red',
             fill=True,
             fill_color='red',

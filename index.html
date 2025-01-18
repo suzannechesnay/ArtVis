@@ -23,7 +23,7 @@
 
   <body>
     <div class="header">
-        <h1>European Exhibition Analysis (1905-1915)</h1>
+        <h1>European Exhibitions (1905-1915)</h1>
     </div>
 
     <div class="container">
@@ -38,27 +38,27 @@
           <div class="btn-group">
             <button
               class="btn active"
-              data-type="paintings"
+              data-type="artists-by-paintings"
               type="button"
-              onclick="updateArtistChart('paintings')"
+              onclick="updateCharts('artists', 'paintings')"
             >
               By Paintings
             </button>
 
             <button
               class="btn"
-              data-type="exhibitions"
+              data-type="artists-by-exhibitions"
               type="button"
-              onclick="updateArtistChart('exhibitions')"
+              onclick="updateCharts('artists', 'exhibitions')"
             >
               By Exhibitions
             </button>
             
             <button
               class="btn"
-              data-type="venues"
+              data-type="artists-by-venues"
               type="button"
-              onclick="updateArtistChart('venues')"
+              onclick="updateCharts('artists', 'venues')"
             >
               By Venues
             </button>
@@ -70,25 +70,25 @@
           <div class="btn-group">
             <button
               class="btn active"
-              data-type="artists"
+              data-type="venues-by-artists"
               type="button"
-              onclick="updateVenueChart('artists')"
+              onclick="updateCharts('venues', 'artists')"
             >
               By Artists
             </button>
             <button
               class="btn"
-              data-type="exhibitions"
+              data-type="venues-by-exhibitions"
               type="button"
-              onclick="updateVenueChart('exhibitions')"
+              onclick="updateCharts('venues', 'exhibitions')"
             >
               By Exhibitions
             </button>
             <button
               class="btn"
-              data-type="paintings"
+              data-type="venues-by-paintings"
               type="button"
-              onclick="updateVenueChart('paintings')"
+              onclick="updateCharts('venues', 'paintings')"
             >
               By Paintings
             </button>
@@ -110,9 +110,8 @@
     <script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1"></script>
     <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0"></script>
     <script src="https://cdn.jsdelivr.net/npm/nouislider@14.6.3"></script>
-    <script type="module" src="./Charts/artist_chart.js"></script>
-    <script type="module" src="./Charts/venue_chart.js"></script>
-    <script type="module" src="./data/exhibition_data.js"></script>
+    <script type="module" src="./charts.js"></script>
+    <!-- script type="module" src="./data/exhibition_data.js"></script> -->
     <script src="script.js"></script>
   </body>
 </html>

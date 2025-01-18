@@ -11,10 +11,10 @@ const baseChartOptions = {
   },
 };
 
-const getChartOptions = (chartNb, chartType) => {
+const getChartOptions = (chart, chartType) => {
   const options = { ...baseChartOptions };
 
-  if (chartType === "paintings" || chartNb === 1) {
+  if (chartType === "by_painting_nb" || chart === 'artists') {
     options.scales = {
       x: {
         type: "linear",
@@ -46,7 +46,7 @@ const getChartOptions = (chartNb, chartType) => {
 
 const chartColors = {
   backgroundColor: [
-    "rgba(255, 99, 132, 0.2)",
+    "rgba(115,228,21,0.87)",
     "rgba(54, 162, 235, 0.2)",
     "rgba(255, 206, 86, 0.2)",
     "rgba(75, 192, 192, 0.2)",
@@ -58,46 +58,46 @@ const chartColors = {
     "rgba(75, 192, 192, 0.2)",
   ],
   borderColor: [
-    "rgba(255, 99, 132, 1)",
-    "rgba(54, 162, 235, 1)",
-    "rgba(255, 206, 86, 1)",
-    "rgba(75, 192, 192, 1)",
-    "rgba(153, 102, 255, 1)",
-    "rgba(255, 159, 64, 1)",
-    "rgba(255, 99, 132, 1)",
-    "rgba(54, 162, 235, 1)",
-    "rgba(255, 206, 86, 1)",
-    "rgba(75, 192, 192, 1)",
+    "rgb(92,1,1)",
+    "rgb(115,1,1)",
+    "rgb(152,1,1)",
+    "rgb(198,3,3)",
+    "rgb(232,4,4)",
+    "rgb(232,57,4)",
+    "rgb(232,91,4)",
+    "rgb(232,133,4)",
+    "rgb(232,165,66)",
+    "rgb(241,186,105)",
   ],
 };
 
 (async function updateCharts() {
   const data = await loadData();
-  const getTop = (chartNb, chartType) => {
+  const getTop = (chart, chartType) => {
     return Object.values(
         data.reduce((acc, curr) => {
-          if (chartNb === 1) { // chartNb === 1 -> ARTIST CHART
-            if (chartType === 'paintings'){
+          if (chart === 'artists') { // chartNb === 1 -> ARTIST CHART
+            if (chartType === 'by_painting_nb'){
               // Top Artists by nb of paintings:
 
             } else {
-              if (chartType === 'exhibitions'){
+              if (chartType === 'by_exhibition_nb'){
                 // Top Artists by nb of exhibitions:
 
-              } else { // chartType === 'venues':
+              } else { // chartType === 'by_venue_nb':
                 // Top Artists by nb of venues:
 
               }
             }
-          } else { // chartNb === 2 -> VENUE CHART
-            if (chartType === 'artists'){
+          } else { // chart === 'venues' -> VENUE CHART
+            if (chartType === 'by_artist_nb'){
               // Top Venues by nb of artists:
 
             } else {
-              if (chartType === 'exhibitions'){
+              if (chartType === 'by_exhibition_nb'){
                 // Top Venues by nb of exhibitions:
 
-              } else { // chartType === 'paintings':
+              } else { // chartType === 'by_painting_nb':
                 // Top Venues by nb of paintings:
 
               }
@@ -115,5 +115,66 @@ const chartColors = {
       .sort((a, b) => b.objectCount - a.objectCount)
       .slice(0, 10);
   };
-})();
 
+  const createVenueChart = (chartType) => {
+    let topVenues;
+    let dataKey;
+    let label;
+
+    switch (chartType) {
+      case ("artists"):
+        topVenues = getTop('venues', 'artists');
+        dataKey = "artistCount";
+        label = "Number of Artists";
+        break;
+      case "paintings":
+        topVenues = getTop('venues', 'paintings');
+        dataKey = "paintings";
+        label = "Number of Paintings";
+        break;
+      case "exhibitions":
+        topVenues = getTopVenuesByNbOfExhibitions();
+        dataKey = "exhibitions";
+        label = "Number of Exhibitions";
+        break;
+    }
+
+    return {
+      labels: topVenues.map((venue) => venue.e_venue),
+      datasets: [
+        {
+          label: `Top 10 Venues by ${label}`,
+          data: topVenues.map((venue) => venue[dataKey]),
+          backgroundColor: chartColors.backgroundColor,
+          borderColor: chartColors.borderColor,
+          borderWidth: 1,
+        },
+      ],
+    };
+  };
+
+
+
+
+  window.updateVenueChart = function (chartType) {
+    if (currentVenueChart) {
+      currentVenueChart.destroy();
+    }
+
+    const ctx = document.getElementById("venueChart");
+    currentVenueChart = new Chart(ctx, {
+      type: "bar",
+      options: getChartOptions(chartType),
+      data: createVenueChart(chartType),
+    });
+
+    document.querySelectorAll(".btn").forEach((btn) => {
+      btn.classList.remove("active");
+      if (btn.dataset.type === chartType) {
+        btn.classList.add("active");
+      }
+    });
+  };
+
+  updateVenueChart("artists");
+})();

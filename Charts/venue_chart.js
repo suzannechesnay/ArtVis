@@ -91,16 +91,16 @@ const chartColors = {
 
   const getTopVenuesByNbOfArtists = () => {
     return Object.values(
-      data.reduce((acc, curr) => {
-        if (!acc[curr.e_venue]) {
+        data.reduce((acc, curr) => {
+          if (!acc[curr.e_venue]) {
           acc[curr.e_venue] = {
             e_venue: curr.e_venue,
             artists: new Set([curr.a_id]),
-            paintings: curr.e_paintings,
+            // paintings: curr.e_paintings,
           };
         } else {
           acc[curr.e_venue].artists.add(curr.a_id);
-          acc[curr.e_venue].paintings += curr.e_paintings;
+          // acc[curr.e_venue].paintings += curr.e_paintings;
         }
         return acc;
       }, {})

@@ -88,9 +88,9 @@ const chartColors = {
   const data = exhibitions;
 
   const getTopArtistsByPaintings = () => {
-    return data
-      .reduce((acc, curr) => {
-        const artist = acc.find((a) => a.a_id === curr.a_id);
+    return Object.values(
+        data.reduce((acc, curr) => {
+          const artist = acc.find((a) => a.a_id === curr.a_id);
         if (artist) {
           artist.e_paintings += curr.e_paintings;
         } else {
@@ -98,7 +98,11 @@ const chartColors = {
         }
         return acc;
       }, [])
-      .sort((a, b) => b.e_paintings - a.e_paintings)
+    ).map((artist) => ({
+        ...artist,
+        paintingCount: artist.e_paintings,
+      }))
+        .sort((a, b) => b.e_paintings - a.e_paintings)
       .slice(0, 10);
   };
 
@@ -155,17 +159,17 @@ const chartColors = {
       case "paintings":
         topArtists = getTopArtistsByPaintings();
         dataKey = "e_paintings";
-        label = "Nombre de Peintures";
+        label = "number of paintings exhibited";
         break;
       case "exhibitions":
         topArtists = getTopArtistsByExhibitions();
         dataKey = "exhibitions";
-        label = "Nombre d'Expositions";
+        label = "number of exhibitions";
         break;
       case "venues":
         topArtists = getTopArtistsByVenues();
         dataKey = "venueCount";
-        label = "Nombre de Lieux";
+        label = "number of venues";
         break;
     }
 
@@ -175,7 +179,7 @@ const chartColors = {
       ),
       datasets: [
         {
-          label: `Top 10 Artistes par ${label}`,
+          label: `Top 10 Artists by ${label}`,
           data: topArtists.map((artist) => artist[dataKey]),
           backgroundColor: chartColors.backgroundColor,
           borderColor: chartColors.borderColor,
@@ -196,6 +200,7 @@ const chartColors = {
       options: getChartOptions(chartType),
       data: createChartData(chartType),
     });
+
     document.querySelectorAll(".btn").forEach((btn) => {
       btn.classList.remove("active");
       if (btn.dataset.type === chartType) {

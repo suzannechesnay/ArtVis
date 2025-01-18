@@ -4,6 +4,9 @@ let artists = [];
 let venues = [];
 let timeRange = [1905, 1915];
 let map;
+let currentArtistFilter = 'paintings';
+let currentVenueFilter = 'artists';
+
 
 function initTimeSlider() {
   const timeSlider = document.getElementById('timeSlider');
@@ -44,8 +47,49 @@ function initTimeSlider() {
   // Update the global timeRange variable and fetch new map data
   timeRange = [startYear, endYear];
   updateMapSource();
+  updateCharts();
   });
 }
+
+function updateButtons(clickedButton) {
+  // Find the parent button group of the clicked button
+  const btnGroup = clickedButton.closest('.btn-group');
+
+  // Remove 'active' class from all buttons in this button group
+  const buttons = btnGroup.querySelectorAll('.btn');
+  buttons.forEach(button => button.classList.remove('active'));
+
+  // Add 'active' class to the clicked button
+  clickedButton.classList.add('active');
+}
+
+function updateArtistChart(filter, clickedButton) {
+  if (clickedButton) {
+    updateButtons(clickedButton)
+  }
+
+  currentArtistFilter = filter
+  const baseURL = "http://localhost:8000/get-artist-charts-data";
+  const mapURL = `${baseURL}?startYear=${timeRange[0]}&endYear=${timeRange[1]}&filter=${filter}`;
+
+  // Set the img src attribute
+  document.getElementById("artistChart").src = mapURL;
+}
+
+async function updateVenueChart(filter, clickedButton) {
+  if (clickedButton) {
+    updateButtons(clickedButton)
+  }
+  
+  currentVenueFilter = filter
+  const baseURL = "http://localhost:8000/get-venue-charts-data";
+  const mapURL = `${baseURL}?startYear=${timeRange[0]}&endYear=${timeRange[1]}&filter=${filter}`;
+
+  // Set the img src attribute
+  document.getElementById("venueChart").src = mapURL;
+}
+
+
 
 
 function updateMapSource() {
@@ -77,7 +121,7 @@ async function fetchMapData(startYear, endYear) {
 }
 
 
-
+/*
 async function loadData() {
   const [exhibitions, artists] = await Promise.all([
     axios.get("../data/exhibition_data.js"),
@@ -122,13 +166,13 @@ function processData(e) {
     }
   });
 
-  createHeatmapData();
+  //createHeatmapData();
   updateVisualization();
 }
 
-loadData();
+loadData();*/
 
-function createHeatmapData() {
+/*function createHeatmapData() {
   const venueMap = new Map();
 
   exhibitions.forEach((exhibition) => {
@@ -144,77 +188,16 @@ function createHeatmapData() {
   });
 
   heatmapData = Array.from(venueMap.values());
-}
+}*/
 
 function updateVisualization() {
   updateHeatmap();
   updateCharts();
 }
 
-/*
-function updateHeatmap() {
-  map.eachLayer((layer) => {
-    if (layer instanceof L.Marker || layer.options.heatmap) {
-      map.removeLayer(layer);
-    }
-  });
-
-  const filteredData = exhibitions.filter(
-    (e) =>
-      e.startDate.getFullYear() >= timeRange[0] &&
-      e.startDate.getFullYear() <= timeRange[1]
-  );
-
-  const venueMap = new Map();
-  filteredData.forEach((exhibition) => {
-    const key = `${exhibition.venue}`;
-    if (!venueMap.has(key)) {
-      venueMap.set(key, {
-        venue: exhibition.venue,
-        lat: exhibition.lat,
-        lng: exhibition.lng,
-        exhibitions: [],
-      });
-    }
-    venueMap.get(key).exhibitions.push(exhibition);
-  });
-
-  venueMap.forEach((venue) => {
-    const marker = L.marker([venue.lat, venue.lng])
-      .bindPopup(createPopupContent(venue))
-      .addTo(map);
-  });
-}
-*/
-
-/*
-function createPopupContent(venue) {
-  return `
-    <div class="popup">
-        <h3>${venue.venue}</h3>
-        <p>Total Exhibitions: ${venue.exhibitions.length}</p>
-        <ul>
-            ${venue.exhibitions
-              .map(
-                (e) => `
-                <li>
-                    ${e.title}<br>
-                    Date: ${e.startDate.toLocaleDateString()}<br>
-                    Type: ${e.type}<br>
-                    Paintings: ${e.paintings}
-                </li>
-            `
-              )
-              .join("")}
-        </ul>
-    </div>
-  `;
-}
-*/
-
 function updateCharts() {
-  updateArtistChart();
-  updateVenueChart();
+  updateArtistChart(currentArtistFilter);
+  updateVenueChart(currentVenueFilter);
 }
 
 async function init() {

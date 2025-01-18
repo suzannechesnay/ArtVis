@@ -1,9 +1,11 @@
-let heatmapData = [];
 let exhibitions = [];
 let artists = [];
 let venues = [];
 let timeRange = [1905, 1915];
 let map;
+let currentArtistFilter = 'paintings';
+let currentVenueFilter = 'artists';
+
 
 function initTimeSlider() {
   const timeSlider = document.getElementById('timeSlider');
@@ -44,9 +46,49 @@ function initTimeSlider() {
   // Update the global timeRange variable and fetch new map data
   timeRange = [startYear, endYear];
   updateMapSource();
-  updateCharts(startYear, endYear);
+  updateCharts();
   });
 }
+
+function updateButtons(clickedButton) {
+  // Find the parent button group of the clicked button
+  const btnGroup = clickedButton.closest('.btn-group');
+
+  // Remove 'active' class from all buttons in this button group
+  const buttons = btnGroup.querySelectorAll('.btn');
+  buttons.forEach(button => button.classList.remove('active'));
+
+  // Add 'active' class to the clicked button
+  clickedButton.classList.add('active');
+}
+
+function updateArtistChart(filter, clickedButton) {
+  if (clickedButton) {
+    updateButtons(clickedButton)
+  }
+
+  currentArtistFilter = filter
+  const baseURL = "http://localhost:8000/get-artist-charts-data";
+  const mapURL = `${baseURL}?startYear=${timeRange[0]}&endYear=${timeRange[1]}&filter=${filter}`;
+
+  // Set the img src attribute
+  document.getElementById("artistChart").src = mapURL;
+}
+
+async function updateVenueChart(filter, clickedButton) {
+  if (clickedButton) {
+    updateButtons(clickedButton)
+  }
+  
+  currentVenueFilter = filter
+  const baseURL = "http://localhost:8000/get-venue-charts-data";
+  const mapURL = `${baseURL}?startYear=${timeRange[0]}&endYear=${timeRange[1]}&filter=${filter}`;
+
+  // Set the img src attribute
+  document.getElementById("venueChart").src = mapURL;
+}
+
+
 
 
 function updateMapSource() {
@@ -57,8 +99,6 @@ function updateMapSource() {
   document.getElementById("map-frame").src = mapURL;
 }
 
-
-/*
 async function fetchMapData(startYear, endYear) {
   try {
     // Send the selected year range to the API
@@ -78,7 +118,17 @@ async function fetchMapData(startYear, endYear) {
     console.error('Error fetching map data:', error);
   }
 }
-*/
+
+
+function updateVisualization() {
+  updateHeatmap();
+  updateCharts();
+}
+
+function updateCharts() {
+  updateArtistChart(currentArtistFilter);
+  updateVenueChart(currentVenueFilter);
+}
 
 async function init() {
   initTimeSlider();

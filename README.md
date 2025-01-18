@@ -1,4 +1,3 @@
-
 # Dashboard for ‘ArtVis’ Dataset
 
 A dashboard to visualise the arts, artists, their exhibitions and venues from 1902-1915.
@@ -35,4 +34,8 @@ Start the Dashboard
   open index.html
 ```
 
-## File Structure
+Initialize the API
+
+```bash
+  uvicorn plotting:app --reload
+```

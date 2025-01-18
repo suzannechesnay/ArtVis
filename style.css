@@ -5,39 +5,84 @@ body {
     background-color: rgb(246, 213, 172);
 }
 
-.header {
-    font-family: "Playfair Display", serif;
-    font-size: 3;
-    text-align: center;
-    color: #333;
-    margin-top: 50px;
-    /* margin-bottom: 50px; */
-}
 
 .container {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    /* height: calc(100vh - 300px); */
     overflow: hidden;
     gap: 20px;
+    padding: 20px;
 }
 
-#map {
+.header {
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
+
+.belowHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-and-map{
     width: 50%;
-    height: 150%;
-    border-radius: 20px;
+    margin-right: 10px;
+    
+}
+
+.content{
+    font-family: "Playfair Display", serif;
+    font-size: large;
+    margin-top: 35px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.content h2{
+    font-size: 40px;
+    color: #810909;
+}
+
+#map-frame {
+    border-radius: 12px;
 }
 
 .sidebar {
     width: 50%;
+    margin-left: 10px;
+}
+
+.time-slider-container h4 {
+    font-family: "Playfair Display", serif;
+    text-align: center; 
+    margin-bottom: 30px; 
+    font-size: 40px;
+    color: #810909; 
+}
+
+
+#timeSlider {
+    height: 20px;
+    width: 90%;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px; 
+    margin-block-start: 10px;
+    margin-block-end: 50px;
 }
 
 .panel {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 4px;
+    border-radius: 12px;
     width: 600px;
 }
 
@@ -70,25 +115,7 @@ body {
 }
 
 .time-slider-container {
-    margin-top: 15px; /* Space above the entire container */
+    margin-top: 20px; 
     padding: 10px;
 }
 
-.time-slider-container h4 {
-    text-align: center; 
-    margin-bottom: 30px; 
-    font-size: 15px;
-    font-weight: bold;
-    color: #040202;
-}
-
-
-#timeSlider {
-    height: 15px;
-    width: 90%;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 60px;
-    margin-block-start: 10px;
-    margin-block-end: 50px;
-}

@@ -39,3 +39,4 @@ Initialize the API
 ```bash
   uvicorn plotting:app --reload
 ```
+Access the Web App by running the Dashboard.html file/ opening it on a browser.

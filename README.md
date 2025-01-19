@@ -31,7 +31,7 @@ Install dependencies
 Start the Dashboard
 
 ```bash
-  open index.html
+  open Dashboard.html
 ```
 
 Initialize the API

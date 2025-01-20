@@ -62,7 +62,7 @@ function updateButtons(clickedButton) {
   clickedButton.classList.add('active');
 }
 
-function updateArtistChart(filter, clickedButton) {
+async function updateArtistChart(filter, clickedButton) {
   if (clickedButton) {
     updateButtons(clickedButton)
   }

@@ -1,10 +1,13 @@
 from fastapi import FastAPI, Query
 import pandas as pd
+import numpy as np
 import os
 import folium
 from fastapi.responses import JSONResponse, FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 import matplotlib.pyplot as plt
+import matplotlib as mpl
+from matplotlib import colormaps
 import plotly.graph_objects as go
 import plotly.io as pio
 import json
@@ -80,7 +83,64 @@ async def get_artist_charts_data(
     # Call the `create_chart` function
     charts_file = create_artist_charts(startYear, endYear, filter)
     return FileResponse(charts_file, media_type="image/png", filename=os.path.basename(charts_file))
-    
+
+
+
+
+def create_artist_charts(startYear, endYear, filter):
+
+    category_colors = plt.colormaps['YlGn'](np.linspace(0.35, 0.85, 10))
+    # Load the dataset
+    df = pd.read_csv('data_cleaning_and_queries' + os.sep + 'artVis_data_cleaned.csv')
+
+    # Filter for the specified years
+    grouped_by = (df.loc[(df['e_startdate'] >= startYear) & (df['e_startdate'] <= endYear)]
+                  .groupby(['a_id']).agg({'a_firstname': 'first',
+                                          'a_lastname': 'first',
+                                          'e_paintings': 'sum',
+                                          'e_id': 'count',
+                                          'e_venue': lambda x: x.nunique()
+                                          }))
+
+    if filter == 'paintings':
+        df_top10 = grouped_by.sort_values(by='e_paintings', ascending=False).head(10).sort_values(by='e_paintings')
+        df_top10["artist_name"] = df_top10["a_firstname"] + " " + df_top10["a_lastname"]
+        # Create the bar chart
+        plt.figure(figsize=(10, 6))
+        bars = plt.barh(df_top10["artist_name"], df_top10["e_paintings"], color=category_colors, edgecolor="black")
+        plt.xlabel("Number of Paintings exhibited", fontsize=16)
+
+    elif (filter == 'exhibitions'):
+        df_top10 = grouped_by.sort_values(by='e_id', ascending=False).head(10).sort_values(by='e_id')
+        df_top10["artist_name"] = df_top10["a_firstname"] + " " + df_top10["a_lastname"]
+        plt.figure(figsize=(10, 6))
+        bars = plt.barh(df_top10["artist_name"], df_top10["e_id"], color=category_colors, edgecolor="black")
+        plt.xlabel("Number of Exhibitions", fontsize=16)
+
+    else:
+        df_top10 = grouped_by.sort_values(by='e_venue', ascending=False).head(10).sort_values(by='e_venue')
+        df_top10["artist_name"] = df_top10["a_firstname"] + " " + df_top10["a_lastname"]
+        plt.figure(figsize=(10, 6))
+        bars = plt.barh(df_top10["artist_name"], df_top10["e_venue"], color=category_colors, edgecolor="black")
+        plt.xlabel("Number of Venues", fontsize=16)
+
+    # Add the values next to each bar
+    for bar in bars:
+        # Get the width of each bar (the value) and position the text inside the bar
+        plt.text(bar.get_width() / 2, bar.get_y() + bar.get_height() / 2,
+                 f'{int(bar.get_width())}', va='center', ha='right', color='white', fontweight='bold')
+
+    # Show the chart
+    plt.tight_layout()  # Adjust layout to prevent clipping
+
+    # Save the plot to a file (PNG)
+    image_file = "artist_paintings_chart.png"
+    plt.savefig(image_file, format="png")
+    plt.close()
+
+    return image_file
+
+
 @app.get("/get-venue-charts-data")
 async def get_venue_charts_data(
     startYear: int = Query(..., description="The start year for filtering"),
@@ -95,149 +155,42 @@ async def get_venue_charts_data(
     return FileResponse(charts_file, media_type="image/png", filename=os.path.basename(charts_file))
     
 def create_venue_charts(startYear, endYear, filter):
+    colors = plt.colormaps['YlOrBr'](np.linspace(0.15, 0.85, 10))
     # Load the dataset
     df = pd.read_csv('data_cleaning_and_queries' + os.sep + 'artVis_data_cleaned.csv')
-    
     # Filter for the specified years
-    filtered_df = df.loc[(df['e_startdate'] >= startYear) & (df['e_startdate'] <= endYear)]
-    colors = plt.cm.tab10.colors
+    grouped_by = (df.loc[(df['e_startdate'] >= startYear) & (df['e_startdate'] <= endYear)]
+                  .groupby(['e_venue']).agg({'e_country': 'first',
+                                             'e_city': 'first',
+                                             'e_paintings': 'sum',
+                                             'e_id': lambda x: x.nunique(),
+                                             'a_id': lambda x: x.nunique()}).reset_index())
 
     if(filter == 'paintings'):
-        grouped_by = filtered_df.groupby(['e_venue']).agg({'e_country': 'first',
-                                                                'e_city': 'first',
-                                                                'e_paintings': 'sum'}).reset_index()
-        grouped_by.sort_values(by='e_paintings', ascending=False)
-        df_top10 = grouped_by.sort_values(by='e_paintings', ascending=False).head(10).sort_values(by='e_paintings')    
-        
-        # Create the bar chart
+        df_top10 = grouped_by.sort_values(by='e_paintings', ascending=False).head(10).sort_values(by='e_paintings')
         plt.figure(figsize=(10, 6))  # Set the figure size
-        bars = plt.barh(df_top10["e_venue"], df_top10["e_paintings"], color=colors[:len(df_top10)], edgecolor="black")
-        # Add labels and title
+        bars = plt.barh(df_top10["e_venue"], df_top10["e_paintings"], color=colors, edgecolor="black")
         plt.xlabel("Number of Paintings", fontsize=16)
-        #plt.title("Number of Paintings by Venue")
 
     elif(filter == 'exhibitions'):
-        grouped_by = filtered_df.groupby(['e_venue']).agg({'e_country': 'first',
-                                                                'e_city': 'first',
-                                                                'e_id': lambda x: x.nunique(),
-                                                                }).reset_index()
-        grouped_by.sort_values(by='e_id', ascending=False)
         df_top10 = grouped_by.sort_values(by='e_id', ascending=False).head(10).sort_values(by='e_id')
-             
-        # Create the bar chart
         plt.figure(figsize=(10, 6))  # Set the figure size
-        bars = plt.barh(df_top10["e_venue"], df_top10["e_id"], color=colors[:len(df_top10)], edgecolor="black")
-        # Add labels and title
+        bars = plt.barh(df_top10["e_venue"], df_top10["e_id"], color=colors, edgecolor="black")
         plt.xlabel("Number of Exhibitions", fontsize=16)
         #plt.title("Number of Exhibitions by Artist")
 
     else: # artists
-        grouped_by = filtered_df.groupby(['e_venue']).agg({'e_country': 'first',
-                                                                'e_city': 'first',
-                                                                'a_id': lambda x: x.nunique(),
-                                                                }).reset_index()
-        grouped_by.sort_values(by='a_id', ascending=False)
         df_top10 = grouped_by.sort_values(by='a_id', ascending=False).head(10).sort_values(by='a_id')
-        x = df_top10['e_venue']
-        y = df_top10['a_id']     
-             
-        # Create the bar chart
         plt.figure(figsize=(10, 6))  # Set the figure size
-        bars = plt.barh(df_top10["e_venue"], df_top10["a_id"], color=colors[:len(df_top10)], edgecolor="black")
-        # Add labels and title
+        bars = plt.barh(df_top10["e_venue"], df_top10["a_id"], color=colors, edgecolor="black")
         plt.xlabel("Number of Venues", fontsize=16)
         #plt.title("Number of Venues by Artist")
 
-    #fig = go.Figure(data=[go.Bar(x=x, y=y)])
-    #chart_json = pio.to_json(fig)
-    #return chart_json
         
     for bar in bars:
     # Get the width of each bar (the value) and position the text inside the bar
         plt.text(bar.get_width() / 2, bar.get_y() + bar.get_height() / 2,
                 f'{int(bar.get_width())}', va='center', ha='right', color='white', fontweight='bold')
-
-    # Show the chart
-    plt.tight_layout()  # Adjust layout to prevent clipping
-    
-    # Save the plot to a file (PNG)
-    image_file = "artist_paintings_chart.png"
-    plt.savefig(image_file, format="png")
-    plt.close()
-    
-    return image_file
-        
-    
-def create_artist_charts(startYear, endYear, filter):
-    # Load the dataset
-    df = pd.read_csv('data_cleaning_and_queries' + os.sep + 'artVis_data_cleaned.csv')
-    
-    # Filter for the specified years
-    filtered_df = df.loc[(df['e_startdate'] >= startYear) & (df['e_startdate'] <= endYear)]
-
-    colors = plt.cm.tab10.colors
-        
-    if(filter == 'paintings'):
-        grouped_by = filtered_df.groupby(['a_id']).agg({'a_firstname': 'first',
-                                                            'a_lastname': 'first',
-                                                            'e_paintings': 'sum',
-                                                            #'e_id': 'count',
-                                                            #'e_venue': lambda x: x.nunique()
-                                                            })
-        grouped_by.sort_values(by='e_paintings', ascending=False)
-        df_top10 = grouped_by.sort_values(by='e_paintings', ascending=False).head(10).sort_values(by='e_paintings')
-        df_top10["artist_name"] = df_top10["a_firstname"] + " " + df_top10["a_lastname"]
-        # Create the bar chart
-        plt.figure(figsize=(10, 6))  # Set the figure size
-        bars = plt.barh(df_top10["artist_name"], df_top10["e_paintings"], color=colors[:len(df_top10)], edgecolor="black")
-        # Add labels and title
-        plt.xlabel("Number of Paintings", fontsize=16)
-        #plt.title("Number of Paintings by Artist")
-
-    elif(filter == 'exhibitions'):
-        grouped_by = filtered_df.groupby(['a_id']).agg({'a_firstname': 'first',
-                                                            'a_lastname': 'first',
-                                                            #'e_paintings': 'sum',
-                                                            'e_id': 'count',
-                                                            #'e_venue': lambda x: x.nunique()
-                                                            })
-        grouped_by.sort_values(by='e_id', ascending=False)
-        df_top10 = grouped_by.sort_values(by='e_id', ascending=False).head(10).sort_values(by='e_id')
-        df_top10["artist_name"] = df_top10["a_firstname"] + " " + df_top10["a_lastname"]
-        
-        # Create the bar chart
-        plt.figure(figsize=(10, 6))  # Set the figure size
-        bars = plt.barh(df_top10["artist_name"], df_top10["e_id"], color=colors[:len(df_top10)], edgecolor="black")
-        # Add labels and title
-        plt.xlabel("Number of Exhibitions", fontsize=16)
-        #plt.title("Number of Exhibitions by Artist")
-
-    else:
-        grouped_by = filtered_df.groupby(['a_id']).agg({'a_firstname': 'first',
-                                                            'a_lastname': 'first',
-                                                            #'e_paintings': 'sum',
-                                                            #'e_id': 'count',
-                                                            'e_venue': lambda x: x.nunique()
-                                                            })
-        grouped_by.sort_values(by='e_venue', ascending=False)
-        df_top10 = grouped_by.sort_values(by='e_venue', ascending=False).head(10).sort_values(by='e_venue')
-        df_top10["artist_name"] = df_top10["a_firstname"] + " " + df_top10["a_lastname"]
-        
-        # Create the bar chart
-        plt.figure(figsize=(10, 6))  # Set the figure size
-        bars = plt.barh(df_top10["artist_name"], df_top10["e_venue"], color=colors[:len(df_top10)], edgecolor="black")
-        # Add labels and title
-        plt.xlabel("Number of Venues", fontsize=16)
-        #plt.title("Number of Venues by Artist")
-
-    
-    
-    # Add the values next to each bar
-    for bar in bars:
-    # Get the width of each bar (the value) and position the text inside the bar
-        plt.text(bar.get_width() / 2, bar.get_y() + bar.get_height() / 2,
-                f'{int(bar.get_width())}', va='center', ha='right', color='white', fontweight='bold')
-
 
     # Show the chart
     plt.tight_layout()  # Adjust layout to prevent clipping

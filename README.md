@@ -28,14 +28,15 @@ Install dependencies
   pip install -r requirements.txt
 ```
 
+Initialize the API
+
+```bash
+  uvicorn plotting:app --reload
+```
+
 Start the Dashboard
 
 ```bash
   open index.html
 ```
 
-Initialize the API
-
-```bash
-  uvicorn plotting:app --reload
-```

@@ -60,7 +60,7 @@ def create_map(startdate, enddate):
             fill_color='red',
             fill_opacity=0.6,
             tooltip=folium.Tooltip(
-                f"<span style='font-size: 16px;'>Exhibitions: {row['count']}</span>",  # Custom font size
+                f"<span style='font-size: 16px;'>Exhibitions: {int(row['count'])}</span>",  # Custom font size
                 sticky=True),
             stroke=False
         ).add_to(m)

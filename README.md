@@ -37,6 +37,6 @@ Initialize the API
 Start the Dashboard
 
 ```bash
-  open index.html
+  open Dashboard.html
 ```
 

@@ -81,8 +81,8 @@ async def get_artist_charts_data(
     Endpoint to fetch map data filtered by a year range.
     """
     # Call the `create_chart` function
-    charts_file = create_artist_charts(startYear, endYear, filter)
-    return FileResponse(charts_file, media_type="image/png", filename=os.path.basename(charts_file))
+    artist_chart_file = create_artist_charts(startYear, endYear, filter)
+    return FileResponse(artist_chart_file, media_type="image/png", filename=os.path.basename(artist_chart_file))
 
 
 
@@ -151,8 +151,8 @@ async def get_venue_charts_data(
     Endpoint to fetch map data filtered by a year range.
     """
     # Call the `create_chart` function
-    charts_file = create_venue_charts(startYear, endYear, filter)
-    return FileResponse(charts_file, media_type="image/png", filename=os.path.basename(charts_file))
+    venues_charts_file = create_venue_charts(startYear, endYear, filter)
+    return FileResponse(venues_charts_file, media_type="image/png", filename=os.path.basename(venues_charts_file))
     
 def create_venue_charts(startYear, endYear, filter):
     colors = plt.colormaps['YlOrBr'](np.linspace(0.15, 0.85, 10))
